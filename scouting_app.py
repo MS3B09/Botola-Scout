@@ -876,7 +876,7 @@ def player_details(df, player_data):
         add_vertical_space(5)
         st.markdown(f"<h1>{spaces*3}<span style='color:#FFA500; font-size:40px; font-family:cursive'>Season HeatMap </span></h1>", unsafe_allow_html=True)
         fig = heatmap(heatmap_df, player_data['Player'])
-        st.pyplot(fig, bbox_inches='tight', pad_inches=0.02, use_container_width=True)
+        st.pyplot(fig, bbox_inches='tight', pad_inches=0.00, use_container_width=True)
 
     col1, col2 = st.columns(2)
     with col1:
