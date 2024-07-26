@@ -530,13 +530,13 @@ def heatmap(df, player_name):
     player_df = df[df['Player'] == player_name]
     # Set up the pitch
     pitch = Pitch(pitch_type='opta',
-                  pitch_color='#0c0926',#22312b
+                  pitch_color='#0f0c2b',#22312b
                   line_color='#c7d5cc',#c7d5cc
                   corner_arcs=True,
                   line_zorder=2,
                   )
     fig, ax = pitch.draw(figsize=(8, 6), constrained_layout=True, tight_layout=False)
-    fig.set_facecolor('#0c0926')#22312b
+    fig.set_facecolor('#0f0c2b')#22312b
     fig.patch.set_edgecolor('#FFA500')
     fig.patch.set_linewidth(2)
 
