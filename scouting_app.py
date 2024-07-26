@@ -832,8 +832,8 @@ def player_radar_chart(player_name, metrics, values, avg_values):
 
 
 def player_details(df, player_data):
-    heatmap_df = pd.read_csv('./HeatMap/Botola Players HeatMaps.csv')
-    shotmap_df = pd.read_csv('./ShotMap/Botola Players ShotMaps.csv')
+    heatmap_df = pd.read_csv('https://raw.githubusercontent.com/MS3B09/Botola-Scout/main/Datasets/Botola%20Players%20HeatMaps.csv')
+    shotmap_df = pd.read_csv('https://raw.githubusercontent.com/MS3B09/Botola-Scout/main/Datasets/Botola%20Players%20ShotMaps.csv')
     spaces = '&nbsp;'
     st.set_option('deprecation.showPyplotGlobalUse', False)
     st.markdown("""
@@ -927,7 +927,7 @@ def player_details(df, player_data):
         if position_group == 'GK':
             st.markdown(f"<h1>{spaces}<span style='color:#FFA500; font-size:40px; font-family:cursive'>Attribute Overview </span></h1>", unsafe_allow_html=True)
 
-            gk_df = pd.read_csv('GK Attributes.csv')
+            gk_df = pd.read_csv('https://raw.githubusercontent.com/MS3B09/Botola-Scout/main/Datasets/GK%20Attributes.csv')
             params = list(gk_df.columns)
             params = params[2:]
             if player_data['Player'] in gk_df['Player'].values:
@@ -1349,7 +1349,7 @@ def url_friendly_name(player_name):
 
 def main():
 
-    df = load_data('Final_Players_Dataset.csv')
+    df = load_data('https://raw.githubusercontent.com/MS3B09/Botola-Scout/main/Datasets/Final_Players_Dataset.csv')
     #Convert Columns to numeric
     for col in df.columns:
         if col not in exclude_columns:
