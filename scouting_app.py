@@ -962,7 +962,8 @@ def player_details(df, player_data):
             add_vertical_space(1)
             players_pos_df = df[
                 (df['Position'].isin(position_mapping[position_group])) &
-                (df['Team_x'] == team_name_2)]
+                (df['Team_x'] == team_name_2) &
+                (df['rating'] != '-')]
             players_pos = ['- - -'] + players_pos_df['Player'].tolist()
             player_name_2 = st.selectbox(
                 label='Player :',
