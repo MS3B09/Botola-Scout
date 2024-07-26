@@ -545,7 +545,7 @@ def heatmap(df, player_name):
                   fill=True,
                   n_levels=10,
                   zorder=1,
-                  shade_lowest=False,
+                  shade_lowest=True,
                   bw_adjust=0.3,
                  )
     plt.tight_layout(pad=0)
