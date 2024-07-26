@@ -1,0 +1,3627 @@
+﻿player_name,shotType,y_start,x_start,xg,new_y,new_x
+Mohamed El Badoui,goal,44,2,0.4692,56,98
+Mohamed El Badoui,save,43,9,0.09216,57,91
+Mohssine Bourika,save,55,12,0.05917,45,88
+Hilal Ferdaoussi,miss,69,34,0.0003562,31,66
+Mohamed El Badoui,block,60,12,0.01647,40,88
+Mohamed Radouani,block,33,34,0.02197,67,66
+Mohssine Bourika,block,52,4,0.8012,48,96
+Lahcen Gourbi,post,37,6,0.1601,63,94
+Imad Riahi,block,24,23,0.001007,76,77
+Oussarhan,miss,54,12,0.08028,46,88
+Mohssine Bourika,miss,73,23,0.005775,27,77
+Houdaifa El Mahasni,miss,74,24,0.02152,26,76
+Imad Riahi,post,66,12,0.09171,34,88
+Oussarhan,block,60,14,0.04091,40,86
+Mohssine Abba,goal,54,9,0.2443,46,91
+Mohssine Bourika,goal,50,14,0.1118,50,86
+Imad Riahi,block,72,14,0.01574,28,86
+Yassine Jbira,save,20,32,0.03735,80,68
+Imad Riahi,miss,44,14,0.1393,56,86
+Zakaria Hadraf,goal,50,10,0.76,50,90
+Haytam Manaout,miss,33,24,0.01004,67,76
+Brahim El Idrissi Bouzidi,block,63,25,0.03684,37,75
+Zakaria Hadraf,block,52,16,0.1253,48,84
+Tahar El Khalej,miss,51,5,0.1991,49,95
+Brahim El Idrissi Bouzidi,miss,63,16,0.01324,37,84
+Hicham Khaloua,miss,48,20,0.1051,52,80
+Zakaria Hadraf,miss,43,22,0.01213,57,78
+Bernard Obounou,save,54,6,0.6679,46,94
+Youssef Lakhal,save,51,7,0.4161,49,93
+Zakaria Hadraf,save,63,16,0.09096,37,84
+Simon Diedhiou,miss,32,15,0.08027,68,85
+Zakaria Bahrou,miss,33,5,0.04041,67,95
+Ayman Dairani,miss,47,10,0.2495,53,90
+Anass El Ghannouj,miss,28,24,0.02112,72,76
+Mohamed Habbali,miss,64,19,0.07617,36,81
+Simon Diedhiou,goal,66,17,0.06577,34,83
+Ayman Dairani,goal,55,6,0.2553,45,94
+Simon Diedhiou,miss,57,8,0.04827,43,92
+Mohamed Habbali,miss,39,21,0.02419,61,79
+Mohamed El Mehdi,miss,51,9,0.1214,49,91
+Hamza Belouad,block,47,21,0.00761,53,79
+Salaheddine Icharane,save,29,3,0.03585,71,97
+Hamza Belouad,miss,29,9,0.0447,71,91
+Pa Modou Sohna,save,22,21,0.04071,78,79
+Hamza Hassani Boouia,miss,70,22,0.005133,30,78
+Nouaman Aarab,block,45,24,0.001953,55,76
+Mohamed Said Bouksyr,miss,52,25,0.02725,48,75
+Mohamed Said Bouksyr,block,68,14,0.002588,32,86
+Soulaimane El Bouchqali,miss,47,25,0.08356,53,75
+Maati Tamaiazou,miss,69,8,0.1117,31,92
+Maati Tamaiazou,block,70,8,0.01648,30,92
+Youssef Sakhi,post,47,11,0.4364,53,89
+Maati Tamaiazou,save,63,13,0.1633,37,87
+Abdellatif Akhrif,miss,47,20,0.03059,53,80
+Abdellatif Akhrif,miss,47,27,0.03707,53,73
+Zouhair El Ouassli,save,66,5,0.3303,34,95
+Elhadji Konate,save,40,11,0.04245,60,89
+Soulaimane El Bouchqali,miss,30,8,0.003944,70,92
+Soulaimane El Bouchqali,miss,45,10,0.3047,55,90
+Faouzi Abdoul Mutalib,miss,34,7,0.06318,66,93
+Abdellatif Akhrif,miss,72,18,0.0163,28,82
+Lahcen Dahdouh,block,35,20,0.02172,65,80
+Achraf Hmaidou,goal,63,23,0.05923,37,77
+Nouaman Aarab,save,42,26,0.04189,58,74
+Nouaman Aarab,block,54,33,0.01862,46,67
+Ayoub El Jorfi,miss,57,11,0.08187,43,89
+Ayoub El Jorfi,block,71,17,0.008339,29,83
+Maati Tamaiazou,miss,66,11,0.08482,34,89
+Youssef Sakhi,goal,46,12,0.1881,54,88
+Zouhair El Ouassli,save,28,9,0.04518,72,91
+Youness Moukhlis,miss,63,9,0.108,37,91
+Mohamed Zrida,miss,51,15,0.1416,49,85
+Youssef  Baba,miss,47,9,0.08751,53,91
+Zakaria El Wardi,goal,46,15,0.06722,54,85
+Mohamed Zrida,miss,34,25,0.01491,66,75
+Zakaria El Wardi,goal,51,8,0.2045,49,92
+Mohamed Zrida,block,60,10,0.4564,40,90
+Zakaria El Wardi,save,46,14,0.07746,54,86
+Naoufel Zerhouni,goal,61,4,0.1065,39,96
+Abdellah Khafifi,save,65,26,0.02727,35,74
+Abdelaziz El Hamzaoui,goal,47,10,0.1287,53,90
+Oussama Lamlioui,miss,43,15,0.03661,57,85
+Oussama Lamlioui,block,50,25,0.01064,50,75
+Hamza El Moussaoui,miss,29,25,0.0211,71,75
+Tuisila Kisinda,miss,70,7,0.09364,30,93
+Oussama Lamlioui,miss,51,12,0.1001,49,88
+Tuisila Kisinda,save,79,10,0.06938,21,90
+Youssef Mehri,miss,27,14,0.03922,73,86
+Oussama Lamlioui,block,57,13,0.06831,43,87
+Tuisila Kisinda,block,59,4,0.4975,41,96
+Ayoub Khairi,block,55,19,0.009587,45,81
+Aniss Tabich,save,44,12,0.1036,56,88
+Mamadou Lamine Camara,miss,56,29,0.01245,44,71
+El Habib Brija,miss,36,29,0.001705,64,71
+Yassine Labhiri,miss,52,20,0.02497,48,80
+Omar Arjoune,miss,48,18,0.08315,52,82
+Mohamed El Morabit,goal,49,10,0.3578,51,90
+Omar Arjoune,save,44,12,0.08953,56,88
+Youssef Zghoudi,goal,76,18,0.0176,24,82
+Youssef Zghoudi,block,67,8,0.05669,33,92
+Mohamed El Morabit,save,56,14,0.07343,44,86
+Mamadou Lamine Camara,miss,59,4,0.09606,41,96
+Adil Tahif,block,55,6,0.4199,45,94
+Youssef El Fahli,save,38,12,0.1065,62,88
+Yassine Labhiri,miss,59,21,0.02319,41,79
+Amine Zouhzouh,block,53,21,0.02906,47,79
+Aziz Ennakhli,save,49,5,0.3754,51,95
+Aziz Ennakhli,block,37,23,0.03025,63,77
+Hatim Essaouabi,save,54,9,0.09333,46,91
+Abdelfettah Hadraf,save,25,44,0.05512,75,56
+Mohamed Rabie Hrimat,goal,50,10,0.76,50,90
+Abdelfettah Hadraf,miss,57,23,0.03414,43,77
+Ayoub Boucheta,save,49,21,0.06424,51,79
+Oussama Zemraoui,block,57,35,0.001266,43,65
+Ismail Mihrab,block,24,23,0.0116,76,77
+Ismail Ouro-Agoro,goal,49,18,0.1285,51,82
+Moncef Amri,miss,31,12,0.03395,69,88
+Khalid Ait Ouarkhane,block,59,26,0.02212,41,74
+Karim Lagrouch,block,55,11,0.1469,45,89
+Ahmed Hammoudan,block,36,31,0.001348,64,69
+Alaeddine Ajaray,miss,38,10,0.0478,62,90
+Alaeddine Ajaray,miss,54,14,0.01427,46,86
+Khalid Ait Ouarkhane,block,67,10,0.05877,33,90
+Amine Zouhzouh,block,62,22,0.004177,38,78
+Khalid Ait Ouarkhane,miss,35,11,0.1168,65,89
+Zinedine Derrag,block,54,23,0.01698,46,77
+Khalid Ait Ouarkhane,block,31,16,0.02036,69,84
+Zinedine Derrag,block,39,19,0.001771,61,81
+Amine Zouhzouh,block,37,27,0.01657,63,73
+Khalid Ait Ouarkhane,miss,46,8,0.1795,54,92
+Moncef Amri,block,83,13,0.05928,17,87
+Khalid Ait Ouarkhane,miss,48,14,0.07572,52,86
+Hamza Bahaj,block,34,25,0.0008229,66,75
+Yahia Attiyat Allah,miss,33,11,0.04419,67,89
+Hamdou Elhouni,save,35,19,0.08991,65,81
+Hamza Hannouri,miss,45,14,0.125,55,86
+Yahia Attiyat Allah,miss,56,26,0.0278,44,74
+Mountassir Lahtimi,block,57,20,0.009055,43,80
+Hamdou Elhouni,save,30,2,0.03753,70,98
+Ayoub El Amloud,miss,43,10,0.1199,57,90
+Ayoub Nanah,goal,52,7,0.3827,48,93
+Arsène Zola,miss,45,8,0.1582,55,92
+Ayoub Nanah,miss,64,11,0.1041,36,89
+Hamza Hannouri,goal,46,4,0.4414,54,96
+Ayoub Nanah,miss,60,12,0.399,40,88
+Bilal El Ouadghiri,miss,52,9,0.09378,48,91
+Hamza Hannouri,miss,58,10,0.05785,42,90
+Yahia Attiyat Allah,save,42,10,0.08696,58,90
+Zakaria Draoui,save,57,11,0.279,43,89
+Hicham Marchad,block,45,22,0.005139,55,78
+Issam Benbouabdellah,miss,75,28,0.005334,25,72
+Aymen Moutawi,miss,42,8,0.2181,58,92
+Abdelaziz El Hamzaoui,save,64,20,0.04453,36,80
+Abdelkhalek Hamidouch,miss,58,9,0.0511,42,91
+Abdelkhalek Hamidouch,goal,46,5,0.3028,54,95
+Zakaria Hadraf,save,64,15,0.05512,36,85
+Youness Moukhlis,save,22,15,0.1451,78,85
+Mohamed El Jaaouani,miss,43,7,0.2114,57,93
+Hamza El Houssini,block,72,22,0.003845,28,78
+Aymen Moutawi,miss,57,18,0.08967,43,82
+Mohamed Johnson,block,59,9,0.5126,41,91
+Abdelaziz El Hamzaoui,post,68,3,0.08753,32,97
+Youness Moukhlis,save,8,30,0.079,92,70
+Hamza El Houssini,save,72,24,0.0008901,28,76
+Youness Najari,miss,25,47,0.01039,75,53
+Hilal Ferdaoussi,save,39,28,0.00872,61,72
+Yassine Lamine,save,41,4,0.401,59,96
+Zaid Krouch,block,49,18,0.01157,51,82
+Mohamed Rouhi,miss,48,12,0.09127,52,88
+Bilal El Megri,block,75,22,0.0007465,25,78
+Yassine Lamine,miss,38,5,0.107,62,95
+Houdaifa El Mahasni,miss,73,21,0.003501,27,79
+Anouar Frindi,save,36,5,0.1208,64,95
+Yassine Lamine,miss,31,29,0.03253,69,71
+Cheickna Samake,save,38,10,0.09414,62,90
+Houdaifa El Mahasni,miss,43,27,0.001981,57,73
+Zakaria Belmaachi,save,54,25,0.03637,46,75
+Zaid Krouch,save,51,18,0.04816,49,82
+Cheickna Samake,save,55,10,0.1062,45,90
+Aymen Hussein,block,51,25,0.02409,49,75
+Ismail Mokadem,save,30,10,0.1322,70,90
+Amine Zouhzouh,save,29,27,0.03278,71,73
+Ismail Ouro-Agoro,save,44,10,0.1199,56,90
+Zakaria Habti,goal,61,13,0.08173,39,87
+Zinedine Derrag,miss,37,29,0.005089,63,71
+Zinedine Derrag,miss,51,26,0.06441,49,74
+Abdessamad Badaoui,save,73,3,0.0644,27,97
+Alaeddine Ajaray,miss,33,27,0.0111,67,73
+Ismail Ouro-Agoro,miss,32,21,0.01417,68,79
+Bouchaib Arrassi,miss,53,12,0.06387,47,88
+Zinedine Derrag,miss,62,22,0.04469,38,78
+Abdelfettah Hadraf,block,52,22,0.001667,48,78
+Yousri Bouzok,goal,43,14,0.1903,57,86
+Mohamed Rabie Hrimat,goal,50,10,0.76,50,90
+Zouhair Marour,block,64,10,0.07613,36,90
+Yousri Bouzok,goal,50,10,0.76,50,90
+Naoufel Zerhouni,miss,31,15,0.04745,69,85
+Mohamed Zrida,miss,46,9,0.146,54,91
+Salah Moussadak,miss,50,10,0.76,50,90
+Oussama Soukhane,miss,27,15,0.04335,73,85
+Anas Bach,post,57,27,0.03098,43,73
+Marwane Elaz,miss,45,15,0.1087,55,85
+Marwane Elaz,save,44,20,0.09453,56,80
+Mohssine Bourika,miss,36,10,0.03681,64,90
+Barowheou Justin Yere,block,54,10,0.2019,46,90
+Anas Bach,block,33,29,0.006312,67,71
+Marwane Elaz,save,32,20,0.0238,68,80
+Hamza Hannouri,save,52,19,0.09554,48,81
+Marwane Elaz,miss,33,15,0.02411,67,85
+Ayoub Nanah,save,59,28,0.04138,41,72
+Anas Bach,save,50,24,0.01841,50,76
+Mohamed El Badoui,block,65,23,0.004089,35,77
+Ayoub Nanah,miss,61,29,0.03232,39,71
+Mehdi Karnass,miss,78,21,0.005461,22,79
+Hamid Ahdad,miss,36,8,0.1519,64,92
+Mehdi Karnass,post,40,19,0.002518,60,81
+Hamid Ahdad,save,52,11,0.2282,48,89
+Mohssine Bourika,miss,38,9,0.1897,62,91
+Chouaib El Maftoul,save,46,10,0.3151,54,90
+Ayoub Nanah,block,54,13,0.1956,46,87
+Mohamed El Badoui,block,73,16,0.02841,27,84
+Hamid Ahdad,miss,48,12,0.09057,52,88
+Amine El Msane,miss,49,34,0.001359,51,66
+Oussama Lamlioui,goal,45,4,0.2879,55,96
+Oussama Lamlioui,block,60,16,0.05958,40,84
+Youssef Mehri,miss,45,4,0.2185,55,96
+Yassine Labhiri,save,47,14,0.07889,53,86
+Yassine Labhiri,block,74,18,0.00862,26,82
+Youssef Mehri,miss,44,6,0.1172,56,94
+Yassine Labhiri,save,54,21,0.02698,46,79
+Zouhair El Ouassli,block,43,14,0.06734,57,86
+Tuisila Kisinda,miss,60,7,0.06768,40,93
+Adil Tahif,miss,60,3,0.2797,40,97
+Yassine Labhiri,block,48,20,0.02121,52,80
+Youssef El Fahli,miss,36,7,0.133,64,93
+Adil Tahif,goal,57,3,0.2886,43,97
+Youssef Zghoudi,save,40,2,0.2827,60,98
+Youssef Zghoudi,block,59,15,0.1019,41,85
+Mohamed El Morabit,miss,42,7,0.1118,58,93
+Hamza El Moussaoui,miss,32,19,0.004728,68,81
+Yassine Labhiri,miss,57,9,0.3656,43,91
+Hassan Zraibi,goal,43,11,0.3504,57,89
+Mohamed Bakhkhach,save,27,6,0.06573,73,94
+Yassine Lamine,save,32,17,0.07188,68,83
+Mohamed Bakhkhach,miss,8,27,0.01865,92,73
+Mohamed Bakhkhach,save,56,21,0.06002,44,79
+Yassine Jbira,save,25,36,0.04938,75,64
+Katulondi  Kati,miss,71,15,0.002439,29,85
+Pape Badji,goal,55,6,0.2104,45,94
+Jalal Tachtach,save,35,13,0.1361,65,87
+Joe Amian,block,44,20,0.00386,56,80
+Katulondi  Kati,save,54,28,0.002483,46,72
+Mohssine Abba,miss,40,9,0.071,60,91
+Soufian El Moudane,miss,69,20,0.002646,31,80
+Pape Badji,goal,64,3,0.1164,36,97
+Joe Amian,block,26,13,0.01969,74,87
+Mohsine Moutouali,save,45,15,0.1381,55,85
+Soufian El Moudane,save,44,17,0.04688,56,83
+Mohamed Yassine Abouzra,save,38,8,0.06229,62,92
+Mohamed Yassine Abouzra,save,45,6,0.2678,55,94
+Zaid Krouch,block,38,25,0.02326,62,75
+Hilal Ferdaoussi,miss,43,27,0.03132,57,73
+Amine El Msane,save,55,21,0.1872,45,79
+Amine Azri,miss,67,12,0.09527,33,88
+El Mehdi El Bassil,post,48,8,0.5619,52,92
+Amine Azri,save,70,11,0.08347,30,89
+Hamid Ahdad,block,54,10,0.4102,46,90
+Amine Azri,miss,74,21,0.0006122,26,79
+Anas Bach,miss,39,11,0.121,61,89
+Hamid Ahdad,miss,49,12,0.0669,51,88
+Youness Najari,miss,65,26,0.00867,35,74
+Abderrahmane Qassaq,miss,34,25,0.004246,66,75
+Salah Moussadak,miss,65,15,0.09948,35,85
+Mehdi Karnass,block,65,25,0.006063,35,75
+Salah Moussadak,block,62,9,0.1773,38,91
+Amine El Msane,miss,52,33,0.002356,48,67
+Abderrahmane Qassaq,block,57,24,0.0106,43,76
+Mehdi Karnass,block,17,21,0.0008683,83,79
+Hamza Hannouri,block,58,4,0.5424,42,96
+Hamza Hannouri,block,49,19,0.01021,51,81
+Hamza Hannouri,save,81,9,0.03357,19,91
+Marwane Elaz,block,43,8,0.4421,57,92
+Cheickna Samake,block,58,21,0.004109,42,79
+Oussama Zemraoui,block,67,14,0.07987,33,86
+Hamza Bahaj,block,44,8,0.05695,56,92
+Aziz Ennakhli,block,31,12,0.05663,69,88
+Abdelaziz El Hamzaoui,miss,54,9,0.1671,46,91
+Saleh Al Sellami,block,64,11,0.09843,36,89
+Mohamed Johnson,block,53,19,0.08602,47,81
+Mohamed Johnson,miss,62,11,0.02948,38,89
+Youness Moukhlis,miss,24,22,0.006875,76,78
+Hicham Marchad,block,29,26,0.008572,71,74
+Ayoub Ballouchy,block,58,27,0.007756,42,73
+Abdelaziz El Hamzaoui,miss,52,10,0.0517,48,90
+Hicham Marchad,miss,43,5,0.519,57,95
+Mohamed Johnson,save,60,10,0.08266,40,90
+Hicham Marchad,save,27,26,0.03102,73,74
+Abdelkhalek Ait Ourehbi,block,66,13,0.009207,34,87
+Youssef Bouabid,block,32,13,0.002384,68,87
+Abdelkhalek Ait Ourehbi,miss,70,14,0.008459,30,86
+Abdelkhalek Ait Ourehbi,miss,68,16,0.04531,32,84
+Ayoub Ballouchy,block,33,24,0.01596,67,76
+Hamza El Houssini,miss,66,4,0.06373,34,96
+Hicham Marchad,save,59,12,0.1395,41,88
+Ayoub Boucheta,goal,50,10,0.76,50,90
+Hamza Malki,block,31,3,0.04723,69,97
+Mohamed Chemlal,miss,68,30,0.003961,32,70
+Mohamed El Morabit,block,47,13,0.1293,53,87
+Mohamed Amine Essahel,block,33,18,0.07316,67,82
+Paul Bassène,save,62,17,0.1119,38,83
+Simon Diedhiou,block,52,17,0.02635,48,83
+Youssef Zghoudi,goal,44,11,0.3052,56,89
+Youssef Zghoudi,block,55,30,0.02008,45,70
+Tawfik Bentayeb,goal,49,5,0.3286,51,95
+Ayoub Khairi,block,50,28,0.004343,50,72
+Mohamed Radid,block,73,28,0.002974,27,72
+Tuisila Kisinda,save,65,21,0.02898,35,79
+Oussama Lamlioui,miss,37,22,0.04489,63,78
+Youssef Mehri,goal,32,12,0.07569,68,88
+Yassine Labhiri,miss,33,13,0.06078,67,87
+Youssef Mehri,goal,40,9,0.1214,60,91
+Badie Aouk,block,59,17,0.1145,41,83
+Tawfik Bentayeb,miss,39,10,0.1232,61,90
+Youssef Mehri,miss,20,25,0.02595,80,75
+Ayoub Khairi,miss,27,25,0.02039,73,75
+Oussama Lamlioui,save,43,4,0.464,57,96
+Ahmed Hammoudan,goal,61,12,0.2457,39,88
+Hamza Igamane,goal,65,11,0.1987,35,89
+Hamza Igamane,miss,68,12,0.02317,32,88
+Amine Zouhzouh,miss,49,8,0.1056,51,92
+Youssef Arbidi,block,70,10,0.08096,30,90
+Youssef Arbidi,save,45,22,0.06019,55,78
+Amine Zouhzouh,miss,34,23,0.0191,66,77
+Mohamed Habbali,goal,51,14,0.179,49,86
+Hamza Ait Allal,miss,49,9,0.267,51,91
+Abderrahim Khadou,save,47,11,0.06013,53,89
+Mohamed Rabie Hrimat,save,47,24,0.0209,53,76
+Lamine Diakité,miss,54,29,0.00181,46,71
+Ismail Ouro-Agoro,miss,42,36,0.004665,58,64
+Bernard Obounou,miss,51,6,0.389,49,94
+Brahim El Idrissi Bouzidi,miss,52,23,0.06231,48,77
+Lamine Diakité,miss,45,31,0.0007545,55,69
+Bernard Obounou,miss,62,21,0.02536,38,79
+Mohamed Rabie Hrimat,goal,30,11,0.08876,70,89
+Lamine Diakité,save,46,5,0.3663,54,95
+Ayoub Tine,save,26,18,0.01035,74,82
+Anass El Ghannouj,miss,69,34,0.01721,31,66
+Lamine Diakité,miss,56,9,0.1132,44,91
+Zinedine Derrag,save,41,15,0.106,59,85
+Abderrahim Khadou,block,36,10,0.1283,64,90
+Aymen Moutawi,save,76,12,0.01979,24,88
+Mohamed Habbali,block,26,10,0.03024,74,90
+Ismail Ouro-Agoro,block,38,3,0.08494,62,97
+Hassan Zraibi,save,54,16,0.06696,46,84
+Achraf Marzak,save,46,12,0.2054,54,88
+Ismail Khafi,goal,50,10,0.76,50,90
+El Hadji Kane,goal,52,2,0.7521,48,98
+Elhadji Konate,post,47,8,0.1056,53,92
+Hassan Zraibi,miss,65,26,0.02749,35,74
+Hamza El Houssini,miss,66,23,0.04718,34,77
+Abdelaziz El Hamzaoui,save,38,14,0.128,62,86
+Abdelaziz El Hamzaoui,goal,43,6,0.2468,57,94
+Hamza El Houssini,save,63,12,0.06099,37,88
+Abdelaziz El Hamzaoui,save,49,9,0.1413,51,91
+Ismail Khafi,miss,67,4,0.05253,33,96
+Mohamed Walid Bencherifa,miss,43,10,0.1601,57,90
+Abdelaziz El Hamzaoui,miss,36,25,0.02307,64,75
+Jawad Rhabra,save,45,7,0.2575,55,93
+Abdessamad Mahir,block,38,28,0.02379,62,72
+Karim Lagrouch,block,53,32,0.002793,47,68
+Abdessamad Mahir,miss,63,33,0.001205,37,67
+Ayoub Lakhal,block,53,19,0.07864,47,81
+Anass Moulhami,miss,59,14,0.06508,41,86
+Ismail Mihrab,block,33,26,0.002488,67,74
+Bilal El Megri,block,64,11,0.06378,36,89
+Bilal El Megri,save,72,24,0.02173,28,76
+Hilal Ferdaoussi,goal,36,19,0.06031,64,81
+Pape Badji,miss,60,28,0.01259,40,72
+Mohamed Radouani,save,56,10,0.1156,44,90
+Yassine Lamine,block,30,32,0.003048,70,68
+Ayoub Ballouchy,save,74,13,0.02876,26,87
+Aziz Ennakhli,miss,54,14,0.04873,46,86
+Mohamed Radouani,miss,53,15,0.06444,47,85
+Aziz Ennakhli,miss,60,6,0.1086,40,94
+Ismail Mihrab,block,61,22,0.05357,39,78
+Yassine Lamine,miss,56,34,0.01204,44,66
+Mohamed Radouani,block,55,26,0.09415,45,74
+Yassine Jbira,miss,61,4,0.1347,39,96
+Yassine Lamine,save,26,31,0.0388,74,69
+Yassine Lamine,block,33,29,0.01493,67,71
+Ibrahima Gueye,block,47,15,0.1444,53,85
+Houssine Rahimi,miss,55,16,0.1365,45,84
+Houari Ferhani,miss,30,11,0.08076,70,89
+Abdoulaye Diarra,goal,63,12,0.1053,37,88
+Pa Modou Sohna,save,36,8,0.04557,64,92
+Salaheddine Icharane,block,59,20,0.005784,41,80
+Ennaama El Bellali,miss,61,22,0.004244,39,78
+Pa Modou Sohna,miss,27,24,0.01092,73,76
+Adnane Bentagana,miss,58,14,0.1579,42,86
+Kamal EL Keraa,miss,66,21,0.04008,34,79
+Mohamed Rouhi,miss,29,26,0.00814,71,74
+Kamal EL Keraa,miss,45,4,0.3044,55,96
+Abdoulaye Diarra,miss,54,26,0.018,46,74
+Mohamed Mourad Naji,miss,82,25,0.02139,18,75
+Hatim Essaouabi,miss,52,10,0.08938,48,90
+Lamine Diakité,miss,61,4,0.2961,39,96
+Lamine Diakité,goal,50,9,0.3348,50,91
+Mohamed Rabie Hrimat,miss,48,22,0.0701,52,78
+Badr Gaddarine,save,74,29,0.0304,26,71
+Mohamed Rabie Hrimat,goal,50,10,0.76,50,90
+Zinedine Derrag,miss,60,12,0.09414,40,88
+Mohamed Rabie Hrimat,miss,51,14,0.03859,49,86
+Ahmed Hammoudan,goal,64,15,0.06013,36,85
+Hamza Igamane,miss,49,9,0.1588,51,91
+Abdelkhalek Hamidouch,miss,53,9,0.1975,47,91
+Hamza Ait Allal,save,57,12,0.2084,43,88
+Mohamed Habbali,miss,26,13,0.03596,74,87
+Mustapha Sahd,goal,51,0,0.5516,49,100
+Barowheou Justin Yere,save,48,7,0.288,52,93
+Anass El Ghannouj,save,39,13,0.1399,61,87
+Barowheou Justin Yere,save,36,17,0.04399,64,83
+Aymen Moutawi,goal,56,2,0.4806,44,98
+Zakaria Bahrou,block,52,21,0.01447,48,79
+Brahim El Idrissi Bouzidi,block,71,5,0.0403,29,95
+Mohssine Bourika,miss,24,16,0.0367,76,84
+Imad Riahi,save,39,21,0.02102,61,79
+Mohamed Habbali,miss,37,15,0.132,63,85
+Omar Jerrari,miss,25,16,0.02804,75,84
+Mohssine Bourika,block,39,4,0.1519,61,96
+Mohamed Habbali,miss,65,26,0.0242,35,74
+Zakaria Fatihi,save,74,12,0.04077,26,88
+Soulaiman El Amrani,miss,51,9,0.1041,49,91
+Oussama Hafari,save,44,12,0.2443,56,88
+Abdoulaye Diarra,block,52,24,0.002535,48,76
+Youssef Dalouzi,save,49,22,0.04731,51,78
+Ismail Mihrab,block,34,12,0.1051,66,88
+Abdelghafour Lamirat,block,52,31,0.00502,48,69
+Karim Lagrouch,save,38,19,0.0835,62,81
+Hamza Moujahid,block,54,14,0.1023,46,86
+Hamza Bahaj,save,58,28,0.00193,42,72
+Oussama Zemraoui,save,37,16,0.122,63,84
+Zakaria Fatihi,block,48,32,0.003235,52,68
+Karim El Bounagate,miss,50,9,0.1516,50,91
+Youness Najari,block,68,26,0.006162,32,74
+Oussama Zemraoui,block,48,15,0.08944,52,85
+Karim Lagrouch,miss,57,13,0.1334,43,87
+Oussama Zemraoui,miss,66,10,0.1378,34,90
+Hamza Moujahid,block,36,18,0.04878,64,82
+Mohamed Rouhi,miss,45,12,0.1999,55,88
+Hamza Bahaj,miss,55,7,0.1978,45,93
+Abdoulaye Diarra,miss,38,15,0.01156,62,85
+Boniface Haba,block,66,32,0.001463,34,68
+Mohamed Rouhi,miss,43,4,0.2626,57,96
+Kamal EL Keraa,miss,45,11,0.3079,55,89
+Karim Lagrouch,miss,42,8,0.2338,58,92
+Charki El Bahri,goal,51,11,0.3769,49,89
+Saifeddine Bouhra,save,66,14,0.071,34,86
+Yahya Jabrane,miss,55,11,0.08669,45,89
+Yahia Attiyat Allah,miss,28,10,0.07026,72,90
+Adil  Jeddaoui,block,30,28,0.00708,70,72
+Yahya Jabrane,goal,44,13,0.0683,56,87
+Yahia Attiyat Allah,save,46,17,0.06406,54,83
+Soufyan Ahannach,block,60,18,0.07161,40,82
+Bouly Junior Sambou,miss,53,10,0.1155,47,90
+Mohamed Habbali,miss,65,10,0.1652,35,90
+Mohamed Habbali,save,68,32,0.01446,32,68
+Brahim El Idrissi Bouzidi,block,64,25,0.002779,36,75
+Hamdou Elhouni,miss,25,13,0.02259,75,87
+Bouly Junior Sambou,save,49,6,0.1404,51,94
+Yahia Attiyat Allah,save,43,13,0.2031,57,87
+Zakaria Draoui,block,30,13,0.004163,70,87
+Bouly Junior Sambou,miss,51,9,0.1661,49,91
+Bouly Junior Sambou,goal,47,18,0.06755,53,82
+Mountassir Lahtimi,miss,50,13,0.08779,50,87
+Abdellah Haimoud,miss,36,21,0.01613,64,79
+Jamal Harkass,miss,60,7,0.06768,40,93
+Hamdou Elhouni,block,42,24,0.00597,58,76
+Mohamed Habbali,miss,33,22,0.03687,67,78
+Zakaria Bahrou,save,62,23,0.05883,38,77
+Zakaria Bahrou,goal,47,9,0.388,53,91
+Abdelfettah Hadraf,miss,53,25,0.0008009,47,75
+Bernard Morrison,miss,44,8,0.2287,56,92
+Abdelfettah Hadraf,save,47,23,0.1112,53,77
+Youssef El Fahli,save,41,11,0.08516,59,89
+Et-Tayeb Boukhriss,save,68,11,0.06169,32,89
+Amine Zouhzouh,block,32,26,0.009435,68,74
+Alaeddine Ajaray,miss,39,15,0.1261,61,85
+Ahmed Hammoudan,save,55,8,0.4332,45,92
+Hamza El Moussaoui,block,39,22,0.02619,61,78
+Amine Zouhzouh,block,35,12,0.05459,65,88
+Amine Zouhzouh,miss,14,14,0.00138,86,86
+Hamza El Moussaoui,miss,50,27,0.07134,50,73
+Amine Zouhzouh,save,65,2,0.07747,35,98
+Oussama Lamlioui,post,42,11,0.2952,58,89
+Mohamed Rabie Hrimat,miss,29,31,0.002958,71,69
+Youssef Mehri,block,28,24,0.01868,72,76
+Ayoub Nanah,miss,49,27,0.0009391,51,73
+Ayoub Nanah,goal,50,10,0.76,50,90
+Pape Badji,block,49,13,0.2036,51,87
+Ayoub Nanah,block,63,13,0.06825,37,87
+James Ajako,block,25,12,0.004384,75,88
+Pape Badji,block,58,31,0.008212,42,69
+Hamza Hannouri,miss,48,14,0.2052,52,86
+Bilal El Megri,save,63,10,0.08237,37,90
+Ayoub Ouadrassi,goal,69,6,0.07597,31,94
+Anas Bach,block,60,25,0.02036,40,75
+Ayoub Qasmi,miss,39,9,0.07477,61,91
+Pape Badji,save,17,19,0.02876,83,81
+Ayoub Nanah,save,53,8,0.1697,47,92
+Ayoub Nanah,save,71,11,0.03998,29,89
+Yassine Lamine,goal,44,12,0.0605,56,88
+Pape Badji,miss,51,13,0.09642,49,87
+Souhayl Zamrat,goal,58,18,0.3587,42,82
+Anass Eddaou,block,40,7,0.3763,60,93
+Ismail Ouro-Agoro,block,23,27,0.00828,77,73
+Bernard Morrison,miss,45,23,0.0753,55,77
+Bernard Morrison,block,53,19,0.006366,47,81
+Ismail Ouro-Agoro,miss,46,9,0.1493,54,91
+Youssef Arbidi,block,42,16,0.02154,58,84
+Ismail Ouro-Agoro,miss,56,10,0.1014,44,90
+Anass Eddaou,goal,42,7,0.6414,58,93
+Haytam Manaout,save,76,13,0.01169,24,87
+Yassine El Khalej,miss,50,13,0.1536,50,87
+Aissa Saidi,miss,48,24,0.0495,52,76
+Hamza Igamane,save,48,14,0.09101,52,86
+Zouhair Marour,goal,58,6,0.2177,42,94
+Hamza Igamane,block,53,14,0.2106,47,86
+Omar Boutayeb,goal,59,14,0.1264,41,86
+Yahya Ben Khaleq,goal,45,4,0.3004,55,96
+Hamza Hannouri,save,35,10,0.2416,65,90
+Oussama Soukhane,miss,35,17,0.05066,65,83
+Mouad Bahsain,block,37,24,0.06234,63,76
+Abdelouahed Hasty,save,37,9,0.114,63,91
+Achraf Hmaidou,block,41,24,0.002043,59,76
+Amine Azri,miss,35,12,0.08861,65,88
+Ennaama El Bellali,miss,31,31,0.001688,69,69
+Adnane Bentagana,miss,42,46,0.005729,58,54
+Ayoub Nanah,miss,63,30,0.0007523,37,70
+Hamid Ahdad,goal,57,10,0.3885,43,90
+Brahim Sabaouni,block,51,27,0.006072,49,73
+Ayoub Nanah,miss,32,11,0.04422,68,89
+Abdelouahed Hasty,block,30,5,0.0347,70,95
+Hamid Ahdad,goal,60,12,0.4647,40,88
+Ayman Hadidi,miss,72,19,0.01793,28,81
+Yahya Ben Khaleq,miss,47,15,0.04535,53,85
+Houssine Rahimi,miss,54,7,0.07493,46,93
+Oussama Soukhane,miss,39,7,0.3141,61,93
+Cheickna Samake,save,50,10,0.76,50,90
+Mohamed Habbali,goal,50,10,0.76,50,90
+Youness Khoutari,save,55,11,0.1181,45,89
+Zakaria Hadraf,miss,87,14,0.007035,13,86
+Abdoulaye Diarra,block,28,27,0.004636,72,73
+Mohamed Habbali,miss,35,15,0.06072,65,85
+Saad Morsli,miss,71,30,0.024,29,70
+Anass El Ghannouj,miss,58,30,0.0001959,42,70
+Abdelkhalek Hamidouch,miss,45,12,0.08956,55,88
+Abderrahim Khadou,goal,43,15,0.1456,57,85
+Zakaria Hadraf,save,45,26,0.0805,55,74
+Houari Ferhani,miss,24,28,0.02257,76,72
+Anass El Ghannouj,save,36,28,0.01542,64,72
+Aymen Moutawi,block,46,14,0.07607,54,86
+Mohamed Habbali,block,45,25,0.001361,55,75
+Abdoulaye Diarra,save,26,14,0.03014,74,86
+Abdoulaye Diarra,goal,51,5,0.7821,49,95
+Kamal EL Keraa,save,31,10,0.114,69,90
+Mohamed Mourad Naji,miss,39,13,0.06405,61,87
+Zakaria Hadraf,goal,42,9,0.2067,58,91
+Kamal EL Keraa,save,40,14,0.3266,60,86
+Youness Najari,save,49,16,0.162,51,84
+Anass El Ghannouj,miss,59,29,0.000584,41,71
+Aymen Moutawi,miss,53,8,0.1288,47,92
+Youness Najari,miss,40,6,0.3991,60,94
+Youness Najari,goal,49,12,0.1816,51,88
+Aymen Moutawi,save,43,22,0.06393,57,78
+Mohamed Habbali,miss,40,21,0.004348,60,79
+Anass El Ghannouj,miss,73,24,0.0159,27,76
+Yassine Labhiri,block,40,24,0.01315,60,76
+Mohamed Johnson,miss,57,13,0.1694,43,87
+Hamza El Moussaoui,block,37,16,0.04244,63,84
+Saleh Al Sellami,goal,49,2,0.563,51,98
+Youssef Mehri,miss,40,13,0.1628,60,87
+Oussama Lamlioui,goal,55,10,0.3301,45,90
+Oussama Lamlioui,block,46,9,0.2954,54,91
+Yasser Jarici,miss,27,18,0.001008,73,82
+Abdelilah Madkour,miss,49,22,0.05833,51,78
+Mohamed El Morabit,miss,33,19,0.03914,67,81
+Mohamed El Morabit,goal,49,6,0.3275,51,94
+Yasser Jarici,save,59,5,0.2309,41,95
+Saleh Al Sellami,save,55,13,0.2452,45,87
+Achraf Marzak,miss,75,12,0.02157,25,88
+Mohamed El Morabit,block,58,5,0.3291,42,95
+Hicham Marchad,block,55,26,0.02167,45,74
+Youssef Mehri,save,43,16,0.1231,57,84
+Saleh Al Sellami,miss,26,21,0.0006888,74,79
+Mamadou Lamine Camara,goal,52,10,0.3219,48,90
+Youssef Zghoudi,miss,44,6,0.2022,56,94
+Mohamed Zrida,miss,32,10,0.07287,68,90
+Zaid Krouch,miss,55,29,0.004238,45,71
+Mohamed Boulacsout,miss,70,6,0.0881,30,94
+Adam Ennafati,block,35,28,0.01262,65,72
+Bilal El Megri,post,22,45,0.01924,78,55
+Yousri Bouzok,block,28,19,0.002596,72,81
+Yousri Bouzok,block,53,19,0.008066,47,81
+Naoufel Zerhouni,post,26,12,0.08724,74,88
+Naoufel Zerhouni,save,50,14,0.09829,50,86
+Yassine Jbira,miss,26,23,0.01217,74,77
+Adam Ennafati,miss,37,23,0.0003862,63,77
+Naoufel Zerhouni,miss,72,14,0.07692,28,86
+Sabir Bougrine,block,61,14,0.3444,39,86
+Abdellah Khafifi,miss,58,14,0.008809,42,86
+Adam Ennafati,miss,25,14,0.06564,75,86
+Yousri Bouzok,block,61,5,0.2137,39,95
+Amine El Msane,block,53,26,0.05467,47,74
+Reda Alaoui,post,36,12,0.1109,64,88
+Ayoub Nanah,save,64,9,0.1818,36,91
+Zakaria Driouech,save,67,29,0.03774,33,71
+Ayoub Nanah,miss,62,7,0.1453,38,93
+Ayoub Boucheta,block,72,12,0.04754,28,88
+Ismail Mihrab,save,34,10,0.1818,66,90
+Amine El Msane,miss,40,4,0.2044,60,96
+Ayoub Boucheta,post,51,27,0.000951,49,73
+Noureddine Oussama,save,36,39,0.01129,64,61
+Amine Azri,save,50,22,0.07132,50,78
+Amine El Msane,save,53,24,0.03436,47,76
+Hamza Hannouri,block,55,31,0.002812,45,69
+Hamza Hannouri,miss,48,9,0.09568,52,91
+Amine Azri,miss,72,21,0.001307,28,79
+Karim Lagrouch,miss,53,7,0.2127,47,93
+Ismael Benktib,save,61,25,0.05024,39,75
+Hamza Hannouri,goal,44,8,0.5517,56,92
+Zakaria Hadraf,miss,22,8,0.04629,78,92
+Katulondi  Kati,save,35,10,0.1168,65,90
+Fedi Ben Choug,save,68,26,0.05043,32,74
+Mohamed Habbali,miss,34,12,0.1051,66,88
+Yassine Rami,goal,46,31,0.02621,54,69
+Fedi Ben Choug,post,54,23,0.06692,46,77
+Soufian El Moudane,block,67,24,0.0109,33,76
+Youssef Esdiri,miss,57,8,0.2791,43,92
+Katulondi  Kati,miss,18,23,0.02548,82,77
+Fedi Ben Choug,goal,44,10,0.3427,56,90
+Mohamed Bakhkhach,block,21,22,0.005515,79,78
+Abdallah Boukhanfer,miss,54,10,0.1231,46,90
+Mohamed Habbali,save,33,27,0.0402,67,73
+Mohamed Habbali,block,24,29,0.006226,76,71
+Abdelhay El Forsy,goal,56,6,0.5665,44,94
+Mohamed Habbali,goal,47,6,0.2973,53,94
+Adil  Jeddaoui,miss,32,32,0.007035,68,68
+Fedi Ben Choug,miss,48,13,0.1872,52,87
+Anass El Ghannouj,block,37,30,0.00304,63,70
+Mohamed Habbali,post,35,26,0.0005107,65,74
+Soufian El Moudane,save,10,15,0.07659,90,85
+Sabir Bougrine,block,58,12,0.1806,42,88
+Domingo,post,49,5,0.4229,51,95
+Abdessamad Badaoui,goal,46,5,0.4049,54,95
+Bouchaib Arrassi,miss,50,6,0.5989,50,94
+Naoufel Zerhouni,miss,61,6,0.2997,39,94
+Sabir Bougrine,block,39,20,0.006063,61,80
+Brahim El Bahraoui,goal,47,15,0.1543,53,85
+Naoufel Zerhouni,block,58,20,0.003654,42,80
+Roger Aholou,block,41,13,0.03954,59,87
+Adam Ennafati,save,60,10,0.2215,40,90
+Soulaiman El Amrani,miss,24,12,0.02836,76,88
+Adam Ennafati,miss,50,20,0.1094,50,80
+Naoufel Zerhouni,post,32,2,0.08906,68,98
+Yousri Bouzok,miss,59,12,0.07578,41,88
+Boniface Haba,miss,68,24,0.02198,32,76
+Souhail Yechou,goal,50,10,0.76,50,90
+Mohamed Al Makahasi,goal,51,10,0.3502,49,90
+Abdessamad Badaoui,block,54,9,0.1376,46,91
+Saad Morsli,miss,51,26,0.0183,49,74
+Yousri Bouzok,save,32,7,0.0453,68,93
+Naoufel Zerhouni,save,55,13,0.1478,45,87
+Bouchaib Arrassi,block,33,8,0.00948,67,92
+Cheickna Samake,save,52,18,0.09218,48,82
+Boniface Haba,miss,42,13,0.04158,58,87
+Boniface Haba,miss,86,11,0.01342,14,89
+Mohamed Boulacsout,block,60,29,0.00405,40,71
+Abdoulaye Diarra,save,29,19,0.04303,71,81
+Hicham Khaloua,miss,54,12,0.126,46,88
+Tawfik Bentayeb,post,37,3,0.06465,63,97
+Souhayl Zamrat,goal,70,15,0.02843,30,85
+Simon Diedhiou,miss,44,19,0.03268,56,81
+Hamza El Houssini,miss,50,25,0.02882,50,75
+Tawfik Bentayeb,save,59,12,0.272,41,88
+Achraf Marzak,miss,86,38,0.008362,14,62
+Papa Amady Gadio,block,58,13,0.1729,42,87
+Simon Diedhiou,block,49,11,0.1427,51,89
+Abdelkhalek Ait Ourehbi,goal,50,24,0.06918,50,76
+Abdelkhalek Ait Ourehbi,block,47,30,0.002757,53,70
+Redouan Ait Lamkadem,miss,47,6,0.09887,53,94
+Mohamed Johnson,miss,33,12,0.09864,67,88
+Abdelkhalek Ait Ourehbi,goal,51,3,0.5381,49,97
+Issam Benbouabdellah,miss,53,8,0.113,47,92
+Abdelkhalek Ait Ourehbi,miss,68,11,0.05434,32,89
+Abdelaziz El Hamzaoui,miss,56,11,0.2152,44,89
+Papa Amady Gadio,block,51,26,0.007853,49,74
+Haytam Manaout,miss,68,27,0.003948,32,73
+Hachim Mastour,miss,41,11,0.3633,59,89
+Papa Amady Gadio,block,31,15,0.007362,69,85
+Achraf Marzak,block,62,27,0.004495,38,73
+Hachim Mastour,save,54,17,0.0627,46,83
+Youssef  Baba,save,44,12,0.04408,56,88
+Anass Eddaou,miss,64,21,0.04569,36,79
+Redouan Ait Lamkadem,miss,42,10,0.1004,58,90
+El Hadji Kane,miss,61,23,0.02116,39,77
+Mohamed Saoud,miss,28,34,0.01488,72,66
+Hatim Essaouabi,goal,45,4,0.4227,55,96
+El Hadji Kane,block,29,13,0.002991,71,87
+Bernard Morrison,save,42,9,0.2634,58,91
+Bernard Morrison,block,45,24,0.002628,55,76
+Abdelfettah Hadraf,block,49,27,0.006395,51,73
+Jalal Daoudi,miss,19,25,0.000509,81,75
+Emmanuel Imanishimwe,save,27,6,0.02203,73,94
+Alexis Sanchez,miss,27,22,0.01336,73,78
+Ismail Khafi,miss,53,6,0.2083,47,94
+Hamza El Wasti,save,41,8,0.306,59,92
+Emmanuel Imanishimwe,block,34,10,0.1199,66,90
+Ismail Khafi,save,69,10,0.06849,31,90
+Lamine Diakité,block,57,25,0.009343,43,75
+Emmanuel Imanishimwe,block,28,11,0.007265,72,89
+Najji Larbi,save,40,33,0.02205,60,67
+Khalid Ait Ouarkhane,block,44,18,0.06472,56,82
+Amine Zouhzouh,save,61,24,0.03853,39,76
+Mohamed Rabie Hrimat,save,36,28,0.04186,64,72
+Amine Zouhzouh,save,46,10,0.3377,54,90
+Jalal Daoudi,miss,36,19,0.00525,64,81
+Achraf Hmaidou,miss,42,26,0.002202,58,74
+Mohamed Amine Azemani,block,31,19,0.06226,69,81
+Ayman Hadidi,save,64,19,0.0393,36,81
+Mamadou Seck,goal,43,1,0.1388,57,99
+Pape Badji,goal,52,6,0.4156,48,94
+Pa Modou Sohna,miss,49,11,0.2512,51,89
+Achraf Hmaidou,miss,42,19,0.08582,58,81
+Ayman Hadidi,save,58,11,0.6284,42,89
+Yassine Lamine,save,74,19,0.02567,26,81
+Pa Modou Sohna,block,61,18,0.06146,39,82
+Zaid Krouch,miss,54,23,0.06912,46,77
+Abdelouahed Hasty,save,48,14,0.06808,52,86
+Mohamed El Khaloui,block,61,31,0.02566,39,69
+Ayoub Lakhlifi,miss,51,11,0.1202,49,89
+Mohamed Yassine Abouzra,goal,47,5,0.2179,53,95
+Yassine Lamine,goal,48,3,0.3093,52,97
+Bilal El Megri,block,45,25,0.0358,55,75
+Oussama Lamlioui,save,51,10,0.4985,49,90
+Yassine Labhiri,save,34,20,0.09267,66,80
+Youssef Zghoudi,miss,42,8,0.1404,58,92
+Youssef El Fahli,miss,31,15,0.02146,69,85
+Mohamed El Badoui,miss,65,7,0.2677,35,93
+Mohssine Bourika,miss,54,9,0.08855,46,91
+Imad Riahi,miss,51,24,0.004612,49,76
+Issoufou Dayo,miss,45,9,0.1203,55,91
+Youssef El Fahli,block,51,14,0.1188,49,86
+Achraf Harmach,miss,57,27,0.004576,43,73
+Mamadou Lamine Camara,miss,53,8,0.1153,47,92
+Paul Bassène,miss,38,15,0.3236,62,85
+Soufiane Lagzir,miss,20,29,0.006452,80,71
+Soufiane Lagzir,save,52,14,0.1894,48,86
+Bakary Badji,goal,50,10,0.76,50,90
+Hilal Ferdaoussi,miss,37,34,0.001259,63,66
+Anass El Ghannouj,miss,50,35,0.007721,50,65
+Charaf-Eddine Boulahroud,goal,47,12,0.3792,53,88
+Zakaria Hadraf,miss,44,16,0.1228,56,84
+Mouad Goulouss,save,46,13,0.1241,54,87
+Bakary Badji,miss,47,6,0.1611,53,94
+Yassine Lamine,miss,46,12,0.1615,54,88
+Mohamed Habbali,save,30,20,0.04983,70,80
+Bakary Badji,block,77,7,0.00178,23,93
+Adil  Jeddaoui,block,60,22,0.0552,40,78
+Yassine Lamine,miss,51,25,0.003738,49,75
+Mohamed Habbali,post,50,10,0.76,50,90
+Anass El Ghannouj,save,61,27,0.01493,39,73
+Houdaifa El Mahasni,miss,55,25,0.02431,45,75
+Yassine Lamine,miss,26,2,0.03596,74,98
+Brahim El Idrissi Bouzidi,block,54,12,0.3142,46,88
+Paul Bassène,miss,66,19,0.0551,34,81
+Mohamed El Morabit,block,40,28,0.001132,60,72
+Paul Bassène,miss,53,7,0.21,47,93
+Yassine Labhiri,block,51,13,0.04196,49,87
+Mamadou Lamine Camara,miss,43,14,0.05377,57,86
+Yassine Labhiri,miss,41,23,0.002108,59,77
+Oussama Lamlioui,save,41,10,0.08708,59,90
+Yassine Labhiri,block,60,23,0.1999,40,77
+Mohamed El Morabit,miss,45,21,0.1271,55,79
+Youssef Mehri,block,35,9,0.2248,65,91
+Mohamed Bakhkhach,block,23,18,0.008043,77,82
+Youssef Mehri,miss,40,10,0.1313,60,90
+Youssef Mehri,block,65,6,0.06074,35,94
+Katulondi  Kati,save,41,24,0.02241,59,76
+Youssef Mehri,miss,33,5,0.03976,67,95
+Ismail Ouro-Agoro,goal,34,8,0.1173,66,92
+Ismail Ouro-Agoro,miss,48,4,0.3432,52,96
+Najji Larbi,save,45,18,0.09292,55,82
+Khalid Ait Ouarkhane,miss,42,27,0.001723,58,73
+Bernard Morrison,block,46,21,0.01855,54,79
+Khalid Ait Ouarkhane,save,37,6,0.4155,63,94
+Khalid Ait Ouarkhane,save,34,14,0.1333,66,86
+Ismail Ouro-Agoro,goal,50,10,0.76,50,90
+Ismail Ouro-Agoro,save,50,16,0.1482,50,84
+Yasser Jarici,miss,83,11,0.002027,17,89
+Mouad Fekkak,save,47,6,0.5517,53,94
+Saleh Al Sellami,goal,43,13,0.165,57,87
+Ahmed Hammoudan,block,75,17,0.004362,25,83
+Mohamed Rabie Hrimat,miss,63,28,0.0343,37,72
+Lamine Diakité,block,48,24,0.01036,52,76
+Lamine Diakité,miss,54,7,0.4905,46,93
+Yasser Jarici,miss,32,27,0.00237,68,73
+Lamine Diakité,block,27,9,0.0245,73,91
+Zouhair Marour,block,63,21,0.1359,37,79
+Abdelfettah Hadraf,save,46,19,0.1188,54,81
+Ahmed Hammoudan,miss,62,14,0.1114,38,86
+Saleh Al Sellami,miss,69,21,0.02076,31,79
+Issam Benbouabdellah,miss,49,9,0.1499,51,91
+Abdelfettah Hadraf,miss,53,15,0.1775,47,85
+Ahmed Hammoudan,block,56,16,0.1556,44,84
+Ahmed Hammoudan,goal,53,10,0.122,47,90
+Abdelfettah Hadraf,miss,61,14,0.1315,39,86
+Abdelkhalek Ait Ourehbi,miss,17,9,0.001299,83,91
+Lamine Diakité,goal,48,10,0.1474,52,90
+Hamid Ahdad,save,44,9,0.3573,56,91
+Hamza El Moudene,block,53,30,0.007253,47,70
+Hamza Hannouri,block,44,9,0.2448,56,91
+Hamza Hannouri,save,49,15,0.06524,51,85
+Ayoub Qasmi,miss,29,28,0.006248,71,72
+Anas Bach,miss,29,23,0.006342,71,77
+Adam Ennafati,goal,67,23,0.0229,33,77
+Amine Azri,miss,42,13,0.1446,58,87
+El Mehdi El Bassil,save,72,11,0.03435,28,89
+Ayoub Nanah,miss,72,11,0.01417,28,89
+James Ajako,save,28,20,0.01708,72,80
+Roger Aholou,miss,40,14,0.1441,60,86
+Anas Bach,miss,63,28,0.01923,37,72
+Domingo,miss,28,21,0.01791,72,79
+Yousri Bouzok,block,53,20,0.00972,47,80
+Adam Ennafati,goal,45,7,0.4005,55,93
+Mehdi Karnass,block,68,14,0.004401,32,86
+Reda Hajji,block,40,16,0.04656,60,84
+Bilal El Ouadghiri,miss,52,10,0.07294,48,90
+Hamza Hannouri,miss,43,26,0.01389,57,74
+Youssef Mehri,save,26,14,0.04574,74,86
+Yahya Ben Khaleq,miss,35,10,0.155,65,90
+Yassine Labhiri,block,49,27,0.002119,51,73
+Marwane Elaz,miss,44,21,0.0185,56,79
+Mohamed El Morabit,save,58,16,0.02999,42,84
+Amine El Msane,block,79,21,0.001068,21,79
+Mamadou Lamine Camara,miss,30,26,0.006609,70,74
+Ayoub Khairi,miss,65,31,0.001637,35,69
+Hamza El Moudene,miss,66,4,0.104,34,96
+Ayoub Nanah,block,55,10,0.295,45,90
+Amine El Msane,miss,53,29,0.02033,47,71
+Mohamed El Morabit,block,43,22,0.0298,57,78
+Ayoub Nanah,goal,61,28,0.03099,39,72
+Paul Bassène,save,52,10,0.07294,48,90
+Bernard Morrison,block,61,22,0.005174,39,78
+Khalid Ait Ouarkhane,save,27,24,0.06588,73,76
+Brahim El Bahraoui,save,74,19,0.05377,26,81
+Bernard Morrison,save,23,13,0.04625,77,87
+Mohamed Rabie Hrimat,miss,65,20,0.004821,35,80
+Et-Tayeb Boukhriss,block,73,19,0.006407,27,81
+Ismail Ouro-Agoro,block,32,25,0.004569,68,75
+Boniface Haba,block,66,14,0.1736,34,86
+Ismail Ouro-Agoro,miss,58,11,0.0362,42,89
+Boniface Haba,goal,39,9,0.1958,61,91
+Mohamed Rabie Hrimat,save,32,20,0.04276,68,80
+Najji Larbi,miss,53,23,0.01913,47,77
+Amine Zouhzouh,save,47,25,0.04185,53,75
+Soulaiman El Amrani,miss,82,29,0.001909,18,71
+Abderrahmane Qassaq,block,58,14,0.08661,42,86
+Mohamed Rabie Hrimat,miss,57,11,0.1204,43,89
+Oussama Mahrous,miss,48,18,0.1054,52,82
+Youssef Kajai,save,35,6,0.1173,65,94
+Saifeddine Bouhra,save,52,31,0.01122,48,69
+Anas Serrhat,block,71,21,0.01815,29,79
+Charki El Bahri,miss,42,10,0.1761,58,90
+Abdellah Haimoud,miss,47,21,0.01808,53,79
+Abdelaziz El Hamzaoui,save,54,11,0.1087,46,89
+Yahia Attiyat Allah,miss,55,17,0.0331,45,83
+Yahya Jabrane,block,34,25,0.004626,66,75
+Abdellah Haimoud,save,42,6,0.4127,58,94
+Youssef Kajai,miss,45,7,0.1099,55,93
+Youssef  Baba,block,66,7,0.1517,34,93
+Abdellah Haimoud,miss,62,25,0.03981,38,75
+Yahia Attiyat Allah,block,61,31,0.01678,39,69
+Saleh Al Sellami,block,64,15,0.01761,36,85
+Saifeddine Bouhra,block,33,10,0.007507,67,90
+Abdelkhalek Ait Ourehbi,post,44,18,0.06029,56,82
+Charki El Bahri,block,54,8,0.2103,46,92
+Saleh Al Sellami,block,60,8,0.01395,40,92
+Youness Moukhlis,block,44,28,0.01421,56,72
+Mohamed El Jaaouani,save,48,11,0.108,52,89
+Charki El Bahri,miss,13,47,0.02093,87,53
+Saleh Al Sellami,block,50,26,0.007149,50,74
+Saleh Al Sellami,miss,35,18,0.1171,65,82
+Ilyes Chetti,save,47,32,0.04522,53,68
+Yahia Attiyat Allah,goal,36,10,0.02615,64,90
+Souhayl Zamrat,miss,71,24,0.005125,29,76
+Anas Bach,miss,32,26,0.06022,68,74
+El Mehdi El Bassil,miss,58,5,0.2519,42,95
+Ayoub Nanah,miss,61,25,0.03067,39,75
+Amine El Msane,miss,52,27,0.006914,48,73
+Simon Diedhiou,save,62,8,0.0886,38,92
+Mohamed Chemlal,miss,58,23,0.04014,42,77
+Zouheir El Hachemi,save,61,2,0.1555,39,98
+Amine El Msane,miss,48,30,0.01112,52,70
+Amine El Msane,miss,43,10,0.0634,57,90
+Ayoub Nanah,block,53,17,0.01593,47,83
+Marwane Elaz,save,29,24,0.02639,71,76
+Hamid Ahdad,block,44,13,0.02061,56,87
+Martial Zemba Ikoung,miss,35,22,0.02575,65,78
+El Hadji Kane,miss,46,9,0.1243,54,91
+Mohamed Saoud,save,50,10,0.76,50,90
+Zouhair El Ouassli,block,38,12,0.02119,62,88
+Zaid Krouch,miss,68,32,0.008159,32,68
+El Hadji Kane,miss,54,7,0.2778,46,93
+Bilal El Megri,save,41,11,0.1156,59,89
+Yassine Jbira,save,36,26,0.03659,64,74
+Ismail Khafi,save,32,21,0.04756,68,79
+Pape Badji,block,57,12,0.2259,43,88
+Mouad Goulouss,miss,67,16,0.07267,33,84
+Hamza El Wasti,goal,41,10,0.145,59,90
+Ismail Khafi,miss,36,10,0.1405,64,90
+Ahmed Chentouf,miss,30,12,0.06304,70,88
+Ismail Khafi,miss,53,9,0.2073,47,91
+El Hadji Kane,miss,43,9,0.125,57,91
+Nouaman Aarab,block,49,27,0.007236,51,73
+Ismail Khafi,save,33,11,0.2453,67,89
+Pape Badji,goal,50,10,0.76,50,90
+Pape Badji,block,51,18,0.00977,49,82
+Nouaman Aarab,block,44,28,0.002897,56,72
+Ismail Khafi,save,42,10,0.2614,58,90
+Zakaria Hadraf,block,42,24,0.0101,58,76
+Zakaria Hadraf,block,64,19,0.03434,36,81
+Mohamed El Khaloui,miss,69,14,0.03651,31,86
+Abdelouahed Hasty,miss,35,18,0.04573,65,82
+Zakaria Bahrou,miss,65,6,0.1456,35,94
+Abdelouahed Hasty,block,29,9,0.03794,71,91
+Zakaria Bahrou,goal,66,8,0.3584,34,92
+Ayoub Malki,save,52,12,0.2213,48,88
+Pa Modou Sohna,miss,54,27,0.02474,46,73
+Mohamed El Khaloui,save,26,24,0.01996,74,76
+Abdelhay El Forsy,miss,32,23,0.01336,68,77
+Ayman Hadidi,miss,57,10,0.1997,43,90
+Mohamed Habbali,block,49,27,0.002588,51,73
+Abdelouahed Hasty,save,32,19,0.05582,68,81
+Oussama Lamlioui,goal,47,15,0.1412,53,85
+Youssef Zghoudi,save,73,13,0.03404,27,87
+Oussama Hafari,miss,58,28,0.0008198,42,72
+Cheickna Samake,block,64,14,0.1173,36,86
+Boniface Haba,miss,25,21,0.03377,75,79
+Youssef Mehri,save,42,18,0.05952,58,82
+Oussama Lamlioui,goal,66,4,0.1058,34,96
+Youness Najari,save,37,27,0.0482,63,73
+Mamadou Lamine Camara,goal,59,6,0.1427,41,94
+Mohamed El Morabit,miss,41,22,0.02183,59,78
+Oussama Lamlioui,block,54,13,0.2169,46,87
+Oussama Lamlioui,block,53,14,0.1622,47,86
+Brahim El Bahraoui,miss,53,5,0.4483,47,95
+Youness Najari,miss,48,9,0.1063,52,91
+Abderrahmane Qassaq,miss,63,19,0.004305,37,81
+Karim El Bounagate,miss,36,5,0.03701,64,95
+Hamza El Wasti,block,43,24,0.01265,57,76
+Abdel Hamid Maali,save,44,14,0.07493,56,86
+Elhadji Konate,miss,51,11,0.221,49,89
+Hamza Hannouri,miss,49,10,0.1814,51,90
+Ayoub Nanah,block,49,27,0.001155,51,73
+El Hadji Kane,miss,36,24,0.04071,64,76
+Amine El Msane,miss,51,31,0.007028,49,69
+Ismail Khafi,miss,51,11,0.104,49,89
+Ismail Khafi,save,60,7,0.06387,40,93
+Anas Bach,miss,58,7,0.09496,42,93
+Ayoub Nanah,block,63,25,0.009043,37,75
+Hamza Hannouri,miss,35,5,0.1176,65,95
+Marwane Elaz,block,35,24,0.01277,65,76
+Zouhair El Ouassli,miss,29,29,0.03423,71,71
+Ismail Khafi,save,36,13,0.1631,64,87
+Hamza Hannouri,miss,55,9,0.1285,45,91
+Mohamed Zrida,block,29,13,0.0109,71,87
+Mohamed Habbali,miss,68,6,0.1102,32,94
+El Mehdi Maouhoub,save,33,12,0.1182,67,88
+Youssef Belammari,block,32,12,0.006408,68,88
+Youssef Lakhal,miss,33,10,0.08856,67,90
+El Mehdi Maouhoub,save,43,16,0.1173,57,84
+Sabir Bougrine,miss,29,14,0.06042,71,86
+Adam Ennafati,miss,40,27,0.01232,60,73
+Brahim El Idrissi Bouzidi,miss,39,29,0.01821,61,71
+Naoufel Zerhouni,goal,59,15,0.09156,41,85
+Youssef Belammari,block,33,8,0.0433,67,92
+Youssef Belammari,miss,44,3,0.1577,56,97
+Sabir Bougrine,goal,52,3,0.694,48,97
+Adam Ennafati,post,46,3,0.3127,54,97
+Mohamed Boulacsout,block,44,2,0.6132,56,98
+Mohamed Boulacsout,save,41,2,0.3035,59,98
+Zakaria Bahrou,goal,55,14,0.1563,45,86
+Sabir Bougrine,save,33,12,0.1194,67,88
+Adam Ennafati,block,65,23,0.00196,35,77
+Mohamed Habbali,block,42,20,0.04182,58,80
+Naoufel Zerhouni,save,70,13,0.03698,30,87
+Naoufel Zerhouni,miss,59,9,0.07972,41,91
+Cheickna Samake,miss,69,14,0.05598,31,86
+Hamza Moujahid,miss,45,8,0.2702,55,92
+Abdelaziz El Hamzaoui,save,37,22,0.1331,63,78
+Youssef Bouabid,goal,56,6,0.1452,44,94
+Youness Najari,save,37,2,0.04733,63,98
+Saleh Al Sellami,miss,37,10,0.02888,63,90
+Saleh Al Sellami,save,51,18,0.1435,49,82
+Abdelaziz El Hamzaoui,miss,74,13,0.02874,26,87
+Brahim El Bahraoui,miss,34,21,0.02653,66,79
+Hamza Moujahid,goal,35,16,0.6272,65,84
+Yassine Kordani,miss,54,9,0.1316,46,91
+Abderrahmane Qassaq,miss,47,13,0.2818,53,87
+Boniface Haba,goal,61,12,0.2455,39,88
+Abderrahmane Qassaq,save,60,26,0.0118,40,74
+Abdelkhalek Ait Ourehbi,block,57,30,0.0009854,43,70
+Youness Najari,goal,45,10,0.3324,55,90
+Hamza El Houssini,miss,59,27,0.01358,41,73
+Brahim El Bahraoui,miss,45,9,0.1358,55,91
+Brahim El Bahraoui,miss,55,17,0.01919,45,83
+Abdelaziz El Hamzaoui,save,70,20,0.03065,30,80
+Boniface Haba,save,44,15,0.1366,56,85
+Youssef El Fahli,miss,45,14,0.1508,55,86
+Youssef El Fahli,post,43,10,0.06227,57,90
+Mohamed El Morabit,miss,42,14,0.1435,58,86
+Yassine Jbira,miss,37,28,0.00778,63,72
+Yassine Lamine,save,57,30,0.02339,43,70
+Youssef Mehri,save,41,13,0.04432,59,87
+Oussama Lamlioui,block,62,22,0.1297,38,78
+Oussama Lamlioui,save,58,7,0.2631,42,93
+Oussama Lamlioui,save,61,13,0.04871,39,87
+Omar Arjoune,miss,60,29,0.01691,40,71
+Oussama Lamlioui,block,57,15,0.006715,43,85
+Hamza El Moussaoui,miss,36,22,0.04955,64,78
+Youssef Mehri,block,44,21,0.007754,56,79
+Abdelkarim Baadi,block,70,12,0.01446,30,88
+Jawad Rhabra,miss,43,9,0.1621,57,91
+Saad Morsli,block,48,19,0.03049,52,81
+Hamza Moujahid,miss,56,6,0.4238,44,94
+Jawad Rhabra,miss,55,8,0.2211,45,92
+Saad Morsli,block,78,23,0.00764,22,77
+Hamza Moujahid,block,32,29,0.005061,68,71
+Ismail Khafi,miss,60,10,0.05535,40,90
+El Hadji Kane,save,48,31,0.02236,52,69
+Hamza Moujahid,save,61,27,0.03673,39,73
+Mohamed Saoud,block,48,32,0.06084,52,68
+Boniface Haba,miss,60,9,0.08646,40,91
+Brahim El Bahraoui,miss,41,16,0.3181,59,84
+Boniface Haba,miss,66,12,0.1679,34,88
+Ahmed Chentouf,miss,56,21,0.01154,44,79
+Reda Jaadi,save,49,22,0.07302,51,78
+Brahim El Bahraoui,miss,54,12,0.06608,46,88
+Zouhair El Ouassli,miss,43,3,0.4047,57,97
+Youness Najari,miss,36,8,0.02002,64,92
+Abdelghafour Lamirat,miss,38,31,0.001971,62,69
+Ismail Khafi,block,62,26,0.006791,38,74
+Ahmed Chentouf,save,52,18,0.1237,48,82
+El Hadji Kane,miss,44,21,0.002672,56,79
+Reda Jaadi,miss,78,26,0.002749,22,74
+Boniface Haba,block,60,14,0.1721,40,86
+Youness Najari,save,27,26,0.02308,73,74
+Ismail Khafi,save,48,10,0.1932,52,90
+Youness Najari,miss,53,11,0.06806,47,89
+Salaheddine Bahi,miss,55,31,0.01107,45,69
+Alaeddine Ajaray,goal,59,7,0.1586,41,93
+Assane Beye,goal,46,6,0.2982,54,94
+Jalal Tachtach,block,65,7,0.00982,35,93
+Brahim Dahmoun,miss,35,5,0.1503,65,95
+Mohamed Rabie Hrimat,miss,69,11,0.001426,31,89
+Zakaria Habti,save,72,8,0.06204,28,92
+Hamza Igamane,save,36,12,0.1425,64,88
+Jalal Tachtach,miss,56,13,0.2415,44,87
+Yassine Rami,block,43,11,0.0659,57,89
+Mohamed Rabie Hrimat,goal,50,3,0.6822,50,97
+Mohamed Bakhkhach,save,36,17,0.2009,64,83
+Khalid Ait Ouarkhane,miss,58,28,0.001289,42,72
+Zakaria Habti,miss,73,15,0.03092,27,85
+Zouhair Marour,block,46,7,0.3374,54,93
+Khalid Ait Ouarkhane,miss,45,7,0.2235,55,93
+Khalid Ait Ouarkhane,block,71,9,0.06429,29,91
+Mohamed Rabie Hrimat,block,32,18,0.007302,68,82
+Ahmed Hammoudan,miss,25,24,0.01431,75,76
+Najji Larbi,miss,52,30,0.004091,48,70
+Khalid Ait Ouarkhane,save,56,12,0.2209,44,88
+Aziz Kaidi,miss,59,25,0.04586,41,75
+Emmanuel Imanishimwe,block,20,26,0.0008068,80,74
+Hamza Igamane,post,45,11,0.08559,55,89
+Ahmed Hammoudan,block,27,12,0.01285,73,88
+Hilal Ferdaoussi,miss,49,30,0.001709,51,70
+Ayoub Lakhal,block,68,26,0.01492,32,74
+Ayoub Lakhal,save,66,13,0.07997,34,87
+Saleh Al Sellami,miss,65,22,0.02712,35,78
+Abdelaziz El Hamzaoui,miss,52,8,0.1161,48,92
+Saleh Al Sellami,block,43,13,0.154,57,87
+Hamza El Houssini,save,53,26,0.06138,47,74
+Abdelaziz El Hamzaoui,block,51,13,0.19,49,87
+Mouad Goulouss,miss,43,3,0.3232,57,97
+Abdelkhalek Ait Ourehbi,miss,29,6,0.1174,71,94
+Youness Moukhlis,block,38,14,0.1066,62,86
+Saleh Al Sellami,miss,48,25,0.04215,52,75
+Melo Ndiaye,block,62,18,0.01575,38,82
+Bilal El Megri,miss,53,25,0.001867,47,75
+Hamza Malki,save,53,26,0.04907,47,74
+Saleh Al Sellami,miss,43,11,0.2932,57,89
+Bilal El Megri,miss,52,8,0.4122,48,92
+Saleh Al Sellami,save,70,17,0.03506,30,83
+Saleh Al Sellami,save,57,9,0.1237,43,91
+Mouad Goulouss,miss,33,25,0.01658,67,75
+Youness Moukhlis,save,33,8,0.03239,67,92
+Youssef Mehri,miss,42,4,0.2269,58,96
+Youssef El Fahli,goal,58,8,0.2529,42,92
+El Mehdi Maouhoub,miss,45,9,0.06905,55,91
+Mohamed Zrida,miss,66,21,0.01971,34,79
+Mohamed Zrida,miss,60,21,0.04162,40,79
+Hamza El Moussaoui,block,42,19,0.006671,58,81
+Mohamed El Morabit,miss,58,23,0.002936,42,77
+Oussama Lamlioui,save,47,11,0.07865,53,89
+Youssef El Fahli,save,57,4,0.3986,43,96
+Oussama Lamlioui,block,43,9,0.05601,57,91
+Youssef El Fahli,miss,66,14,0.1183,34,86
+Mamadou Lamine Camara,save,51,30,0.01839,49,70
+Naoufel Zerhouni,goal,59,11,0.2485,41,89
+Naoufel Zerhouni,save,29,4,0.02362,71,96
+Youssef Mehri,miss,32,17,0.04257,68,83
+Hamza Hannouri,save,59,14,0.05234,41,86
+Achraf Marzak,miss,71,17,0.01006,29,83
+Mehdi Karnass,block,51,27,0.001131,49,73
+Ayoub Qasmi,miss,23,26,0.01632,77,74
+Amine El Msane,miss,43,27,0.01806,57,73
+Abdelaziz El Hamzaoui,save,70,2,0.07102,30,98
+Reda Alaoui,save,49,14,0.1299,51,86
+Zouheir El Hachemi,miss,63,22,0.01214,37,78
+Anas Bach,miss,31,14,0.04099,69,86
+Youssef  Baba,save,40,8,0.07595,60,92
+Zouheir El Hachemi,miss,66,12,0.1108,34,88
+Reda Alaoui,save,55,7,0.5157,45,93
+Abdelkhalek Ait Ourehbi,goal,43,9,0.5263,57,91
+Youssef  Baba,save,44,7,0.3871,56,93
+Hamid Ahdad,goal,53,4,0.7831,47,96
+Anas Bach,save,40,6,0.1386,60,94
+Abdelaziz El Hamzaoui,miss,48,17,0.1348,52,83
+Abdelaziz El Hamzaoui,save,59,10,0.2798,41,90
+Amine El Msane,miss,34,22,0.0524,66,78
+Hamid Ahdad,miss,49,10,0.1116,51,90
+Hamid Ahdad,save,48,4,0.3368,52,96
+Abdelkhalek Ait Ourehbi,miss,33,5,0.06038,67,95
+Hilal Ferdaoussi,block,39,28,0.01082,61,72
+Hamza Ghatas,miss,52,12,0.05499,48,88
+Yassine Lamine,block,54,12,0.1883,46,88
+Mouad Goulouss,miss,33,8,0.1492,67,92
+Ayoub Moudden,block,80,30,0.01343,20,70
+Tawfik Bentayeb,save,43,16,0.1418,57,84
+Hilal Ferdaoussi,miss,30,23,0.006787,70,77
+Mouad Goulouss,miss,38,12,0.06877,62,88
+Mohamed Chemlal,miss,31,42,0.02754,69,58
+Pape Badji,miss,40,27,0.01133,60,73
+Pape Badji,goal,50,7,0.2748,50,93
+Pape Badji,miss,51,6,0.09378,49,94
+Hilal Ferdaoussi,block,78,34,0.001356,22,66
+Pape Badji,miss,50,9,0.2945,50,91
+Yassine Lamine,miss,40,7,0.07336,60,93
+Abdessamad Mahir,miss,55,18,0.1027,45,82
+Ayoub Ouadrassi,block,66,12,0.03758,34,88
+Badie Aouk,goal,43,9,0.3731,57,91
+Papa Amady Gadio,block,49,18,0.1295,51,82
+Redouan Ait Lamkadem,block,50,10,0.3051,50,90
+Redouan Ait Lamkadem,miss,75,30,0.002752,25,70
+Simon Diedhiou,miss,38,20,0.02179,62,80
+Simon Diedhiou,miss,48,34,0.01181,52,66
+Ayoub Lakhal,miss,70,22,0.01065,30,78
+Abdessamad Mahir,block,45,29,0.00221,55,71
+Redouan Ait Lamkadem,save,53,14,0.1143,47,86
+Adil  Jeddaoui,miss,48,28,0.01168,52,72
+Chouaib Faidi,save,48,11,0.302,52,89
+Badr Gaddarine,miss,50,10,0.76,50,90
+Adil  Jeddaoui,miss,58,10,0.2156,42,90
+Mohamed Habbali,save,61,10,0.1491,39,90
+Soufiane Jazouli,save,40,10,0.3028,60,90
+Soufiane Jazouli,miss,43,6,0.3701,57,94
+Aymen Moutawi,block,65,21,0.04088,35,79
+Anass El Ghannouj,save,79,28,0.00733,21,72
+Soufiane Jazouli,save,54,17,0.04873,46,83
+Amine Souane,goal,41,39,0.009316,59,61
+Anass El Ghannouj,block,58,24,0.06152,42,76
+Zakaria Bahrou,save,71,14,0.04049,29,86
+Chouaib Faidi,miss,39,28,0.03163,61,72
+Badr Gaddarine,miss,57,7,0.1197,43,93
+Zakaria Bahrou,block,62,12,0.1663,38,88
+Amine Souane,miss,72,6,0.06118,28,94
+Youssef Anouar,save,66,11,0.08634,34,89
+Nadir Lougmani,miss,41,11,0.2285,59,89
+Amine Souane,save,69,9,0.05119,31,91
+Soufiane Jazouli,miss,51,9,0.1156,49,91
+El Habib Brija,miss,77,18,0.005005,23,82
+Zakaria Hadraf,block,45,19,0.03348,55,81
+Zakaria Hadraf,block,40,24,0.03938,60,76
+Zakaria Bahrou,save,54,12,0.3006,46,88
+Bouly Junior Sambou,goal,50,9,0.1452,50,91
+Houari Ferhani,block,26,25,0.009711,74,75
+Charki El Bahri,save,50,10,0.76,50,90
+Zakaria Draoui,miss,60,9,0.1969,40,91
+Charki El Bahri,save,51,22,0.06392,49,78
+Saad Morsli,miss,24,19,0.01879,76,81
+Soulaiman El Amrani,miss,49,30,0.0006166,51,70
+Boniface Haba,goal,55,11,0.3267,45,89
+Yahia Attiyat Allah,block,56,25,0.02166,44,75
+Amine Aboulfath,block,55,34,0.002382,45,66
+Abderrahmane Qassaq,save,45,12,0.1503,55,88
+Yahia Attiyat Allah,miss,34,9,0.1759,66,91
+Bouly Junior Sambou,save,52,8,0.149,48,92
+Youness Najari,goal,46,18,0.1942,54,82
+Bouly Junior Sambou,miss,55,11,0.3053,45,89
+Bouly Junior Sambou,miss,43,13,0.05939,57,87
+Youssef Anouar,save,44,13,0.06696,56,87
+El Habib Brija,goal,46,9,0.1363,54,91
+Yassine Filali,miss,58,9,0.06977,42,91
+Amine Souane,save,46,14,0.1208,54,86
+Amine Souane,goal,53,13,0.05837,47,87
+El Mehdi El Bassil,save,42,7,0.09727,58,93
+Youssef Anouar,miss,40,22,0.02945,60,78
+Amine Azri,block,33,29,0.01666,67,71
+El Mehdi El Bassil,block,50,8,0.166,50,92
+Badr Gaddarine,block,39,31,0.001,61,69
+El Habib Brija,save,28,24,0.02335,72,76
+Anas Bach,save,72,23,0.01288,28,77
+Ayoub Nanah,miss,57,8,0.2629,43,92
+Youssef Anouar,miss,56,19,0.07506,44,81
+Ismail Gourad,save,59,28,0.03764,41,72
+Hamid Ahdad,goal,51,5,0.3338,49,95
+Nadir Lougmani,save,32,14,0.04636,68,86
+Ayoub Nanah,miss,41,11,0.2089,59,89
+Nadir Lougmani,miss,35,25,0.006822,65,75
+Amine Azri,block,40,11,0.2346,60,89
+Amine Souane,save,40,13,0.06186,60,87
+Ismail Khafi,miss,53,18,0.1161,47,82
+Abdellatif Akhrif,block,30,12,0.04008,70,88
+Ismail Khafi,miss,41,10,0.1109,59,90
+Nabil Jaadi,save,32,10,0.1043,68,90
+Hassan Zraibi,miss,62,19,0.02481,38,81
+Abdellatif Akhrif,miss,10,19,0.009825,90,81
+Ismail Khafi,save,33,14,0.09753,67,86
+Nabil Jaadi,block,56,15,0.1207,44,85
+Hassan Zraibi,block,74,14,0.002321,26,86
+Anass El Ghannouj,miss,30,33,0.002608,70,67
+Jawad Rhabra,save,54,10,0.3158,46,90
+Ismail Khafi,miss,50,9,0.1599,50,91
+Mohamed Walid Bencherifa,save,45,3,0.7689,55,97
+Ismail Khafi,save,40,21,0.05078,60,79
+Jawad Rhabra,goal,55,11,0.2844,45,89
+Hamza El Wasti,block,36,28,0.00661,64,72
+Zakaria Kiani,miss,62,29,0.03652,38,71
+Hamza El Wasti,miss,43,18,0.004662,57,82
+Zouhair El Ouassli,block,62,25,0.004634,38,75
+Mohamed Habbali,miss,57,24,0.01384,43,76
+Zakaria Bahrou,miss,52,7,0.2418,48,93
+Reda Jaadi,block,58,9,0.2839,42,91
+Ismail Khafi,miss,32,27,0.0104,68,73
+Abdelhay El Forsy,goal,72,14,0.02895,28,86
+Ismail Khafi,save,66,12,0.1302,34,88
+Salaheddine Errahouli,miss,48,18,0.07465,52,82
+Cheickna Samake,block,34,9,0.08867,66,91
+Anass Eddaou,miss,33,29,0.01862,67,71
+Mohamed Chemlal,miss,44,5,0.6315,56,95
+Youness Najari,miss,66,30,0.0008006,34,70
+Mohamed Chemlal,save,46,12,0.2021,54,88
+Abderrahmane Qassaq,block,58,21,0.03644,42,79
+Saad Morsli,block,71,22,0.003668,29,78
+Youness Najari,miss,50,31,0.01475,50,69
+Anass Eddaou,block,48,30,5.474e-05,52,70
+Abderrahmane Qassaq,miss,61,22,0.018,39,78
+Boniface Haba,miss,59,10,0.08416,41,90
+Boniface Haba,miss,60,9,0.3767,40,91
+Mohamed Chemlal,miss,32,10,0.09206,68,90
+Simon Diedhiou,miss,59,7,0.255,41,93
+Anass Eddaou,post,40,10,0.1564,60,90
+Brahim El Bahraoui,miss,40,5,0.2053,60,95
+Mohamed Chemlal,goal,49,8,0.1992,51,92
+Hachim Mastour,miss,64,18,0.05159,36,82
+Saleh Al Sellami,miss,38,22,0.01617,62,78
+Mouad Fekkak,block,29,26,0.001069,71,74
+Saleh Al Sellami,post,50,10,0.76,50,90
+Youssef  Baba,block,46,11,0.108,54,89
+Salaheddine Bahi,block,45,28,0.007081,55,72
+Saleh Al Sellami,miss,58,8,0.1309,42,92
+Aziz Kaidi,miss,52,23,0.04989,48,77
+Abdelaziz El Hamzaoui,miss,48,13,0.2395,52,87
+Youness Moukhlis,miss,32,11,0.1063,68,89
+Assane Beye,goal,50,2,0.8275,50,98
+Yassine Rami,save,48,3,0.4919,52,97
+Fahd Bendahmane,block,48,9,0.0744,52,91
+Hamza Malki,block,50,35,0.004302,50,65
+Abdelkhalek Ait Ourehbi,miss,55,18,0.1056,45,82
+Hamza Malki,save,59,22,0.02675,41,78
+Youssef  Baba,save,50,6,0.4533,50,94
+Youness Moukhlis,miss,30,23,0.02149,70,77
+Jalal Tachtach,goal,49,8,0.5276,51,92
+Assane Beye,miss,39,3,0.1268,61,97
+Youssef  Baba,goal,48,6,0.4863,52,94
+Youssef El Fahli,block,38,11,0.1725,62,89
+Yassine Labhiri,block,46,13,0.1063,54,87
+Youssef El Fahli,save,48,5,0.3853,52,95
+Ayoub Khairi,miss,40,25,0.006372,60,75
+Mohamed El Khaloui,block,46,15,0.0275,54,85
+Mohamed El Morabit,miss,27,20,0.02236,73,80
+Youssef Limouri,block,39,26,0.1056,61,74
+Youssef Zghoudi,block,47,14,0.1267,53,86
+Achraf Hmaidou,block,57,23,0.004291,43,77
+Mouad Bahsain,miss,65,8,0.09834,35,92
+Mohamed El Khaloui,goal,49,21,0.06725,51,79
+Mamadou Lamine Camara,miss,57,9,0.1092,43,91
+Mohamed El Morabit,block,36,32,0.01805,64,68
+Youssef Sakhi,save,51,12,0.05689,49,88
+Youssef El Fahli,goal,50,10,0.76,50,90
+Yassine Labhiri,goal,58,16,0.1159,42,84
+Youssef El Fahli,goal,66,14,0.1083,34,86
+Youssef Mehri,block,40,26,0.02037,60,74
+Achraf Hmaidou,save,62,28,0.02199,38,72
+Abdelkarim Baadi,block,68,11,0.03022,32,89
+Lamine Diakité,miss,65,18,0.05139,35,82
+Abdelfettah Hadraf,miss,73,13,0.03393,27,87
+Pape Badji,save,83,12,0.0254,17,88
+Mohamed Rabie Hrimat,miss,52,18,0.1143,48,82
+Abdelfettah Hadraf,goal,53,4,0.7826,47,96
+Lamine Diakité,post,53,5,0.2482,47,95
+Ayoub Lakhal,save,21,23,0.03017,79,77
+Khalid Ait Ouarkhane,miss,66,12,0.1091,34,88
+Pape Badji,miss,65,14,0.01069,35,86
+Ahmed Hammoudan,save,69,11,0.07995,31,89
+Khalid Ait Ouarkhane,miss,65,22,0.06714,35,78
+Amine Zouhzouh,goal,43,26,0.04258,57,74
+Pape Badji,block,29,7,0.05649,71,93
+Hamza Igamane,goal,49,7,0.2779,51,93
+Hamza Igamane,miss,43,15,0.1154,57,85
+Pape Badji,save,59,24,0.01837,41,76
+Houdaifa El Mahasni,miss,75,19,0.001185,25,81
+Mohamed Rabie Hrimat,miss,50,18,0.1215,50,82
+Khalid Ait Ouarkhane,block,56,5,0.715,44,95
+Najji Larbi,save,47,11,0.1724,53,89
+Mohamed Rabie Hrimat,miss,42,8,0.119,58,92
+Youssef El Fahli,miss,67,11,0.03946,33,89
+Paul Valère Bassene,miss,62,7,0.09045,38,93
+Mohamed Habbali,miss,31,28,0.01706,69,72
+Abdelhak Assal,miss,47,6,0.2382,53,94
+Oussama Essafi,block,50,6,0.1477,50,94
+Yassine Labhiri,block,40,18,0.02343,60,82
+Yassine Labhiri,block,34,24,0.01129,66,76
+Abdelhak Assal,miss,56,4,0.3167,44,96
+Omar Arjoune,block,53,24,0.01202,47,76
+Paul Valère Bassene,miss,47,22,0.002268,53,78
+Mohamed El Morabit,save,29,11,0.07188,71,89
+Youssef El Fahli,miss,56,24,0.01604,44,76
+Aymen Moutawi,save,59,10,0.5146,41,90
+Zakaria Bahrou,save,54,14,0.145,46,86
+Aymen Moutawi,miss,50,8,0.3465,50,92
+Abderrahim Khadou,block,54,14,0.1642,46,86
+Mohamed Habbali,block,53,22,0.006867,47,78
+Youssef El Fahli,goal,64,5,0.13,36,95
+Youssef El Fahli,miss,68,7,0.06285,32,93
+Youssef Mehri,save,40,4,0.1012,60,96
+Zakaria Bahrou,block,58,23,0.0183,42,77
+Abdelhak Assal,block,61,35,0.005086,39,65
+Zakaria Bahrou,goal,46,7,0.2757,54,93
+Abdelkarim Baadi,save,30,13,0.07996,70,87
+Youssef El Fahli,block,60,12,0.1171,40,88
+Mohamed Habbali,save,29,12,0.04034,71,88
+Adil Tahif,miss,44,13,0.01227,56,87
+Youssef Zghoudi,block,55,7,0.383,45,93
+Mohamed Habbali,goal,61,22,0.1338,39,78
+Bilal El Megri,miss,70,12,0.01675,30,88
+Bouly Junior Sambou,miss,62,15,0.09965,38,85
+Houdaifa El Mahasni,block,67,14,0.006754,33,86
+Yahya Jabrane,post,50,10,0.76,50,90
+Hilal Ferdaoussi,miss,44,29,0.04664,56,71
+Hilal Ferdaoussi,miss,75,23,0.003198,25,77
+Yassine Lamine,miss,40,12,0.07961,60,88
+Mohamed Yassine Abouzra,miss,65,24,0.002914,35,76
+Saifeddine Bouhra,miss,39,21,0.04463,61,79
+Anas Serrhat,block,51,30,0.01188,49,70
+Bouly Junior Sambou,miss,50,6,0.3065,50,94
+Barowheou Justin Yere,block,65,18,0.006537,35,82
+Banfa Sylla,miss,52,5,0.2111,48,95
+Saad Ait Khorsa,block,46,6,0.3782,54,94
+Boniface Haba,block,65,18,0.04606,35,82
+Brahim El Bahraoui,save,52,12,0.08026,48,88
+Barowheou Justin Yere,save,47,8,0.1139,53,92
+Hamza Moujahid,block,33,23,0.01042,67,77
+Imad Riahi,goal,50,10,0.76,50,90
+Haytem Aina,block,61,13,0.08526,39,87
+Abdoulaye Diarra,miss,57,9,0.07549,43,91
+Boniface Haba,save,72,20,0.01569,28,80
+Imad Riahi,miss,38,12,0.01741,62,88
+Abdoulaye Diarra,miss,55,13,0.04894,45,87
+Semelo Gueï,block,44,22,0.05478,56,78
+Hamza El Janati,save,61,3,0.1924,39,97
+Saad Morsli,save,38,13,0.2884,62,87
+Youness Najari,miss,46,16,0.1737,54,84
+Abdoulaye Diarra,goal,50,5,0.6923,50,95
+Youness Najari,post,51,21,0.04963,49,79
+Saad Morsli,save,68,20,0.1058,32,80
+Karim Hachimi,save,45,9,0.07694,55,91
+Mohamed El Khaloui,miss,50,10,0.76,50,90
+Hicham Marchad,save,32,14,0.08672,68,86
+Mouad Fekkak,save,53,19,0.09726,47,81
+Hicham Marchad,save,46,7,0.2898,54,93
+Melo Ndiaye,block,74,32,0.01239,26,68
+Mohamed El Khaloui,block,47,15,0.1313,53,85
+Anass Addaoui,miss,59,27,0.0004249,41,73
+Reda Moussadek,miss,48,9,0.1825,52,91
+Maati Tamaiazou,goal,37,27,0.04804,63,73
+Mohamed El Khaloui,post,62,27,0.003036,38,73
+Mohamed El Khaloui,block,37,10,0.08907,63,90
+Abdelkhalek Ait Ourehbi,miss,49,34,0.02022,51,66
+Abdelkhalek Ait Ourehbi,goal,50,10,0.76,50,90
+Abdelaziz El Hamzaoui,save,64,26,0.04173,36,74
+Abdelaziz El Hamzaoui,save,66,14,0.1021,34,86
+Abdelkhalek Ait Ourehbi,block,34,20,0.03285,66,80
+Ennaama El Bellali,miss,65,19,0.04919,35,81
+Youssef  Baba,block,50,25,0.02906,50,75
+Abdelaziz El Hamzaoui,block,43,12,0.2385,57,88
+Youness Moukhlis,block,36,7,0.1554,64,93
+Youness Moukhlis,block,33,13,0.04016,67,87
+Abdelaziz El Hamzaoui,miss,60,23,0.01421,40,77
+Mohamed El Khaloui,miss,61,24,0.001612,39,76
+Naoufal Zannane,save,43,6,0.1299,57,94
+Youssef  Baba,block,35,14,0.03068,65,86
+Pa Modou Sohna,miss,65,9,0.2005,35,91
+Youness Moukhlis,miss,34,3,0.09389,66,97
+Mohamed El Khaloui,save,37,16,0.1119,63,84
+Achraf Hmaidou,miss,49,31,0.008805,51,69
+Hamza Malki,miss,58,24,0.04924,42,76
+Youness Moukhlis,block,53,9,0.2539,47,91
+Abdelkhalek Ait Ourehbi,miss,54,18,0.1044,46,82
+Youssef  Baba,save,59,11,0.04904,41,89
+Abdelouahed Hasty,goal,40,13,0.1746,60,87
+Achraf Hmaidou,block,48,27,0.00322,52,73
+Reda Alaoui,save,64,12,0.1369,36,88
+Zinedine Derrag,miss,46,26,0.001097,54,74
+Zakaria Habti,save,51,5,0.3248,49,95
+Mehdi Karnass,miss,58,12,0.05295,42,88
+Hamza Hannouri,goal,47,10,0.1691,53,90
+Hamza Hannouri,save,56,11,0.1938,44,89
+Hamza Igamane,miss,53,11,0.5231,47,89
+Zakaria Habti,save,68,10,0.05043,32,90
+Hamza Hannouri,miss,43,12,0.06769,57,88
+Hamza Igamane,miss,56,12,0.2534,44,88
+Amine El Msane,miss,45,31,0.02651,55,69
+Abdelfettah Hadraf,block,54,18,0.0619,46,82
+Hamza Igamane,goal,50,10,0.76,50,90
+Hamza Igamane,goal,44,7,0.4983,56,93
+Najji Larbi,miss,52,9,0.1042,48,91
+Hamza Igamane,goal,25,25,0.02017,75,75
+Ahmed Hammoudan,miss,58,28,0.003203,42,72
+Hamza Igamane,post,69,6,0.07157,31,94
+Mohamed Rabie Hrimat,goal,54,13,0.2355,46,87
+Hamza Igamane,block,27,14,0.05059,73,86
+Hamid Ahdad,save,56,10,0.1072,44,90
+Emmanuel Imanishimwe,miss,27,31,0.02032,73,69
+Amine Azri,save,40,11,0.2177,60,89
+Reda Alaoui,goal,48,12,0.2378,52,88
+Hamdou Elhouni,miss,62,25,0.004634,38,75
+Badr Gaddarine,save,46,23,0.1858,54,77
+Yahya Ben Khaleq,block,61,24,0.004165,39,76
+Ayoub Nanah,goal,50,10,0.76,50,90
+Hamza Hannouri,miss,53,12,0.1625,47,88
+El Mehdi El Bassil,miss,43,10,0.1955,57,90
+Badr Gaddarine,goal,50,10,0.76,50,90
+Hamid Ahdad,save,48,11,0.06013,52,89
+Anas Bach,save,64,6,0.1125,36,94
+Hamid Ahdad,miss,50,16,0.02338,50,84
+Ade Oguns,miss,66,6,0.09152,34,94
+Yassir Zabiri,miss,40,32,0.01648,60,68
+Mahmoud Benhalib,miss,71,18,0.0143,29,82
+Souhayl Zamrat,goal,50,25,0.04827,50,75
+Mouad Dahak,miss,35,20,0.003321,65,80
+Souhayl Zamrat,block,61,19,0.02342,39,81
+Zakaria Hadraf,save,48,17,0.1827,52,83
+Tawfik Bentayeb,goal,52,13,0.4739,48,87
+Souhayl Zamrat,miss,70,27,0.0421,30,73
+Zakaria Hadraf,block,29,15,0.002798,71,85
+Hamza Ait Allal,goal,61,7,0.1367,39,93
+Anass Eddaou,block,35,24,0.06466,65,76
+Soufyan Ahannach,block,69,13,0.08096,31,87
+Tawfik Bentayeb,miss,62,21,0.06395,38,79
+Adil  Jeddaoui,miss,43,21,0.05818,57,79
+Zakaria Bahrou,miss,60,21,0.01922,40,79
+Abdeljalil Jbira,miss,39,30,0.007124,61,70
+Zakaria Bahrou,block,64,12,0.03807,36,88
+Youness Najari,miss,39,9,0.02768,61,91
+Boniface Haba,miss,52,7,0.2014,48,93
+Soulaiman El Amrani,block,59,8,0.2723,41,92
+Youness Najari,block,32,2,0.04809,68,98
+Mehdi Ashabi,miss,44,6,0.1299,56,94
+Abdoulaye Diarra,save,70,11,0.03095,30,89
+Youness Najari,miss,79,19,0.02165,21,81
+Youness Najari,miss,49,11,0.2826,51,89
+Hamza Moujahid,miss,66,10,0.02795,34,90
+Jalal Tachtach,miss,67,21,0.001565,33,79
+Youness Najari,miss,43,8,0.1172,57,92
+Abdelghafour Lamirat,block,37,7,0.143,63,93
+Abdelghafour Lamirat,miss,64,21,0.07086,36,79
+Cheickna Samake,block,66,18,0.008984,34,82
+Katulondi  Kati,miss,55,8,0.1559,45,92
+Ismail Hrila,block,67,7,0.05905,33,93
+Jamal Ech-Chammakh,miss,41,8,0.08033,59,92
+Mehdi Ashabi,save,55,7,0.2175,45,93
+Soufian El Moudane,goal,50,10,0.76,50,90
+Saad Morsli,save,70,12,0.02169,30,88
+Youness Najari,goal,56,9,0.2917,44,91
+Katulondi  Kati,miss,36,18,0.0194,64,82
+Pape Badji,miss,70,10,0.02114,30,90
+Mohamed El Badoui,goal,34,12,0.1804,66,88
+Pape Badji,miss,51,11,0.1386,49,89
+Ayoub Moudden,save,60,8,0.1286,40,92
+Hamza Ghatas,miss,53,18,0.123,47,82
+Hamza Ghatas,miss,55,12,0.08508,45,88
+Bilal El Megri,miss,60,33,0.02002,40,67
+Mohssine Bourika,block,52,32,0.01001,48,68
+Mohssine Bourika,save,49,14,0.04659,51,86
+Imad Riahi,save,42,5,0.3742,58,95
+Houdaifa El Mahasni,miss,54,19,0.05469,46,81
+Pape Badji,miss,64,3,0.0866,36,97
+Imad Riahi,save,30,26,0.03822,70,74
+Yassine Lamine,miss,36,23,0.02711,64,77
+Lahcen Gourbi,goal,40,4,0.1921,60,96
+Yassine Lamine,save,44,25,0.01334,56,75
+Pape Badji,miss,43,14,0.0739,57,86
+Pape Badji,miss,49,18,0.1112,51,82
+Pape Badji,miss,59,11,0.06037,41,89
+Abdessamad Mahir,miss,37,35,0.01657,63,65
+Pape Badji,block,43,14,0.06723,57,86
+Yassine Lamine,miss,36,8,0.1502,64,92
+Imad Riahi,miss,41,14,0.1699,59,86
+Pape Badji,block,35,8,0.04621,65,92
+Pape Badji,block,43,29,0.01475,57,71
+Pape Badji,block,38,9,0.1282,62,91
+Haytem Aina,miss,64,13,0.02399,36,87
+El Mehdi Maouhoub,save,71,13,0.04304,29,87
+El Mehdi Maouhoub,goal,55,7,0.6251,45,93
+Yousri Bouzok,save,42,6,0.3247,58,94
+Hamza Malki,miss,51,23,0.06395,49,77
+Yousri Bouzok,miss,39,8,0.162,61,92
+Issam Benbouabdellah,block,58,6,0.07765,42,94
+Naoufel Zerhouni,save,58,8,0.2267,42,92
+Sabir Bougrine,miss,43,7,0.2011,57,93
+El Mehdi Maouhoub,save,45,5,0.491,55,95
+Marouane Zila,save,73,12,0.0383,27,88
+El Mehdi Maouhoub,miss,56,10,0.05887,44,90
+Sabir Bougrine,save,55,11,0.2568,45,89
+Youssef  Baba,save,51,19,0.04762,49,81
+Yousri Bouzok,block,39,7,0.2117,61,93
+El Mehdi Maouhoub,save,50,6,0.3635,50,94
+Melo Ndiaye,save,34,24,0.1016,66,76
+Youness Moukhlis,block,59,23,0.01835,41,77
+Sabir Bougrine,save,43,9,0.2989,57,91
+Yousri Bouzok,miss,72,12,0.03951,28,88
+Youssef  Baba,miss,42,12,0.06246,58,88
+Sabir Bougrine,block,40,30,0.003234,60,70
+Naoufel Zerhouni,post,42,3,0.1369,58,97
+Adam Ennafati,block,57,24,0.01677,43,76
+Adam Ennafati,save,32,4,0.02868,68,96
+Sabir Bougrine,miss,51,8,0.6347,49,92
+Yousri Bouzok,save,59,8,0.4924,41,92
+Naoufel Zerhouni,block,32,17,0.002927,68,83
+Melo Ndiaye,save,51,12,0.08306,49,88
+Hamza El Houssini,block,45,27,0.01814,55,73
+Youssef Belammari,goal,43,1,0.3795,57,99
+Mustapha Sahd,miss,62,10,0.06321,38,90
+Hamza El Janati,miss,76,19,0.001536,24,81
+Mustapha Sahd,miss,72,11,0.01542,28,89
+Hamza El Janati,miss,58,12,0.02229,42,88
+Imad Riahi,miss,38,19,0.03644,62,81
+Achraf Harmach,block,34,21,0.01496,66,79
+Hamza El Janati,miss,70,26,0.0003809,30,74
+Ayoub Nanah,goal,60,22,0.04766,40,78
+Reda Alaoui,miss,58,12,0.1983,42,88
+Ayoub Nanah,save,53,14,0.1214,47,86
+Imad Riahi,miss,26,28,0.02269,74,72
+El Mehdi El Bassil,save,28,6,0.131,72,94
+Mohssine Bourika,goal,50,8,0.1721,50,92
+Amine El Msane,block,55,28,0.02995,45,72
+Anas Bach,block,55,5,0.3908,45,95
+Reda Alaoui,miss,48,9,0.02607,52,91
+Amine El Msane,block,52,28,0.01612,48,72
+Ayoub Nanah,goal,48,12,0.229,52,88
+Hamza Hannouri,block,53,11,0.07653,47,89
+Lahcen Gourbi,save,43,5,0.258,57,95
+Oussama Soukhane,block,30,15,0.03441,70,85
+Reda Alaoui,block,49,8,0.4029,51,92
+Ayoub Nanah,block,73,12,0.01122,27,88
+Walid Rhailouf,goal,30,21,0.03137,70,79
+Abdelghafour Lamirat,miss,54,28,0.003963,46,72
+Saad Morsli,save,70,3,0.04624,30,97
+Houdaifa El Mahasni,goal,67,11,0.04811,33,89
+Abdoulaye Diarra,block,61,11,0.1283,39,89
+Yassine Lamine,block,47,20,0.007874,53,80
+Youness Najari,miss,27,20,0.01398,73,80
+Abdoulaye Diarra,miss,51,26,0.04727,49,74
+Souhail Yechou,miss,30,10,0.002384,70,90
+Youness Najari,goal,43,1,0.5233,57,99
+Mehdi Ashabi,block,43,12,0.03276,57,88
+Abdessamad Mahir,miss,51,29,0.007652,49,71
+Bilal El Megri,miss,51,32,0.006087,49,68
+Pape Badji,miss,48,10,0.1201,52,90
+Yassine Lamine,block,59,26,0.01434,41,74
+Abdelhay El Forsy,block,51,23,0.01335,49,77
+Mohamed Johnson,post,40,15,0.1501,60,85
+Mahmoud Benhalib,miss,40,14,0.1023,60,86
+Anass Addaoui,goal,58,10,0.1466,42,90
+Issam Benbouabdellah,miss,55,23,0.04388,45,77
+Issam Benbouabdellah,block,65,28,0.002007,35,72
+Abdelaziz El Hamzaoui,miss,42,9,0.01449,58,91
+Abdelhay El Forsy,block,48,23,0.03044,52,77
+Anass Addaoui,save,68,27,0.009864,32,73
+Melo Ndiaye,save,79,33,0.02437,21,67
+Zakaria Bahrou,save,49,8,0.3609,51,92
+Zakaria Hadraf,miss,51,15,0.09503,49,85
+Hamza Ait Allal,miss,58,9,0.09539,42,91
+Youssef  Baba,miss,46,4,0.6811,54,96
+Abdelaziz El Hamzaoui,miss,26,25,0.01956,74,75
+Abdelaziz El Hamzaoui,miss,55,12,0.03076,45,88
+Abdelaziz El Hamzaoui,block,65,12,0.2046,35,88
+Youssef  Baba,post,41,10,0.1075,59,90
+Abdeljalil Jbira,miss,63,34,0.003064,37,66
+Hamza El Houssini,block,47,17,0.07401,53,83
+Youssef  Baba,miss,38,7,0.06058,62,93
+Issam Benbouabdellah,miss,38,36,0.002796,62,64
+Abdel Hamid Maali,miss,70,24,0.001481,30,76
+Mohamed Walid Bencherifa,miss,45,22,0.0953,55,78
+Mohamed El Morabit,block,31,8,0.1221,69,92
+Ismail Khafi,miss,36,11,0.0728,64,89
+Youssef Mehri,save,57,15,0.09895,43,85
+Youssef Mehri,goal,57,10,0.1832,43,90
+Mohamed El Morabit,miss,43,12,0.2391,57,88
+Mamadou Lamine Camara,block,39,16,0.1094,61,84
+Mohamed El Morabit,block,56,25,0.02117,44,75
+Youssef Mehri,block,35,22,0.008291,65,78
+Jawad Rhabra,save,45,9,0.1558,55,91
+Yassine Labhiri,block,55,12,0.2084,45,88
+Hamza El Wasti,miss,55,19,0.0677,45,81
+Pape Badji,miss,47,7,0.2368,53,93
+Mohamed Radouani,miss,59,23,0.02259,41,77
+Bilal El Megri,miss,45,10,0.1003,55,90
+Aziz Kaidi,save,43,4,0.4936,57,96
+Katulondi  Kati,block,51,13,0.03805,49,87
+Yassine Jbira,save,52,25,0.04014,48,75
+Bilal El Megri,save,59,14,0.143,41,86
+Pape Badji,miss,61,8,0.1419,39,92
+Abdessamad Mahir,block,57,28,0.00215,43,72
+Abdallah Boukhanfer,goal,38,12,0.2064,62,88
+Houdaifa El Mahasni,block,62,21,0.01704,38,79
+Katulondi  Kati,miss,58,10,0.3184,42,90
+Abdessamad Mahir,block,65,24,0.001355,35,76
+Yassine Lamine,block,37,34,0.01108,63,66
+Zaid Ben Khajjou,goal,54,6,0.3179,46,94
+Fahd Bendahmane,miss,57,23,0.0465,43,77
+Yassine Lamine,miss,26,27,0.02822,74,73
+Hamza Ghatas,miss,38,1,0.1051,62,99
+Katulondi  Kati,miss,46,21,0.06379,54,79
+Katulondi  Kati,miss,48,9,0.1953,52,91
+Ayoub Qasmi,miss,35,9,0.07242,65,91
+Abderrahmane Qassaq,save,80,19,0.06301,20,81
+Abdoulaye Diarra,block,28,8,0.009051,72,92
+Abdelghafour Lamirat,save,32,14,0.06988,68,86
+Ayoub Qasmi,miss,32,31,0.001847,68,69
+Hamid Ahdad,block,68,5,0.04441,32,95
+Boniface Haba,save,53,7,0.2419,47,93
+Abdoulaye Diarra,miss,17,18,0.0006535,83,82
+Hamid Ahdad,save,45,12,0.08294,55,88
+Soufiane Et Tazi,miss,55,28,0.006434,45,72
+Hamza Hannouri,miss,49,9,0.148,51,91
+Saad Morsli,miss,59,33,0.004917,41,67
+Soufiane Et Tazi,save,37,14,0.04806,63,86
+Anas Bach,miss,58,25,0.04596,42,75
+Hamza Hannouri,miss,50,6,0.06851,50,94
+Anas Bach,miss,53,22,0.05359,47,78
+Hamza Ait Allal,miss,70,8,0.05644,30,92
+Zakaria Bahrou,save,54,10,0.2065,46,90
+Abdeljalil Jbira,block,23,23,0.0006749,77,77
+Abdelhay El Forsy,block,27,7,0.02206,73,93
+Zakaria Bahrou,miss,41,7,0.266,59,93
+Abderrahim Khadou,save,45,4,0.4762,55,96
+Abdelfettah Hadraf,miss,66,24,0.03771,34,76
+Mahmoud Benhalib,block,24,22,0.01052,76,78
+Hamza Igamane,miss,29,13,0.01395,71,87
+Hamza Igamane,miss,38,12,0.05881,62,88
+Tumisang Orebonye,miss,38,11,0.01342,62,89
+Mohamed Rabie Hrimat,goal,50,10,0.76,50,90
+Tumisang Orebonye,save,31,4,0.02259,69,96
+Abdeljalil Jbira,miss,30,12,0.03023,70,88
+Tumisang Orebonye,save,36,29,0.01944,64,71
+Abdelfettah Hadraf,block,35,21,0.001369,65,79
+Zakaria Bahrou,save,45,9,0.3093,55,91
+Alaeddine Ajaray,save,42,11,0.03325,58,89
+Zakaria Habti,miss,67,21,0.02132,33,79
+Zinedine Derrag,miss,38,21,0.01167,62,79
+Zakaria Hadraf,save,85,16,0.04592,15,84
+Zakaria Hadraf,block,52,14,0.1942,48,86
+Zouhair Marour,miss,60,5,0.09805,40,95
+Zakaria Habti,miss,50,20,0.08491,50,80
+Brahim El Idrissi Bouzidi,miss,74,12,0.05456,26,88
+Ayoub Khairi,save,38,26,0.05946,62,74
+Yassine Labhiri,miss,47,9,0.2027,53,91
+Tuisila Kisinda,miss,64,7,0.1889,36,93
+Youssef El Fahli,save,60,7,0.06068,40,93
+Abdelkarim Baadi,save,73,10,0.01604,27,90
+Simon Diedhiou,block,48,23,0.0211,52,77
+Simon Diedhiou,miss,40,26,0.01978,60,74
+Tahar El Khalej,miss,25,35,0.02256,75,65
+Simon Diedhiou,save,29,25,0.03836,71,75
+Youssef Mehri,save,29,7,0.06107,71,93
+Hamza El Moussaoui,save,31,13,0.1222,69,87
+Mamadou Lamine Camara,block,42,27,0.002325,58,73
+Yassine Labhiri,block,48,22,0.03028,52,78
+Hassan Zraibi,save,43,2,0.28,57,98
+Nadir Lougmani,miss,70,2,0.0555,30,98
+Amine Souane,miss,48,21,0.0922,52,79
+Zakaria Kiani,block,69,23,0.002831,31,77
+El Hadji Kane,block,57,5,0.3981,43,95
+El Habib Brija,save,63,21,0.04978,37,79
+Faouzi Abdoul Mutalib,save,42,8,0.1404,58,92
+Jawad Rhabra,miss,48,7,0.2498,52,93
+Mohamed Saoud,save,57,12,0.09311,43,88
+Nadir Lougmani,save,74,7,0.02244,26,93
+Jawad Rhabra,post,51,7,0.7329,49,93
+Ismail Khafi,save,37,14,0.1029,63,86
+Ismail Khafi,save,28,19,0.03237,72,81
+Hamza El Wasti,miss,35,23,0.01315,65,77
+El Hadji Kane,save,38,18,0.09136,62,82
+Jawad Rhabra,miss,44,10,0.09134,56,90
+Ismail Khafi,save,30,11,0.05297,70,89
+Jawad Rhabra,goal,53,9,0.1063,47,91
+Youssef Anouar,goal,42,8,0.3369,58,92
+Youssef Anouar,miss,56,9,0.3744,44,91
+Amine Souane,miss,73,29,0.003793,27,71
+El Habib Brija,miss,55,3,0.4369,45,97
+Amine Souane,miss,36,8,0.01001,64,92
+El Hadji Kane,miss,38,10,0.1263,62,90
+Hamza Bahaj,goal,50,10,0.76,50,90
+Mehdi Dabdoubi,post,62,21,0.03544,38,79
+Anass Addaoui,goal,74,18,0.02391,26,82
+Mehdi Dabdoubi,miss,47,9,0.1298,53,91
+Karim Lagrouch,miss,54,15,0.01252,46,85
+Karim Lagrouch,save,54,11,0.1506,46,89
+Ismael Benktib,miss,73,24,0.01583,27,76
+Abdelkhalek Ait Ourehbi,miss,26,19,0.009672,74,81
+Karim Lagrouch,save,40,22,0.05377,60,78
+Abdelaziz El Hamzaoui,miss,70,20,0.03794,30,80
+Abdelaziz El Hamzaoui,goal,53,11,0.3159,47,89
+Hamza El Houssini,miss,45,33,0.0274,55,67
+Ismail Mihrab,block,51,18,0.0204,49,82
+Ismael Benktib,miss,49,25,0.007768,51,75
+Ismail Mihrab,miss,75,18,0.0618,25,82
+Hamza El Houssini,miss,41,13,0.09426,59,87
+Youssef Dalouzi,miss,43,14,0.01097,57,86
+Karim Lagrouch,goal,69,13,0.07488,31,87
+Abdelaziz El Hamzaoui,block,30,24,0.008756,70,76
+Aziz Kaidi,block,27,25,0.04201,73,75
+El Mehdi El Bassil,goal,56,7,0.7367,44,93
+Hamza Hannouri,save,50,9,0.03979,50,91
+Anas Bach,save,40,12,0.1785,60,88
+Amine Azri,miss,33,13,0.07747,67,87
+Fahd Bendahmane,block,63,9,0.2952,37,91
+Soufian El Moudane,miss,51,15,0.05688,49,85
+Amine Azri,goal,70,12,0.151,30,88
+Hamza Kalai,miss,66,23,0.0435,34,77
+Soufian El Moudane,goal,50,10,0.76,50,90
+Salah Moussadak,save,65,9,0.1042,35,91
+Hamza Kalai,block,57,29,0.004379,43,71
+Soufian El Moudane,block,25,8,0.0206,75,92
+Brahim Dahmoun,miss,26,14,0.04588,74,86
+Soufian El Moudane,miss,49,21,0.07569,51,79
+Bilal El Ouadghiri,miss,46,19,0.03772,54,81
+Marwane Elaz,save,69,13,0.0181,31,87
+Aziz Kaidi,save,41,9,0.2735,59,91
+Hamid Ahdad,goal,65,9,0.5267,35,91
+Assane Beye,miss,40,9,0.1149,60,91
+Katulondi  Kati,miss,42,19,0.111,58,81
+Jalal Tachtach,miss,46,34,0.00196,54,66
+El Mehdi El Bassil,miss,60,12,0.04715,40,88
+Anas Bach,miss,66,22,0.02145,34,78
+Katulondi  Kati,block,50,20,0.003645,50,80
+Reda Alaoui,miss,47,33,0.04613,53,67
+Mohamed Habbali,goal,68,11,0.05271,32,89
+Mohssine Bourika,miss,33,24,0.003128,67,76
+Anass El Ghannouj,miss,35,31,0.01753,65,69
+Ismail Harache,save,36,14,0.1192,64,86
+Haytem Aina,goal,47,8,0.2927,53,92
+Ismail Harache,miss,39,4,0.1812,61,96
+Mohamed El Badoui,miss,69,18,0.001521,31,82
+Imad Riahi,block,35,4,0.3263,65,96
+Ismail Harache,save,45,8,0.09884,55,92
+Mohamed Habbali,save,56,16,0.121,44,84
+Brahim El Idrissi Bouzidi,save,40,8,0.2557,60,92
+Saad Ait Khorsa,block,27,30,0.00123,73,70
+Imad Riahi,save,68,15,0.04468,32,85
+Mohamed El Badoui,block,64,11,0.4894,36,89
+Youness Khoutari,miss,67,16,0.01614,33,84
+Brahim El Idrissi Bouzidi,save,40,12,0.06906,60,88
+Mohamed El Badoui,block,70,9,0.06089,30,91
+Mohssine Bourika,goal,50,10,0.76,50,90
+Zakaria Bahrou,goal,50,4,0.3306,50,96
+Brahim El Idrissi Bouzidi,miss,35,11,0.05594,65,89
+Haytem Aina,miss,50,11,0.1695,50,89
+Anass El Ghannouj,miss,60,29,0.03364,40,71
+Mahmoud Benhalib,goal,50,10,0.76,50,90
+Zakaria Bahrou,block,38,20,0.01224,62,80
+Mahamadou Camara,miss,66,31,0.001296,34,69
+Anass El Ghannouj,miss,30,26,0.005189,70,74
+Achraf Harmach,block,28,18,0.0107,72,82
+Achraf Harmach,block,28,23,0.0009316,72,77
+Mohssine Bourika,save,59,7,0.1948,41,93
+Yassine Labhiri,block,18,34,0.002825,82,66
+Youssef Zghoudi,save,56,28,0.06107,44,72
+Mohamed Ounajem,save,25,19,0.07488,75,81
+Ade Oguns,block,39,14,0.1086,61,86
+Ismail El Haddad,save,63,10,0.1796,37,90
+Ade Oguns,miss,34,14,0.008318,66,86
+Ade Oguns,goal,55,9,0.2945,45,91
+Youssef Mehri,save,24,24,0.01949,76,76
+Mamadou Lamine Camara,miss,61,25,0.01691,39,75
+Youssef Mehri,miss,39,12,0.0996,61,88
+Saifeddine Bouhra,miss,27,24,0.0007112,73,76
+Sidi Amar Bouna,block,40,14,0.1022,60,86
+Sidi Amar Bouna,miss,37,8,0.08687,63,92
+Amine Farhane,post,57,6,0.1552,43,94
+Youssef Arbidi,save,60,11,0.2303,40,89
+Youssef Arbidi,save,28,11,0.07834,72,89
+Hamza Igamane,goal,31,10,0.0514,69,90
+Ismail Gourad,miss,44,16,0.01306,56,84
+Hamza Buihamghet,miss,50,29,0.01104,50,71
+Hamza Igamane,save,34,20,0.06562,66,80
+Lamine Diakité,goal,44,8,0.3757,56,92
+Mohamed Moufid,miss,54,32,0.01146,46,68
+Achraf Kasbaoui,block,49,18,0.1496,51,82
+Hamza Buihamghet,block,49,36,0.001906,51,64
+Ahmed Hammoudan,save,36,14,0.07977,64,86
+Tumisang Orebonye,goal,71,13,0.06079,29,87
+Amine Souane,save,72,36,0.02248,28,64
+Khalid Ait Ouarkhane,goal,57,8,0.2805,43,92
+Tumisang Orebonye,save,31,15,0.1707,69,85
+El Habib Brija,save,81,32,0.03019,19,68
+Ahmed Hammoudan,block,60,23,0.02149,40,77
+Tumisang Orebonye,block,36,21,0.0214,64,79
+Ahmed Hammoudan,miss,69,24,0.01472,31,76
+Anouar Tarkhatt,goal,41,7,0.1553,59,93
+Hamza Ghatas,goal,50,6,0.2611,50,94
+Bilal El Megri,block,32,25,0.02233,68,75
+Mouad Goulouss,save,60,13,0.1529,40,87
+Bilal El Megri,miss,64,23,0.04162,36,77
+Pape Badji,save,40,7,0.07916,60,93
+Bilal El Megri,miss,32,20,0.04158,68,80
+Youssef Dalouzi,miss,59,7,0.1573,41,93
+Hilal Ferdaoussi,miss,77,25,0.02454,23,75
+Pape Badji,miss,51,9,0.1531,49,91
+Hilal Ferdaoussi,save,50,26,0.05034,50,74
+Yassine Lamine,save,41,23,0.04175,59,77
+Pape Badji,miss,43,8,0.1894,57,92
+Hilal Ferdaoussi,miss,43,30,0.01443,57,70
+Ayoub Ballouchy,block,39,12,0.1731,61,88
+Ayoub Lakhal,miss,50,23,0.06219,50,77
+Youssef Dalouzi,block,36,9,0.0361,64,91
+Hilal Ferdaoussi,save,35,10,0.1223,65,90
+Bilal El Megri,miss,20,15,0.03689,80,85
+El Mehdi El Bassil,miss,57,7,0.1197,43,93
+Hamza Hannouri,save,36,12,0.09542,64,88
+Amine Azri,miss,53,12,0.1158,47,88
+Bilal El Megri,goal,41,17,0.1116,59,83
+Houdaifa El Mahasni,miss,59,11,0.1414,41,89
+Houdaifa El Mahasni,post,73,20,0.01673,27,80
+Bilal El Megri,block,80,23,0.004376,20,77
+Hilal Ferdaoussi,miss,27,23,0.01815,73,77
+Houdaifa El Mahasni,block,59,20,0.04225,41,80
+Anas Bach,miss,57,26,0.05045,43,74
+El Mehdi El Bassil,miss,66,7,0.08217,34,93
+Yassine Jbira,save,42,34,0.01314,58,66
+Anas Bach,save,61,12,0.05037,39,88
+Hamza Ghatas,save,58,13,0.03083,42,87
+Amine El Msane,block,74,24,0.0008386,26,76
+Hamid Ahdad,save,55,13,0.02953,45,87
+Oussama Soukhane,goal,46,13,0.1269,54,87
+Ismail Khafi,post,68,3,0.06691,32,97
+Ismail Khafi,goal,48,4,0.2573,52,96
+Mohamed Radid,miss,42,2,0.3131,58,98
+Mohamed Saoud,block,26,32,0.002338,74,68
+Abdel Hamid Maali,block,44,10,0.1358,56,90
+Mohamed Saoud,save,64,27,0.06943,36,73
+El Hadji Kane,block,51,24,0.03243,49,76
+Ahmed Chentouf,miss,49,20,0.02859,51,80
+Ismail Khafi,miss,27,10,0.0608,73,90
+Mohamed Walid Bencherifa,miss,27,35,0.001386,73,65
+Mohamed Saoud,goal,64,18,0.1862,36,82
+Simon Diedhiou,save,52,7,0.3782,48,93
+Mohamed Saoud,save,39,14,0.03843,61,86
+Hamza El Wasti,miss,22,22,0.00637,78,78
+El Hadji Kane,block,26,14,0.0189,74,86
+Jawad Rhabra,miss,61,6,0.1319,39,94
+Jawad Rhabra,miss,56,6,0.1883,44,94
+Ismail Khafi,post,38,17,0.09856,62,83
+Jawad Rhabra,miss,64,4,0.06247,36,96
+Souhayl Zamrat,save,71,23,0.01996,29,77
+Hamza El Wasti,miss,52,21,0.078,48,79
+El Hadji Kane,block,53,29,0.00525,47,71
+Ismail Khafi,miss,35,13,0.02748,65,87
+Jawad Rhabra,block,61,28,0.01256,39,72
+Souhayl Zamrat,block,68,4,0.05076,32,96
+Ismail Khafi,block,46,24,0.04463,54,76
+Soufyan Ahannach,save,51,26,0.05382,49,74
+Zakaria Kiani,save,66,10,0.2541,34,90
+Haytam Manaout,miss,66,25,0.03287,34,75
+Ilias Haddad,goal,47,6,0.5715,53,94
+Tahar El Khalej,block,52,7,0.2279,48,93
+Aymane Mourid,save,46,25,0.02372,54,75
+Youssef Kajai,goal,41,10,0.04911,59,90
+Chouaib Faidi,miss,43,17,0.1005,57,83
+Mohamed Johnson,save,34,20,0.06331,66,80
+Mohamed Johnson,save,49,8,0.1056,51,92
+Akram Kaddouri,save,52,28,0.03654,48,72
+Hamza El Houssini,block,61,27,0.007091,39,73
+Imad Serbout,goal,53,11,0.2201,47,89
+Hamza El Houssini,save,62,21,0.01859,38,79
+Issam Benbouabdellah,save,71,39,0.007896,29,61
+Amine Souane,save,48,28,0.08343,52,72
+Youssef Anouar,block,47,15,0.09282,53,85
+Amine Souane,block,48,24,0.002691,52,76
+Chouaib Faidi,miss,26,21,0.02692,74,79
+Habib Allah Dahmani,save,51,26,0.01718,49,74
+Chouaib Faidi,block,33,13,0.1423,67,87
+Youssef Anouar,save,33,11,0.08958,67,89
+Chouaib Faidi,block,30,11,0.002417,70,89
+Amine Souane,miss,48,32,0.001456,52,68
+Hamza El Houssini,miss,55,29,0.003075,45,71
+Sidi Amar Bouna,miss,69,10,0.04832,31,90
+Sidi Amar Bouna,miss,58,12,0.4453,42,88
+Badr Gaddarine,save,26,14,0.04413,74,86
+Yahya Jabrane,miss,64,21,0.02453,36,79
+Jamal Harkass,miss,56,10,0.1163,44,90
+Amine Aboulfath,save,55,31,0.01929,45,69
+Ayoub El Amloud,save,58,10,0.04062,42,90
+Mohamed Ounajem,save,64,18,0.07189,36,82
+Ismail El Haddad,miss,50,26,0.05499,50,74
+Mohamed Habbali,miss,38,11,0.1725,62,89
+Hamza Ait Allal,miss,52,24,0.02475,48,76
+Amine Aboulfath,miss,47,30,0.0006843,53,70
+Ismail El Haddad,miss,53,27,0.05998,47,73
+Ayoub El Amloud,save,72,11,0.03122,28,89
+Ismail El Haddad,block,61,13,0.1359,39,87
+Zakaria Bahrou,miss,50,22,0.02877,50,78
+Zakaria Bahrou,miss,51,7,0.1981,49,93
+Hamza Ait Allal,block,85,35,0.001579,15,65
+Ismail El Haddad,miss,37,22,0.05156,63,78
+Ismail El Haddad,block,59,28,0.01869,41,72
+Mohamed Habbali,miss,47,27,0.008378,53,73
+Saifeddine Bouhra,miss,41,11,0.3518,59,89
+Ade Oguns,miss,53,8,0.3273,47,92
+Sidi Amar Bouna,block,35,14,0.1134,65,86
+Saifeddine Bouhra,miss,29,11,0.059,71,89
+Ismail El Haddad,miss,67,24,0.02133,33,76
+Saifeddine Bouhra,miss,27,22,0.009021,73,78
+Brahim El Idrissi Bouzidi,block,71,26,0.007046,29,74
+Mohamed El Morabit,save,32,22,0.04939,68,78
+Hamza El Moussaoui,block,37,21,0.04785,63,79
+Tuisila Kisinda,block,31,7,0.1802,69,93
+Hamza El Moussaoui,miss,38,29,0.005596,62,71
+Hamza Igamane,miss,46,15,0.1292,54,85
+Oussama Lamlioui,save,58,11,0.09276,42,89
+Abdelhak Assal,save,45,11,0.0828,55,89
+Oussama Lamlioui,miss,57,25,0.04977,43,75
+Oussama Lamlioui,miss,36,6,0.172,64,94
+Oussama Lamlioui,block,29,9,0.001597,71,91
+Amine Zouhzouh,block,51,15,0.1595,49,85
+Hamza Igamane,block,63,12,0.01081,37,88
+Mohamed Rabie Hrimat,goal,50,10,0.76,50,90
+Hamza Igamane,save,29,14,0.04975,71,86
+Mohamed Rabie Hrimat,miss,44,14,0.141,56,86
+Tumisang Orebonye,miss,59,26,0.05177,41,74
+Yassine Labhiri,miss,56,6,0.2903,44,94
+Issoufou Dayo,miss,56,6,0.1452,44,94
+Issoufou Dayo,goal,50,10,0.76,50,90
+Paul Valère Bassene,miss,62,4,0.08034,38,96
+Mohamed El Morabit,block,47,13,0.08531,53,87
+Mohamed El Morabit,block,49,16,0.006895,51,84
+Amine Zouhzouh,goal,27,22,0.09356,73,78
+James Ajako,block,31,22,0.004348,69,78
+Adnane Bentagana,miss,54,34,0.003203,46,66
+Maati Tamaiazou,save,27,11,0.01895,73,89
+Amine Azri,miss,42,29,0.01164,58,71
+Amine Azri,miss,30,29,0.0348,70,71
+Youssef Limouri,miss,60,9,0.1086,40,91
+Hamid Ahdad,goal,49,6,0.2864,51,94
+Reda Alaoui,save,55,9,0.1178,45,91
+Hamza Hannouri,miss,63,23,0.01109,37,77
+Youssef Sakhi,post,53,8,0.1611,47,92
+Houssine Rahimi,block,27,24,0.01121,73,76
+Bilal El Ouadghiri,save,37,13,0.03517,63,87
+Mouad Bahsain,miss,46,3,0.5793,54,97
+Houssine Rahimi,save,71,22,0.03068,29,78
+Achraf Hmaidou,miss,28,33,0.01389,72,67
+Abdessamad Badaoui,miss,55,8,0.1698,45,92
+Youssef Sakhi,save,76,16,0.03311,24,84
+Ayoub Qasmi,block,32,11,0.05036,68,89
+Ayoub Nanah,post,50,10,0.76,50,90
+Anas Bach,block,44,23,0.01598,56,77
+Amine El Msane,block,52,30,0.06669,48,70
+Yousri Bouzok,miss,64,7,0.1915,36,93
+Adam Ennafati,save,27,19,0.03237,73,81
+Bouchaib Arrassi,miss,39,13,0.09457,61,87
+Mohamed Zrida,save,37,5,0.09822,63,95
+Mouad Goulouss,goal,40,7,0.2122,60,93
+Adam Ennafati,save,39,27,0.02545,61,73
+Yassine Lamine,save,54,10,0.1178,46,90
+Bilal El Megri,save,67,22,0.02362,33,78
+El Mehdi Maouhoub,save,29,11,0.04491,71,89
+Naoufel Zerhouni,miss,40,3,0.1447,60,97
+Bakary Badji,save,56,9,0.275,44,91
+Hilal Ferdaoussi,miss,56,22,0.03557,44,78
+Houdaifa El Mahasni,miss,43,27,0.0006352,57,73
+Yassine Jbira,miss,50,31,0.008078,50,69
+Bakary Badji,miss,46,12,0.2893,54,88
+Ayoub Lakhal,miss,41,11,0.0707,59,89
+Mohamed Zrida,miss,57,25,0.01485,43,75
+Bilal El Megri,miss,42,14,0.2169,58,86
+El Mehdi Maouhoub,block,56,13,0.1848,44,87
+Mohamed Zrida,miss,60,30,0.002743,40,70
+Abdessamad Mahir,save,62,22,0.03146,38,78
+El Mehdi Maouhoub,block,46,17,0.03658,54,83
+Bilal El Megri,block,64,7,0.0547,36,93
+Bilal El Megri,block,37,23,0.02488,63,77
+Bakary Badji,save,23,28,0.02333,77,72
+El Mehdi Maouhoub,goal,48,4,0.82,52,96
+Yousri Bouzok,save,58,25,0.02786,42,75
+Bouchaib Arrassi,post,68,12,0.06739,32,88
+Mohamed Al Makahasi,block,68,21,0.003672,32,79
+Naoufel Zerhouni,block,69,10,0.07048,31,90
+Abdelhay El Forsy,save,42,24,0.04524,58,76
+Cheickna Samake,miss,63,13,0.1042,37,87
+Abderrahmane Qassaq,block,49,19,0.05561,51,81
+Cheickna Samake,miss,48,13,0.2207,52,87
+Cheickna Samake,block,64,21,0.02229,36,79
+Zakaria Bahrou,miss,40,23,0.0522,60,77
+Abderrahim Khadou,miss,46,9,0.09371,54,91
+Zakaria Hadraf,miss,29,22,0.01936,71,78
+Zakaria Hadraf,miss,51,24,0.002874,49,76
+Ayoub Tine,save,66,26,0.01615,34,74
+Mahmoud Benhalib,block,39,14,0.1191,61,86
+Youness Najari,save,69,20,0.03324,31,80
+Brahim El Idrissi Bouzidi,miss,44,12,0.03322,56,88
+Abderrahmane Qassaq,goal,50,10,0.76,50,90
+Bilal Soufi,save,38,10,0.05989,62,90
+Youness Najari,goal,33,13,0.09436,67,87
+Abderrahmane Qassaq,miss,58,9,0.2999,42,91
+Abdeljalil Jbira,block,29,30,0.00529,71,70
+Youness Najari,block,40,4,0.233,60,96
+Cheickna Samake,block,36,10,0.1368,64,90
+Soufian El Moudane,block,43,30,0.001895,57,70
+Junior Mbele,goal,37,13,0.1004,63,87
+Katulondi  Kati,miss,52,9,0.08226,48,91
+Soufian El Moudane,goal,55,8,0.1288,45,92
+Hamza Bahaj,miss,83,26,0.001781,17,74
+Junior Mbele,miss,31,2,0.04288,69,98
+Karim Lagrouch,miss,63,10,0.1357,37,90
+Katulondi  Kati,miss,51,8,0.1685,49,92
+Katulondi  Kati,miss,63,7,0.04584,37,93
+Assane Beye,block,46,12,0.1028,54,88
+Soufian El Moudane,miss,60,24,0.01127,40,76
+Karim Lagrouch,miss,36,5,0.0585,64,95
+Ismail Mihrab,block,64,16,0.05277,36,84
+Youssef Dalouzi,miss,70,21,0.01313,30,79
+Junior Mbele,save,33,6,0.05689,67,94
+Fahd Bendahmane,miss,49,9,0.1128,51,91
+Zinedine Derrag,miss,56,14,0.008599,44,86
+Amine Zouhzouh,goal,55,13,0.2223,45,87
+Yassine El Khalej,save,68,23,0.023,32,77
+Amine Zouhzouh,goal,40,25,0.04175,60,75
+Ahmed Hammoudan,block,38,14,0.1367,62,86
+Zouhair Marour,save,40,10,0.112,60,90
+Amine Zouhzouh,goal,44,9,0.1033,56,91
+Tawfik Bentayeb,save,30,10,0.06619,70,90
+Najji Larbi,miss,47,9,0.09568,53,91
+Hamza Igamane,miss,71,3,0.01398,29,97
+Hamza Igamane,miss,71,21,0.01285,29,79
+Ahmed Hammoudan,block,40,9,0.2153,60,91
+Anass Eddaou,block,79,29,0.006563,21,71
+Ahmed Hammoudan,block,66,15,0.007116,34,85
+Tawfik Bentayeb,miss,37,16,0.1179,63,84
+Tawfik Bentayeb,block,60,27,0.009691,40,73
+Anass Eddaou,post,66,26,0.01734,34,74
+Hamza Igamane,miss,67,23,0.009391,33,77
+Chouaib Faidi,miss,59,22,0.01749,41,78
+Chouaib Faidi,miss,32,20,0.04477,68,80
+Chouaib Faidi,save,27,14,0.03883,73,86
+Mohammed Bahadi,save,60,24,0.04285,40,76
+Achraf Kasbaoui,block,54,28,0.0002074,46,72
+Chouaib Faidi,save,25,25,0.01979,75,75
+Mohssine Bourika,miss,77,22,0.01465,23,78
+Achraf Kasbaoui,miss,43,13,0.2828,57,87
+Oussama Radi,block,55,9,0.1803,45,91
+Chouaib Faidi,save,56,20,0.04427,44,80
+El Habib Brija,block,70,9,0.04148,30,91
+El Habib Brija,save,50,24,0.05648,50,76
+Hamza El Janati,save,38,32,0.01792,62,68
+Habib Allah Dahmani,miss,48,18,0.1934,52,82
+Chouaib Faidi,block,50,7,0.1835,50,93
+Zakaria Nassik,goal,39,6,0.24,61,94
+Chouaib Faidi,save,40,24,0.04172,60,76
+Imad Riahi,save,60,11,0.0735,40,89
+Chouaib Faidi,miss,49,14,0.1524,51,86
+Mohssine Bourika,save,40,12,0.02578,60,88
+Zakaria Nassik,miss,31,13,0.08531,69,87
+Chouaib Faidi,block,37,20,0.0887,63,80
+Mohamed El Badoui,miss,58,15,0.1168,42,85
+Ismail Khafi,save,29,26,0.04234,71,74
+Zakaria Draoui,block,63,23,0.0005959,37,77
+Ade Oguns,block,58,12,0.1486,42,88
+Sidi Amar Bouna,block,60,20,0.00867,40,80
+Ayoub El Amloud,miss,49,8,0.4501,51,92
+Ayoub El Amloud,save,46,7,0.2277,54,93
+Zakaria Draoui,miss,52,26,0.001806,48,74
+Mountassir Lahtimi,miss,75,23,0.01393,25,77
+Ismail El Haddad,save,52,30,0.01439,48,70
+Ade Oguns,save,26,11,0.03681,74,89
+Mohamed Saoud,miss,47,10,0.07837,53,90
+Ade Oguns,save,32,18,0.06578,68,82
+Ismail Khafi,block,52,13,0.2357,48,87
+Elhadji Konate,miss,40,2,0.265,60,98
+Jawad Rhabra,miss,60,28,0.06833,40,72
+Ahmed Chentouf,block,51,20,0.05497,49,80
+Sidi Amar Bouna,block,50,19,0.0238,50,81
+Ismail Khafi,goal,59,9,0.09432,41,91
+El Hadji Kane,goal,47,7,0.1653,53,93
+Ade Oguns,miss,53,24,0.03512,47,76
+Ismail Khafi,miss,71,14,0.01272,29,86
+Oussama Lamlioui,miss,57,6,0.1406,43,94
+Youssef El Fahli,save,49,10,0.2605,51,90
+Oussama Lamlioui,save,65,15,0.0659,35,85
+Paul Valère Bassene,miss,42,1,0.3179,58,99
+Paul Valère Bassene,save,39,14,0.04155,61,86
+Youssef El Fahli,miss,37,14,0.1155,63,86
+Paul Valère Bassene,save,60,19,0.1592,40,81
+Amine El Maswab,block,53,10,0.1302,47,90
+Youssef El Fahli,miss,47,7,0.5551,53,93
+Youssef Zghoudi,save,70,11,0.01927,30,89
+Abdelaziz El Hamzaoui,miss,34,19,0.05985,66,81
+Youssef El Fahli,miss,54,6,0.2266,46,94
+Reda Hajji,post,62,17,0.03613,38,83
+Youssef  Baba,save,36,18,0.0751,64,82
+Youssef El Fahli,block,20,24,0.002152,80,76
+Aymane Foutat,miss,53,23,0.004832,47,77
+Hamza Bahaj,block,29,24,0.0008453,71,76
+Anass Moulhami,miss,42,15,0.06789,58,85
+Amine Azri,miss,58,11,0.2224,42,89
+Hamid Ahdad,goal,51,3,0.6065,49,97
+Anas Bach,miss,52,23,0.0169,48,77
+Ismael Benktib,miss,46,30,0.01567,54,70
+Anas Bach,save,76,19,0.01695,24,81
+Ayoub Nanah,miss,76,20,0.02149,24,80
+Youssef Dalouzi,miss,69,20,0.02016,31,80
+Anas Bach,save,39,5,0.08116,61,95
+Anas Bach,block,46,31,0.01124,54,69
+Ayoub Qasmi,block,42,5,0.2831,58,95
+Hamid Ahdad,post,41,10,0.1625,59,90
+Bilal El Ouadghiri,miss,60,30,0.0004275,40,70
+Hamid Ahdad,block,70,15,0.01036,30,85
+Ayoub Qasmi,miss,25,28,0.002023,75,72
+Ismael Benktib,miss,75,21,0.01465,25,79
+Issam Benbouabdellah,miss,43,27,0.01492,57,73
+Yassir Zabiri,block,71,18,0.006221,29,82
+Tawfik Bentayeb,miss,51,18,0.1089,49,82
+Abdelkhalek Ait Ourehbi,miss,43,15,0.06675,57,85
+Amadou Dia Ndiaye,goal,48,4,0.24,52,96
+Hassan Aqboub,block,55,22,0.002478,45,78
+Abdelkhalek Ait Ourehbi,block,59,26,0.03126,41,74
+Tawfik Bentayeb,save,40,12,0.09539,60,88
+Mohamed Amine Essahel,block,46,28,0.003812,54,72
+Souhayl Zamrat,miss,87,23,0.01184,13,77
+Anass Addaoui,miss,64,33,0.04031,36,67
+Anass Addaoui,miss,45,30,0.0003967,55,70
+Abdelaziz El Hamzaoui,save,21,4,0.06355,79,96
+Oubaba,goal,46,12,0.2343,54,88
+Abdelaziz El Hamzaoui,goal,57,3,0.4525,43,97
+Abdelaziz El Hamzaoui,miss,81,21,0.00983,19,79
+Youness Moukhlis,block,29,17,0.03207,71,83
+Mohamed Chemlal,miss,28,21,0.004983,72,79
+Ilias Haddad,goal,45,8,0.2569,55,92
+Tawfik Bentayeb,goal,42,8,0.1264,58,92
+Abdelaziz El Hamzaoui,save,41,13,0.1746,59,87
+Melo Ndiaye,block,58,39,0.05952,42,61
+Hamza El Houssini,miss,64,30,0.02392,36,70
+Mohamed Rabie Hrimat,goal,50,10,0.76,50,90
+Hamza Igamane,block,54,7,0.2608,46,93
+Youssef Chaina,goal,63,9,0.3889,37,91
+Mohamed Rabie Hrimat,block,43,23,0.08863,57,77
+El Hadji Kane,block,38,27,0.005285,62,73
+Youssef Chaina,save,55,11,0.426,45,89
+Hamza Igamane,miss,41,9,0.005677,59,91
+Abdel Hamid Maali,miss,27,15,0.0202,73,85
+Tumisang Orebonye,save,29,22,0.03178,71,78
+Tumisang Orebonye,goal,38,4,0.1416,62,96
+Amine Zouhzouh,miss,63,13,0.1498,37,87
+Mohamed Rabie Hrimat,block,40,22,0.05929,60,78
+Mohamed Saoud,save,78,31,0.02306,22,69
+Amine Zouhzouh,miss,43,27,0.05289,57,73
+Lamine Diakité,miss,40,23,0.04787,60,77
+Jawad Rhabra,save,73,9,0.05118,27,91
+Elhadji Konate,save,45,3,0.5908,55,97
+Ismail Khafi,miss,47,7,0.2398,53,93
+Amine Zouhzouh,save,40,6,0.4919,60,94
+Lamine Diakité,save,55,7,0.1597,45,93
+Najji Larbi,block,28,25,0.0008022,72,75
+Salaheddine Bahi,block,54,32,0.006203,46,68
+Soufian El Moudane,miss,35,27,0.0004968,65,73
+Zakaria Bahrou,goal,51,4,0.8263,49,96
+Zakaria Bahrou,save,57,10,0.3784,43,90
+Hamza Ait Allal,save,52,5,0.6458,48,95
+Mahamadou Camara,miss,52,15,0.02188,48,85
+Abdelhay El Forsy,save,68,19,0.07056,32,81
+Jamal Ech-Chammakh,miss,21,27,0.0008039,79,73
+Soufian El Moudane,block,43,31,0.001099,57,69
+Assane Beye,miss,45,7,0.1847,55,93
+Abdelhay El Forsy,miss,53,30,0.006713,47,70
+Katulondi  Kati,save,45,5,0.5435,55,95
+Mohamed Habbali,goal,62,11,0.3854,38,89
+Anass El Ghannouj,miss,59,29,0.001177,41,71
+Jalal Tachtach,save,55,11,0.1293,45,89
+Fahd Bendahmane,save,43,28,0.03235,57,72
+Brahim El Idrissi Bouzidi,block,67,3,0.02,33,97
+Abdeljalil Jbira,miss,30,9,0.1288,70,91
+Soufian El Moudane,save,42,29,0.03818,58,71
+Katulondi  Kati,miss,56,13,0.09463,44,87
+Katulondi  Kati,save,63,5,0.156,37,95
+Mohamed Habbali,goal,50,10,0.76,50,90
+Brahim El Idrissi Bouzidi,miss,70,27,0.006016,30,73
+Zakaria Bahrou,block,53,15,0.1253,47,85
+Yassine Lamine,goal,37,26,0.04307,63,74
+Salaheddine Icharane,goal,68,12,0.0736,32,88
+Salaheddine Icharane,block,69,24,0.01918,31,76
+Bakary Badji,save,34,14,0.1234,66,86
+Bilal El Megri,block,55,26,0.002603,45,74
+Houssine Rahimi,miss,52,7,0.1554,48,93
+Mohamed Yassine Abouzra,goal,55,6,0.2293,45,94
+Houssine Rahimi,miss,48,9,0.08412,52,91
+Adnane Bentagana,miss,50,26,0.03436,50,74
+Houssine Rahimi,miss,62,27,0.01893,38,73
+Hilal Ferdaoussi,block,55,27,0.008457,45,73
+Mohamed El Khaloui,block,51,24,0.03644,49,76
+Houdaifa El Mahasni,block,64,17,0.02228,36,83
+Adnane Bentagana,miss,41,15,0.09813,59,85
+Adnane Bentagana,block,42,15,0.02105,58,85
+Abdessamad Mahir,block,26,11,0.0447,74,89
+Youssef Limouri,miss,55,9,0.27,45,91
+Adnane Bentagana,miss,41,28,0.04156,59,72
+Hilal Ferdaoussi,miss,65,27,0.04227,35,73
+Naoufel Zerhouni,miss,58,14,0.1246,42,86
+Riad Benayad,goal,40,10,0.1752,60,90
+Yousri Bouzok,save,34,14,0.08378,66,86
+Riad Benayad,block,43,16,0.1203,57,84
+Mohamed Boulacsout,block,71,12,0.05895,29,88
+Mohamed Al Makahasi,miss,58,23,0.002734,42,77
+Sabir Bougrine,miss,36,29,0.00171,64,71
+Mohamed Boulacsout,save,68,5,0.1213,32,95
+Brahim El Bahraoui,miss,50,4,0.2899,50,96
+Brahim El Bahraoui,block,31,27,0.02369,69,73
+El Mehdi Maouhoub,miss,40,12,0.1267,60,88
+El Mehdi Maouhoub,miss,52,8,0.3809,48,92
+Sabir Bougrine,block,54,30,0.003141,46,70
+Youness Najari,miss,75,26,0.002652,25,74
+Youssef Belammari,miss,31,17,0.05059,69,83
+Naoufel Zerhouni,miss,60,12,0.2105,40,88
+El Mehdi Maouhoub,miss,60,13,0.1781,40,87
+Mohamed Zrida,block,47,17,0.0327,53,83
+Youness Najari,block,67,11,0.02626,33,89
+Yassine Kordani,miss,51,5,0.1991,49,95
+Youness Najari,block,63,26,0.04264,37,74
+El Mehdi Moubarik,block,40,25,0.007727,60,75
+Naoufel Zerhouni,miss,34,13,0.01443,66,87
+Cheickna Samake,miss,49,31,0.01066,51,69
+Youness Najari,block,64,35,0.02834,36,65
+Houari Ferhani,save,33,12,0.1242,67,88
+Semelo Gueï,miss,43,8,0.07769,57,92
+Lahcen Gourbi,save,47,10,0.1214,53,90
+Lahcen Gourbi,miss,44,13,0.0469,56,87
+Imad Riahi,block,59,14,0.01828,41,86
+Youssef Mehri,miss,41,29,0.004467,59,71
+Ayoub Khairi,save,63,26,0.03682,37,74
+Paul Valère Bassene,goal,51,2,0.5825,49,98
+Mohssine Bourika,goal,56,6,0.3017,44,94
+Youssef Mehri,miss,32,23,0.04727,68,77
+Youssef Mehri,miss,42,3,0.7177,58,97
+Oussama Lamlioui,save,55,9,0.3494,45,91
+Omar Arjoune,miss,44,26,0.02934,56,74
+Semelo Gueï,save,42,31,0.02406,58,69
+Imad Riahi,miss,65,17,0.04329,35,83
+Yassine Labhiri,miss,45,19,0.003071,55,81
+Hamza El Janati,block,58,21,0.005782,42,79
+Hamza El Janati,save,42,33,0.05311,58,67
+Omar Arjoune,miss,57,24,0.01168,43,76
+Youssef El Fahli,goal,50,10,0.76,50,90
+Mohamed El Morabit,block,53,13,0.06568,47,87
+Christian Nsundi,block,52,31,0.01009,48,69
+Youssef Anouar,block,69,26,0.02041,31,74
+Amine Souane,post,50,10,0.76,50,90
+Ade Oguns,goal,63,10,0.2819,37,90
+Youssef Anouar,post,71,4,0.06819,29,96
+Ade Oguns,goal,59,13,0.3442,41,87
+Amine Souane,save,68,4,0.03841,32,96
+Anass Nouader,miss,42,32,0.001359,58,68
+Anass Nouader,miss,47,3,0.3123,53,97
+Abdellah Haimoud,save,41,22,0.05476,59,78
+Saifeddine Bouhra,miss,31,15,0.08412,69,85
+Ade Oguns,miss,81,19,0.02266,19,81
+Ayoub El Amloud,block,38,14,0.08577,62,86
+Saifeddine Bouhra,save,43,17,0.1239,57,83
+Souhayl Zamrat,miss,77,22,0.002114,23,78
+Sidi Amar Bouna,miss,39,22,0.01179,61,78
+Yassir Zabiri,miss,46,4,0.3542,54,96
+Sidi Amar Bouna,miss,61,11,0.1772,39,89
+Souhayl Zamrat,save,25,25,0.02354,75,75
+Sidi Amar Bouna,save,35,33,0.03534,65,67
+Hossam Essadak,save,43,26,0.05247,57,74
+Tawfik Bentayeb,miss,60,27,0.04231,40,73
+Tawfik Bentayeb,miss,33,10,0.08229,67,90
+Souhayl Zamrat,block,79,21,0.007959,21,79
+Mountassir Lahtimi,block,53,30,0.01601,47,70
+Saifeddine Bouhra,miss,34,14,0.09733,66,86
+Amine Aboulfath,miss,44,10,0.1424,56,90
+Sidi Amar Bouna,save,48,14,0.0759,52,86
+Amine Aboulfath,miss,73,20,0.00472,27,80
+Aymane Mourid,miss,40,29,0.01709,60,71
+Ali El Harrak,miss,50,30,0.0007749,50,70
+Mustapha Sahd,save,50,25,0.05587,50,75
+Alexis Sanchez,save,31,19,0.06495,69,81
+Abdellatif Akhrif,miss,15,32,0.00797,85,68
+Ali El Harrak,save,20,28,0.02193,80,72
+Hamza El Janati,block,43,24,0.02977,57,76
+Haytem Aina,miss,52,14,0.1959,48,86
+Mohamed Said Bouksyr,miss,49,25,0.01015,51,75
+Ismail Khafi,save,50,10,0.76,50,90
+Mohssine Bourika,miss,71,17,0.02623,29,83
+Mohssine Bourika,block,37,26,0.01054,63,74
+Haytem Aina,block,62,22,0.02721,38,78
+Ismail Khafi,miss,30,14,0.11,70,86
+Imad Riahi,block,50,25,0.0365,50,75
+Omar Jerrari,goal,29,8,0.02585,71,92
+Driss El-Jabli,save,41,13,0.04451,59,87
+Imad Riahi,miss,55,24,0.004917,45,76
+Driss El-Jabli,miss,61,15,0.05468,39,85
+Zakaria Nassik,miss,25,15,0.05649,75,85
+Imad Riahi,block,49,22,0.002308,51,78
+Hamza El Janati,save,51,11,0.1494,49,89
+Haytem Aina,miss,66,12,0.1255,34,88
+Mohssine Bourika,miss,35,28,0.04768,65,72
+Driss El-Jabli,save,56,14,0.1012,44,86
+Ismail Khafi,save,50,10,0.76,50,90
+Ismail Khafi,goal,50,7,0.7803,50,93
+Youssef Mehri,goal,35,12,0.1222,65,88
+Youssef Mehri,save,32,27,0.01474,68,73
+Yassine Rami,miss,42,7,0.09727,58,93
+Yassine Rami,block,57,6,0.4114,43,94
+Youssef Mehri,save,57,12,0.2553,43,88
+Yassine Rami,miss,62,11,0.112,38,89
+Youssef El Fahli,goal,41,10,0.2683,59,90
+Soufian El Moudane,miss,20,26,0.000509,80,74
+Yassine Labhiri,save,33,22,0.129,67,78
+Youssef El Fahli,save,26,25,0.02582,74,75
+Jalal Tachtach,block,31,14,0.03732,69,86
+Adil Tahif,save,33,6,0.02732,67,94
+Abdelhak Assal,miss,46,34,0.001182,54,66
+Soufian El Moudane,save,50,27,0.05449,50,73
+Youssef Mehri,miss,52,34,0.01401,48,66
+Oussama Lamlioui,save,51,7,0.2717,49,93
+Gnolou Claude,save,29,26,0.02688,71,74
+Oussama Lamlioui,miss,59,26,0.001398,41,74
+Soufian El Moudane,save,64,22,0.04553,36,78
+Gnolou Claude,block,41,31,0.001573,59,69
+Hamza Ghatas,miss,58,11,0.07838,42,89
+Youness Khoutari,goal,54,24,0.04801,46,76
+Zakaria Bahrou,save,59,12,0.1997,41,88
+Zakaria Bahrou,save,60,17,0.1083,40,83
+Hamza Ghatas,miss,53,7,0.2233,47,93
+Zakaria Hadraf,block,67,13,0.06275,33,87
+Hamza Ghatas,block,66,9,0.1572,34,91
+Bakary Badji,miss,64,12,0.1658,36,88
+Brahim El Idrissi Bouzidi,block,44,20,0.006012,56,80
+Abdelhay El Forsy,block,52,24,0.03366,48,76
+Brahim El Idrissi Bouzidi,miss,43,15,0.2591,57,85
+Abdeljalil Jbira,block,30,21,0.02739,70,79
+Yassine Lamine,block,56,11,0.2822,44,89
+Mahmoud Benhalib,miss,59,5,0.4563,41,95
+Abdelhay El Forsy,save,26,12,0.03611,74,88
+Yassine Lamine,block,25,15,0.03802,75,85
+Houdaifa El Mahasni,miss,71,14,0.00533,29,86
+Bilal El Megri,miss,42,5,0.2692,58,95
+Bilal El Megri,miss,26,24,0.01391,74,76
+Bilal El Megri,save,28,20,0.03986,72,80
+Hilal Ferdaoussi,block,64,26,0.01712,36,74
+Riad Benayad,miss,39,29,0.02464,61,71
+Hamza Hannouri,save,51,19,0.02873,49,81
+Hamid Ahdad,miss,50,9,0.1548,50,91
+Hamid Ahdad,miss,54,13,0.02186,46,87
+Hamid Ahdad,save,50,10,0.76,50,90
+Bilal El Ouadghiri,save,40,4,0.3927,60,96
+Adam Ennafati,miss,78,25,0.0004882,22,75
+Naoufel Zerhouni,block,26,12,0.02704,74,88
+Mohamed Zrida,miss,55,4,0.3454,45,96
+El Mehdi Maouhoub,block,28,9,0.04547,72,91
+Ayoub Nanah,save,61,13,0.02942,39,87
+Youssef Belammari,miss,42,6,0.4185,58,94
+El Mehdi Maouhoub,goal,52,12,0.2334,48,88
+Naoufel Zerhouni,save,83,11,0.1074,17,89
+Mohamed Zrida,block,49,30,0.002921,51,70
+Anass Addaoui,miss,49,11,0.1176,51,89
+Lamine Diakité,block,42,11,0.1973,58,89
+Youssef Kajai,miss,38,13,0.03101,62,87
+Lamine Diakité,goal,57,14,0.1297,43,86
+Abdelaziz El Hamzaoui,save,48,12,0.1068,52,88
+Zinedine Derrag,save,66,21,0.04175,34,79
+Abdelaziz El Hamzaoui,miss,47,7,0.1653,53,93
+Oubaba,block,26,11,0.04791,74,89
+Tumisang Orebonye,miss,38,17,0.04905,62,83
+Zakaria Habti,miss,69,7,0.09963,31,93
+Abdelkhalek Ait Ourehbi,miss,38,14,0.05519,62,86
+Abdelaziz El Hamzaoui,block,44,28,0.05456,56,72
+Amine Zouhzouh,save,48,15,0.1518,52,85
+Anass Addaoui,miss,50,6,0.1611,50,94
+Hamza El Houssini,block,47,26,0.0512,53,74
+Hamza Igamane,miss,54,15,0.01469,46,85
+Reda Moussadek,miss,74,7,0.02088,26,93
+Amine Zouhzouh,block,26,13,0.0451,74,87
+Hamza Igamane,block,32,22,0.01043,68,78
+Tumisang Orebonye,goal,55,7,0.4193,45,93
+Oubaba,save,43,5,0.2567,57,95
+Hamza Igamane,miss,51,14,0.0809,49,86
+Hamza Igamane,miss,45,8,0.3131,55,92
+Hamza Igamane,block,51,8,0.3537,49,92
+Amine Zouhzouh,miss,61,21,0.05646,39,79
+Hassan Aqboub,save,54,8,0.4963,46,92
+Mohamed Chemlal,goal,71,11,0.02013,29,89
+Lahcen Gourbi,save,67,30,0.04102,33,70
+Yassir Zabiri,save,34,16,0.09688,66,84
+Redouan Ait Lamkadem,miss,23,10,0.05006,77,90
+Ismail Harache,miss,49,9,0.06049,51,91
+Souhayl Zamrat,miss,76,22,0.003436,24,78
+Achraf Harmach,save,45,25,0.07848,55,75
+Imad Riahi,block,57,14,0.03613,43,86
+Ismail Harache,save,31,7,0.1242,69,93
+Tawfik Bentayeb,miss,50,23,0.01459,50,77
+Soufyan Ahannach,miss,48,32,0.005654,52,68
+Mohamed Chemlal,save,27,10,0.04856,73,90
+Zinedine Derrag,miss,59,31,0.004998,41,69
+Abdoulaye Diarra,miss,43,14,0.09751,57,86
+Hamza Igamane,block,30,23,0.0226,70,77
+Hatim Essaouabi,miss,55,11,0.1962,45,89
+Tumisang Orebonye,miss,51,14,0.1658,49,86
+Tumisang Orebonye,miss,44,29,0.008749,56,71
+Yassine Kordani,save,58,12,0.1194,42,88
+Lamine Diakité,goal,59,7,0.517,41,93
+Mohamed Rabie Hrimat,post,52,6,0.466,48,94
+Tumisang Orebonye,miss,30,9,0.07402,70,91
+Mohamed Rabie Hrimat,miss,59,25,0.00565,41,75
+Lamine Diakité,miss,42,11,0.2411,58,89
+Lamine Diakité,save,48,8,0.1543,52,92
+Amine Zouhzouh,save,23,24,0.02187,77,76
+Hamza Igamane,miss,66,13,0.2464,34,87
+Lamine Diakité,block,49,25,0.0139,51,75
+Hilal Ferdaoussi,goal,50,10,0.76,50,90
+Imad Serbout,miss,42,11,0.1003,58,89
+Anass Nouader,block,52,34,0.0008752,48,66
+Bilal El Megri,miss,53,21,0.026,47,79
+Chouaib Faidi,save,40,19,0.08598,60,81
+Hamza Ghatas,miss,55,6,0.2066,45,94
+Imad Serbout,block,55,23,0.0447,45,77
+Youssef Anouar,miss,44,23,0.02598,56,77
+Hamza Ghatas,save,41,13,0.0233,59,87
+Bilal El Megri,miss,38,7,0.1264,62,93
+Hilal Ferdaoussi,miss,47,19,0.1913,53,81
+Hamza Ghatas,block,38,13,0.07555,62,87
+Chouaib Faidi,save,72,5,0.07032,28,95
+Amine Souane,save,39,15,0.0514,61,85
+Abdessamad Mahir,miss,41,31,0.003503,59,69
+Achraf Kasbaoui,block,33,20,0.008637,67,80
+Ismail Gourad,block,69,20,0.006402,31,80
+Bilal El Megri,miss,28,9,0.01745,72,91
+Amine Souane,miss,40,14,0.07413,60,86
+Zakaria Hamadi,block,40,8,0.1041,60,92
+Amine Souane,save,70,12,0.04728,30,88
+Hamza Ghatas,miss,58,7,0.1458,42,93
+Ayoub Moudden,save,49,7,0.2802,51,93
+Yassine Lamine,block,68,27,0.01973,32,73
+Bilal El Megri,save,40,8,0.1373,60,92
+Chouaib Faidi,save,66,6,0.1029,34,94
+Herve Guy,miss,45,11,0.3745,55,89
+Adam Ennafati,goal,69,10,0.1566,31,90
+Herve Guy,save,53,4,0.2805,47,96
+Naoufel Zerhouni,miss,51,49,0.01036,49,51
+Houssine Rahimi,goal,58,20,0.09171,42,80
+Riad Benayad,miss,67,27,0.01243,33,73
+Yousri Bouzok,goal,58,14,0.1837,42,86
+Jad Assouab,block,42,12,0.1405,58,88
+Mohamed El Khaloui,block,56,24,0.006718,44,76
+El Mehdi Maouhoub,miss,35,8,0.1989,65,92
+Adam Ennafati,block,69,12,0.01244,31,88
+El Mehdi Maouhoub,goal,57,13,0.3908,43,87
+El Mehdi Maouhoub,save,61,12,0.1573,39,88
+Ismail Mokadem,save,47,9,0.1435,53,91
+Sabir Bougrine,save,67,13,0.0517,33,87
+Youssef Sakhi,miss,42,43,0.009734,58,57
+Youssef Belammari,miss,27,14,0.07793,73,86
+Adam Ennafati,miss,31,14,0.07525,69,86
+Mohamed Rahim,miss,58,35,0.001937,42,65
+Youssef Dalouzi,block,38,14,0.0199,62,86
+Marouane Afalah,save,79,13,0.02038,21,87
+Ismail Mihrab,miss,25,7,0.03203,75,93
+Zakaria Fatihi,block,71,14,0.04004,29,86
+Bilal Essoufi,miss,40,38,0.006073,60,62
+Zakaria Fatihi,miss,49,24,0.06077,51,76
+Zakaria Hadraf,miss,64,20,0.01455,36,80
+Youssef Dalouzi,block,61,7,0.1063,39,93
+Anass El Ghannouj,miss,55,24,0.001768,45,76
+Youssef Dalouzi,block,77,22,0.001966,23,78
+Zakaria Bahrou,block,46,7,0.458,54,93
+Hamza Ait Allal,miss,66,17,0.0388,34,83
+Noureddine Oussama,block,33,20,0.02468,67,80
+Youness Khoutari,miss,49,17,0.07803,51,83
+Mahmoud Benhalib,miss,69,19,0.01015,31,81
+Abdelhay El Forsy,block,54,25,0.01029,46,75
+Adil  Jeddaoui,miss,62,27,0.00964,38,73
+Mahmoud Benhalib,block,51,23,0.0168,49,77
+Mahmoud Benhalib,block,34,11,0.088,66,89
+Adil  Jeddaoui,save,39,16,0.09393,61,84
+Youness Khoutari,save,51,8,0.2647,49,92
+Abdelhay El Forsy,miss,27,12,0.003076,73,88
+Karim Lagrouch,save,65,24,0.03259,35,76
+Adil  Jeddaoui,miss,56,27,0.009103,44,73
+Reda Moussadek,miss,61,37,0.06368,39,63
+Saleh Al Sellami,miss,37,42,0.03886,63,58
+Youssef Kajai,miss,36,3,0.08237,64,97
+Ade Oguns,save,37,23,0.05266,63,77
+Reda Moussadek,save,39,5,0.2573,61,95
+Zakaria Draoui,save,44,26,0.02051,56,74
+Ismail El Haddad,save,50,20,0.2086,50,80
+Sidi Amar Bouna,save,43,22,0.07967,57,78
+Ayoub El Amloud,block,63,22,0.05423,37,78
+Ade Oguns,miss,36,18,0.1021,64,82
+Mohamed Ounajem,block,68,15,0.005211,32,85
+Ismail El Haddad,miss,29,10,0.0537,71,90
+Ayoub El Amloud,save,65,8,0.07853,35,92
+Sidi Amar Bouna,block,53,21,0.1092,47,79
+Ade Oguns,miss,69,6,0.04615,31,94
+Zakaria Draoui,miss,44,12,0.08294,56,88
+Sidi Amar Bouna,miss,71,20,0.0195,29,80
+Ismail El Haddad,miss,51,14,0.1016,49,86
+Mohamed Ounajem,save,61,12,0.1523,39,88
+Ismail El Haddad,miss,58,7,0.2228,42,93
+Ilyas El Qaada,miss,56,3,0.7601,44,97
+Mohamed Amine Katiba,post,67,14,0.05299,33,86
+Joe Amian,miss,48,18,0.1733,52,82
+Assane Beye,goal,59,6,0.1615,41,94
+Ismail Khafi,save,54,13,0.0619,46,87
+Ismail Khafi,block,51,12,0.2716,49,88
+Mohamed Walid Bencherifa,miss,29,30,0.01364,71,70
+Ali El Harrak,block,50,21,0.03703,50,79
+Katulondi  Kati,miss,51,13,0.09362,49,87
+Brahim Dahmoun,block,69,14,0.04961,31,86
+Ismail Khafi,save,34,9,0.0512,66,91
+Faouzi Abdoul Mutalib,miss,44,21,0.05506,56,79
+Mohamed Saoud,miss,62,32,0.005745,38,68
+Jawad Rhabra,block,48,21,0.02355,52,79
+El Hadji Kane,miss,59,18,0.1272,41,82
+Hamza El Wasti,block,51,13,0.2194,49,87
+Aziz Kaidi,miss,65,15,0.1119,35,85
+Soufian El Moudane,save,45,22,0.0601,55,78
+Hamza Hassani Boouia,miss,55,28,0.0009547,45,72
+Ismail Khafi,block,53,20,0.06937,47,80
+Soufian El Moudane,block,56,15,0.08673,44,85
+Mohamed Saoud,save,53,22,0.158,47,78
+Oussama Lamlioui,save,38,30,0.009534,62,70
+Hamza El Baroudi,save,38,28,0.01282,62,72
+Oussama Lamlioui,goal,34,6,0.1463,66,94
+Youssef El Fahli,goal,48,8,0.3578,52,92
+Youssef El Fahli,save,55,11,0.1965,45,89
+Hamza Hannouri,save,46,10,0.07288,54,90
+Bilal El Ouadghiri,miss,50,6,0.1715,50,94
+Ayoub Nanah,miss,61,20,0.05844,39,80
+Mohamed El Morabit,miss,61,25,0.0009778,39,75
+Amine El Msane,miss,35,3,0.07441,65,97
+El Mehdi El Bassil,save,54,20,0.0915,46,80
+Youssef Zghoudi,block,59,20,0.02027,41,80
+Mohamed El Morabit,miss,70,10,0.06424,30,90
+Saleh Al Sellami,miss,32,23,0.04547,68,77
+Imad Riahi,miss,44,20,0.02513,56,80
+Saleh Al Sellami,miss,51,18,0.1331,49,82
+Issam Chouikh,block,25,26,0.004831,75,74
+Lahcen Gourbi,miss,75,19,0.01828,25,81
+Saleh Al Sellami,block,24,13,0.02713,76,87
+Lahcen Gourbi,block,46,17,0.09473,54,83
+Yassine El Ghazouani,save,49,8,0.3282,51,92
+Lahcen Gourbi,save,40,5,0.2094,60,95
+Hamza El Janati,save,45,29,0.05274,55,71
+Hamza El Janati,miss,39,28,0.02138,61,72
+Melo Ndiaye,save,55,11,0.1213,45,89
+Mohamed El Badoui,block,34,17,0.007376,66,83
+Abdelaziz El Hamzaoui,goal,56,9,0.1526,44,91
+Melo Ndiaye,miss,30,29,0.0009261,70,71
+Saleh Al Sellami,miss,67,18,0.01854,33,82
+Haytem Aina,miss,63,25,0.03307,37,75
+Imad Riahi,miss,72,12,0.0208,28,88
+Saleh Al Sellami,miss,24,23,0.02433,76,77
+Imad Riahi,save,72,17,0.01904,28,83
+Youssef Oubaba,miss,43,22,0.05349,57,78
+Hamza El Janati,miss,24,33,0.004555,76,67
+Melo Ndiaye,miss,49,10,0.06796,51,90
+Mohssine Bourika,save,57,7,0.2246,43,93
+Hamza El Janati,save,50,33,0.01539,50,67
+Mohssine Bourika,save,61,22,0.04185,39,78
+Mohssine Bourika,miss,56,12,0.1761,44,88
+Mohssine Bourika,save,30,31,0.01199,70,69
+Abdelaziz El Hamzaoui,block,50,21,0.09814,50,79
+Mohssine Bourika,miss,70,29,0.01998,30,71
+Brahim Sabaouni,block,31,21,0.02935,69,79
+Amine Azri,block,21,28,0.01152,79,72
+Mohamed Chemlal,block,44,20,0.002434,56,80
+Tawfik Bentayeb,save,51,14,0.0637,49,86
+Hamza Hannouri,miss,34,14,0.1727,66,86
+Ayoub Nanah,miss,39,5,0.2084,61,95
+Ayoub Nanah,save,59,7,0.3629,41,93
+Tawfik Bentayeb,save,35,8,0.1296,65,92
+Tawfik Bentayeb,save,43,16,0.124,57,84
+Hamid Ahdad,block,42,16,0.1321,58,84
+Tawfik Bentayeb,goal,39,16,0.1095,61,84
+Hamid Ahdad,save,61,8,0.1057,39,92
+Soufyan Ahannach,miss,35,2,0.1933,65,98
+Ayoub Nanah,goal,61,5,0.225,39,95
+Souhayl Zamrat,miss,65,20,0.02659,35,80
+Ismail El Haddad,miss,63,21,0.01803,37,79
+Ayoub El Amloud,miss,71,19,0.01059,29,81
+Monir El Habach,miss,54,7,0.1463,46,93
+Saifeddine Bouhra,miss,32,7,0.05926,68,93
+Hamza Igamane,save,60,6,0.06843,40,94
+Hamza Igamane,miss,29,21,0.001533,71,79
+Ahmed Hammoudan,save,34,6,0.2259,66,94
+Najji Larbi,block,54,13,0.1985,46,87
+Amine Zouhzouh,save,51,15,0.1501,49,85
+Amine Farhane,block,56,12,0.02141,44,88
+Mohamed Rabie Hrimat,goal,49,8,0.1542,51,92
+Hamza Igamane,miss,29,20,0.01338,71,80
+Mohamed Rabie Hrimat,post,50,10,0.76,50,90
+Sidi Amar Bouna,miss,66,13,0.09259,34,87
+Ayoub El Amloud,miss,66,23,0.05022,34,77
+Hamza Igamane,save,62,8,0.1095,38,92
+Amine Souane,miss,32,17,0.08364,68,83
+Soufian El Moudane,miss,31,25,0.00365,69,75
+Assane Beye,miss,47,4,0.3798,53,96
+Chouaib Faidi,goal,46,0,0.7205,54,100
+Katulondi  Kati,miss,46,9,0.1847,54,91
+Youssef Anouar,miss,64,15,0.1083,36,85
+Yassine Rami,miss,50,14,0.1102,50,86
+Achraf Kasbaoui,block,65,20,0.02427,35,80
+Junior Mbele,goal,54,7,0.382,46,93
+Amine Souane,save,57,9,0.05548,43,91
+Yassine Rami,block,52,25,0.001522,48,75
+Salaheddine Bahi,miss,68,28,0.02642,32,72
+Fahd Bendahmane,goal,48,3,0.5954,52,97
+Youssef Anouar,save,49,4,0.456,51,96
+Fahd Bendahmane,miss,49,5,0.336,51,95
+Jalal Tachtach,block,57,10,0.3017,43,90
+Amine Souane,block,33,4,0.04284,67,96
+Achraf Kasbaoui,goal,50,30,0.0153,50,70
+Fahd Bendahmane,miss,31,15,0.1116,69,85
+Youssef Anouar,save,63,16,0.1091,37,84
+Youssef El Fahli,goal,50,10,0.76,50,90
+Youssef Mehri,block,61,25,0.0382,39,75
+Ayoub Khairi,miss,85,40,0.01278,15,60
+Abdoulaye Diarra,save,32,19,0.132,68,81
+Mehdi Ashabi,goal,59,11,0.499,41,89
+Youness Najari,miss,43,22,0.07967,57,78
+Brahim El Bahraoui,miss,60,7,0.2229,40,93
+Youssef El Fahli,goal,50,10,0.76,50,90
+Yassine Labhiri,block,33,20,0.003555,67,80
+Brahim El Bahraoui,miss,37,5,0.1269,63,95
+Youness Najari,miss,39,9,0.1098,61,91
+Hamza El Moussaoui,miss,31,14,0.09269,69,86
+Adil Tahif,miss,44,14,0.03715,56,86
+Youness Najari,miss,37,21,0.1061,63,79
+Walid Rhailouf,block,47,28,0.01028,53,72
+Abdoulaye Diarra,block,49,27,0.07589,51,73
+Youssef Chaina,save,56,5,0.1984,44,95
+Zouhair El Ouassli,miss,81,21,0.006828,19,79
+Abdel Hamid Maali,miss,77,10,0.01978,23,90
+Mohamed Saoud,goal,68,28,0.03156,32,72
+El Hadji Kane,save,68,14,0.03769,32,86
+Mohamed Saoud,block,47,29,0.08573,53,71
+Bakary Badji,goal,50,10,0.76,50,90
+Mohamed Radouani,block,42,28,0.03169,58,72
+Jawad Rhabra,save,49,10,0.08306,51,90
+Hilal Ferdaoussi,save,58,25,0.01824,42,75
+Mohamed Saoud,post,49,28,0.05626,51,72
+Ismail Khafi,save,49,10,0.03826,51,90
+Ismail Khafi,save,36,18,0.1021,64,82
+Houdaifa El Mahasni,block,49,20,0.03205,51,80
+Ismail Khafi,save,69,19,0.05465,31,81
+Ahmed Chentouf,miss,38,10,0.1589,62,90
+Ismail Khafi,save,41,15,0.1429,59,85
+Mohamed Saoud,block,75,25,0.04014,25,75
+Jawad Rhabra,save,44,18,0.121,56,82
+Houdaifa El Mahasni,miss,64,27,0.01831,36,73
+El Hadji Kane,miss,44,19,0.02248,56,81
+Bilal El Megri,miss,48,23,0.05708,52,77
+Mohamed Walid Bencherifa,miss,82,10,0.003709,18,90
+El Hadji Kane,miss,44,27,0.001021,56,73
+Elhadji Konate,miss,67,44,0.02013,33,56
+Hilal Ferdaoussi,miss,67,31,0.003735,33,69
+Ismail Khafi,save,50,8,0.1321,50,92
+Zakaria Kiani,save,64,19,0.06481,36,81
+Ahmad El Houari,miss,47,30,0.01881,53,70
+Riad Benayad,miss,56,9,0.09513,44,91
+Marouane Zila,save,24,21,0.03377,76,79
+Riad Benayad,miss,55,10,0.3801,45,90
+El Mehdi Maouhoub,block,52,27,0.02428,48,73
+Yousri Bouzok,goal,46,11,0.3534,54,89
+Adam Ennafati,save,66,20,0.03548,34,80
+Mohamed Boulacsout,save,69,18,0.05003,31,82
+Sabir Bougrine,miss,48,17,0.01087,52,83
+El Mehdi Maouhoub,block,56,21,0.008492,44,79
+El Mehdi Moubarik,miss,48,22,0.01716,52,78
+Sabir Bougrine,save,35,20,0.06677,65,80
+Yousri Bouzok,block,38,16,0.05644,62,84
+Yousri Bouzok,miss,29,13,0.02365,71,87
+El Mehdi Moubarik,miss,36,12,0.04788,64,88
+Yousri Bouzok,save,32,10,0.1066,68,90
+Karim Lagrouch,save,59,8,0.1729,41,92
+Adam Ennafati,save,29,31,0.01326,71,69
+El Mehdi Maouhoub,goal,50,6,0.4897,50,94
+Karim Lagrouch,save,48,13,0.02636,52,87
+Zakaria Hadraf,miss,46,15,0.06073,54,85
+Anass El Ghannouj,miss,58,27,0.006657,42,73
+Brahim El Idrissi Bouzidi,goal,38,7,0.1188,62,93
+Kamal EL Keraa,block,29,14,0.06754,71,86
+Youssef Limouri,goal,65,11,0.1281,35,89
+Zakaria Hadraf,miss,49,14,0.1882,51,86
+Soulaimane El Bouchqali,block,73,34,0.0008446,27,66
+Zakaria Bahrou,miss,46,18,0.1241,54,82
+Youness Khoutari,save,64,9,0.2027,36,91
+Kamal EL Keraa,miss,28,21,0.01791,72,79
+Mohamed El Khaloui,miss,45,15,0.2313,55,85
+Kamal EL Keraa,save,60,11,0.243,40,89
+Mahmoud Benhalib,save,18,12,0.05307,82,88
+Brahim El Bahraoui,miss,54,19,0.09191,46,81
+Abdelaziz El Hamzaoui,miss,57,12,0.07239,43,88
+Houari Ferhani,miss,39,20,0.06795,61,80
+Abdelaziz El Hamzaoui,save,52,11,0.1098,48,89
+Abdelaziz El Hamzaoui,save,29,4,0.01453,71,96
+Brahim El Bahraoui,miss,38,27,0.006156,62,73
+Walid Rhailouf,miss,53,6,0.175,47,94
+Hamza Moujahid,save,56,12,0.2319,44,88
+Abdelaziz El Hamzaoui,save,62,10,0.07906,38,90
+Youssef Kajai,miss,60,10,0.09393,40,90
+Abdoulaye Diarra,block,36,14,0.2267,64,86
+Cheickna Samake,save,54,14,0.1944,46,86
+Walid Rhailouf,miss,43,28,0.003862,57,72
+Abdelaziz El Hamzaoui,block,64,26,0.04001,36,74
+Youness Moukhlis,miss,27,26,0.008468,73,74
+Houari Ferhani,goal,50,10,0.76,50,90
+Abdelaziz El Hamzaoui,miss,18,9,0.002206,82,91
+Naoufal Zannane,miss,45,33,0.007074,55,67
+Hamza El Houssini,post,62,23,0.02206,38,77
+Youness Moukhlis,save,26,31,0.03631,74,69
+Ahmed Chentouf,block,37,13,0.04569,63,87
+Zouhair El Ouassli,block,24,15,0.0297,76,85
+Hamid Ahdad,save,48,7,0.2984,52,93
+Ali El Harrak,save,50,12,0.1333,50,88
+Ali El Harrak,save,62,26,0.0355,38,74
+Amine El Msane,save,49,25,0.1148,51,75
+Ismail Khafi,goal,50,10,0.76,50,90
+Ahmed Chentouf,block,55,23,0.004489,45,77
+Ismail Khafi,save,28,6,0.1642,72,94
+El Hadji Kane,miss,55,25,0.01615,45,75
+Hamza El Wasti,block,32,27,0.03512,68,73
+Hamza El Wasti,save,25,24,0.01421,75,76
+Hamza El Wasti,block,49,24,0.005822,51,76
+Ayoub Nanah,save,59,4,0.2506,41,96
+Amine El Msane,miss,60,3,0.2014,40,97
+Hamza Hannouri,goal,60,9,0.2409,40,91
+El Hadji Kane,goal,47,12,0.1423,53,88
+Ismail Khafi,save,44,8,0.1829,56,92
+Jawad Rhabra,miss,50,12,0.05689,50,88
+Mohamed Saoud,block,31,30,0.05819,69,70
+Ayoub Qasmi,miss,23,25,0.003688,77,75
+Faouzi Abdoul Mutalib,miss,47,23,0.03157,53,77
+Hamza El Moudene,miss,71,14,0.02473,29,86
+Achraf Kasbaoui,miss,66,26,0.001642,34,74
+Amine Souane,miss,34,28,0.0116,66,72
+Achraf Kasbaoui,block,67,24,0.02133,33,76
+Aziz Ennakhli,save,63,8,0.2303,37,92
+Ayoub Ballouchy,miss,61,26,0.003674,39,74
+Imad Serbout,block,49,32,0.001197,51,68
+Youssef Dalouzi,miss,41,14,0.04455,59,86
+Chouaib Faidi,block,31,15,0.003561,69,85
+Youssef Dalouzi,miss,48,13,0.1601,52,87
+Amine Souane,miss,75,34,0.0004731,25,66
+Amine Souane,save,28,25,0.01597,72,75
+Achraf Kasbaoui,block,43,28,0.002192,57,72
+Amine Souane,save,26,32,0.03886,74,68
+Jamal Ech-Chammakh,miss,56,25,0.01591,44,75
+Saifeddine Bouhra,save,34,15,0.1123,66,85
+Monir El Habach,save,52,24,0.06076,48,76
+Assane Beye,miss,48,7,0.1377,52,93
+Abdellah Haimoud,block,44,26,0.02116,56,74
+Ismail El Haddad,block,72,15,0.004571,28,85
+Abdellah Haimoud,miss,45,16,0.04941,55,84
+Katulondi  Kati,miss,65,13,0.06214,35,87
+Jalal Tachtach,miss,51,12,0.2704,49,88
+Saifeddine Bouhra,miss,35,13,0.1894,65,87
+Ade Oguns,block,54,10,0.2624,46,90
+Ade Oguns,block,55,9,0.1889,45,91
+Jalal Tachtach,save,50,22,0.03362,50,78
+Ismail El Haddad,save,84,29,0.04456,16,71
+Ismail El Haddad,goal,49,9,0.1844,51,91
+Ade Oguns,miss,59,10,0.1637,41,90
+Jamal Harkass,miss,41,1,0.1824,59,99
+Yassine Rami,save,41,12,0.06503,59,88
+Youssef Sakhi,save,42,19,0.1318,58,81
+Yassir Zabiri,miss,60,10,0.07107,40,90
+Mohamed Chemlal,miss,66,15,0.009799,34,85
+Yassir Zabiri,save,63,19,0.0333,37,81
+Mohamed Chemlal,save,69,29,0.004081,31,71
+Tawfik Bentayeb,block,36,11,0.04375,64,89
+Hassan Aqboub,miss,24,19,0.01208,76,81
+Yassir Zabiri,miss,62,27,0.001369,38,73
+Mohamed El Khaloui,goal,30,9,0.03983,70,91
+Mohamed El Khaloui,miss,28,6,0.04052,72,94
+Youssef Limouri,miss,52,18,0.1207,48,82
+Yassine El Khalej,miss,45,35,0.001299,55,65
+Lamine Diakité,miss,46,8,0.128,54,92
+Amine Zouhzouh,goal,36,25,0.0215,64,75
+Tumisang Orebonye,miss,36,19,0.105,64,81
+Lamine Diakité,save,49,10,0.1651,51,90
+Lamine Diakité,goal,60,20,0.05057,40,80
+Mohamed Rabie Hrimat,miss,41,11,0.1015,59,89
+Ismail Harache,miss,30,11,0.05242,70,89
+Tumisang Orebonye,miss,24,19,0.02982,76,81
+Mohamed Rabie Hrimat,miss,49,8,0.08532,51,92
+Mohamed Moufid,block,70,7,0.09955,30,93
+Imad Riahi,save,50,11,0.6711,50,89
+Mohssine Bourika,miss,36,19,0.03289,64,81
+Tumisang Orebonye,block,50,6,0.3326,50,94
+Zakaria Habti,goal,60,14,0.07793,40,86
+Zakaria Habti,miss,54,8,0.2182,46,92
+Tumisang Orebonye,miss,46,9,0.161,54,91
+Mohssine Bourika,goal,50,10,0.76,50,90
+Mohamed Rabie Hrimat,block,53,12,0.257,47,88
+Tumisang Orebonye,block,67,14,0.03693,33,86
+Driss El-Jabli,block,27,16,0.01613,73,84
+Riad Benayad,save,39,15,0.05296,61,85
+El Mehdi Maouhoub,miss,40,15,0.0134,60,85
+Adam Ennafati,goal,64,4,0.1077,36,96
+Ahmadou Ama Camara,miss,44,30,0.009325,56,70
+Mohamed Habbali,miss,69,15,0.05308,31,85
+Riad Benayad,block,66,13,0.05696,34,87
+Naoufel Zerhouni,miss,63,11,0.1997,37,89
+Riad Benayad,save,46,26,0.04738,54,74
+Naoufel Zerhouni,miss,55,6,0.6873,45,94
+El Mehdi Maouhoub,save,45,16,0.1336,55,84
+Riad Benayad,save,38,16,0.1045,62,84
+Mohamed Boulacsout,miss,26,27,0.002966,74,73
+Hamza Ait Allal,miss,72,9,0.02543,28,91
+Abdelhay El Forsy,save,72,14,0.05936,28,86
+Zakaria Bahrou,post,55,6,0.3274,45,94
+Youness Khoutari,goal,46,8,0.4776,54,92
+Youness Khoutari,miss,48,9,0.1206,52,91
+Naoufel Zerhouni,block,48,28,0.01767,52,72
+Mohamed Boulacsout,miss,59,29,0.004999,41,71
+El Mehdi Moubarik,block,54,20,0.018,46,80
+Anass El Ghannouj,save,51,25,0.06397,49,75
+Adam Ennafati,block,62,19,0.01703,38,81
+El Mehdi Maouhoub,miss,47,7,0.1377,53,93
+Adam Ennafati,goal,62,24,0.03455,38,76
+Djibril Ouattara,goal,47,9,0.1143,53,91
+Djibril Ouattara,save,48,10,0.1336,52,90
+Pape Badji,goal,50,10,0.76,50,90
+Youssef Mehri,miss,67,2,0.04055,33,98
+Youssef Mehri,save,37,13,0.1316,63,87
+Paul Valère Bassene,miss,43,6,0.1858,57,94
+Yassine Labhiri,block,39,26,0.04002,61,74
+Tuisila Kisinda,miss,55,11,0.2507,45,89
+Bilal El Megri,block,26,10,0.01671,74,90
+Youssef Mehri,goal,47,8,0.1894,53,92
+Hamza El Moussaoui,block,62,19,0.01885,38,81
+Paul Valère Bassene,miss,54,5,0.4723,46,95
+Youssef Mehri,miss,34,25,0.03811,66,75
+Houdaifa El Mahasni,block,40,25,0.04046,60,75
+Bilal El Megri,save,45,11,0.3103,55,89
+Issoufou Dayo,goal,50,10,0.76,50,90
+Houdaifa El Mahasni,block,75,27,0.0002888,25,73
+Issoufou Dayo,miss,50,10,0.76,50,90
+Tuisila Kisinda,miss,56,10,0.3595,44,90
+Hamza Ghatas,goal,60,25,0.04355,40,75
+Hamza El Moussaoui,miss,25,11,0.07971,75,89
+Tuisila Kisinda,block,34,8,0.01577,66,92
+Mohamed El Morabit,block,55,15,0.01543,45,85
+Ayoub Khairi,miss,55,21,0.007435,45,79
+Pa Modou Sohna,miss,55,38,0.02325,45,62
+Youssef Sakhi,save,56,6,0.1814,44,94
+Hamza Buihamghet,miss,64,27,0.0168,36,73
+Amine Souane,save,66,6,0.08894,34,94
+Youssef Anouar,block,34,8,0.0112,66,92
+Youssef Limouri,save,41,13,0.0613,59,87
+Achraf Kasbaoui,save,33,12,0.0839,67,88
+Haytham El Bahja,post,66,6,0.0928,34,94
+Oussama Radi,block,63,10,0.1609,37,90
+El Habib Brija,miss,68,24,0.004346,32,76
+Oussama Radi,save,71,23,0.02878,29,77
+Youssef Sakhi,miss,46,6,0.3205,54,94
+Achraf Kasbaoui,miss,47,30,0.001119,53,70
+Youssef Limouri,miss,46,25,0.04597,54,75
+Chouaib Faidi,miss,26,7,0.03193,74,93
+Ennaama El Bellali,miss,45,26,0.02511,55,74
+El Habib Brija,block,65,25,0.006777,35,75
+Youssef Limouri,block,37,10,0.4021,63,90
+Imad Serbout,block,68,21,0.04359,32,79
+Amine Souane,block,74,8,0.1177,26,92
+Imad Serbout,block,67,27,0.01595,33,73
+Oussama Radi,miss,72,10,0.06678,28,90
+Soulaimane El Bouchqali,block,57,27,0.001883,43,73
+Souhayl Zamrat,miss,13,44,0.03024,87,56
+Hamza Bahaj,miss,23,24,0.006757,77,76
+Souhayl Zamrat,miss,79,16,0.02216,21,84
+Yassir Zabiri,goal,54,0,0.9319,46,100
+Noureddine Oussama,miss,38,35,0.01917,62,65
+Karim Lagrouch,miss,42,35,0.0009088,58,65
+Anas Nanah,post,38,5,0.07958,62,95
+Tawfik Bentayeb,save,46,10,0.3216,54,90
+Mouad Dahak,goal,64,5,0.2167,36,95
+Redouan Ait Lamkadem,miss,22,18,0.009131,78,82
+Aymane Mourid,block,33,35,0.00205,67,65
+Tawfik Bentayeb,miss,51,19,0.02614,49,81
+Redouan Ait Lamkadem,save,31,29,0.03855,69,71
+Mouad Dahak,save,31,21,0.05058,69,79
+Soufyan Ahannach,miss,54,19,0.05156,46,81
+Redouan Ait Lamkadem,miss,31,20,0.01231,69,80
+Aymane Mourid,block,40,35,0.01342,60,65
+Soufyan Ahannach,block,62,19,0.05049,38,81
+Mouad Dahak,miss,51,20,0.09194,49,80
+Hamza Kalai,miss,49,24,0.06715,51,76
+Mohamed Rabie Hrimat,save,58,10,0.1451,42,90
+Lamine Diakité,block,37,21,0.003607,63,79
+Mohamed Moufid,miss,73,5,0.07247,27,95
+Mohamed Rabie Hrimat,miss,65,4,0.06357,35,96
+Katulondi  Kati,goal,48,7,0.2237,52,93
+Mohamed Rabie Hrimat,post,41,4,0.2279,59,96
+Najji Larbi,save,46,26,0.0252,54,74
+Mohamed Moufid,miss,67,29,0.004399,33,71
+Jalal Tachtach,miss,51,27,0.01815,49,73
+Fahd Bendahmane,miss,62,11,0.07048,38,89
+Tumisang Orebonye,miss,47,18,0.03807,53,82
+Hamza Igamane,block,35,14,0.06239,65,86
+Mohamed Moufid,miss,64,22,0.009234,36,78
+Zouhair Marour,post,65,13,0.03564,35,87
+Najji Larbi,goal,47,5,0.7529,53,95
+Zakaria Habti,save,46,16,0.2655,54,84
+Hatim Essaouabi,block,50,13,0.04697,50,87
+Jalal Tachtach,goal,58,7,0.5306,42,93
+Fahd Bendahmane,save,59,3,0.4913,41,97
+Ismail Khafi,goal,48,5,0.7741,52,95
+El Hadji Kane,save,55,10,0.3691,45,90
+Abderrahmane Qassaq,goal,42,10,0.2979,58,90
+Ali El Harrak,block,53,38,0.005871,47,62
+Ismail Khafi,miss,73,9,0.06723,27,91
+El Hadji Kane,save,36,12,0.05548,64,88
+Abdoulaye Diarra,miss,32,27,0.0008178,68,73
+Mohamed Saoud,miss,70,40,0.002484,30,60
+Boniface Haba,miss,50,27,0.008937,50,73
+Ahmed Chentouf,miss,74,19,0.001214,26,81
+Saad Morsli,save,69,21,0.02337,31,79
+Ahmed Chentouf,miss,48,27,0.001432,52,73
+Youness Najari,save,33,11,0.043,67,89
+El Hadji Kane,block,62,17,0.0214,38,83
+Saad Morsli,miss,36,25,0.004631,64,75
+Jawad Rhabra,block,31,1,0.02067,69,99
+Boniface Haba,save,48,12,0.1549,52,88
+Jawad Rhabra,miss,54,5,0.4098,46,95
+El Hadji Kane,save,61,27,0.05424,39,73
+Youness Najari,miss,73,20,0.02038,27,80
+Hamza Hannouri,miss,59,9,0.1574,41,91
+Reda Alaoui,block,49,28,0.002807,51,72
+Hamza Hannouri,save,57,13,0.1326,43,87
+Youness Khoutari,goal,54,14,0.1635,46,86
+Mahmoud Benhalib,goal,62,12,0.09171,38,88
+Salah Moussadak,miss,56,7,0.1465,44,93
+Ayoub Nanah,save,44,10,0.1366,56,90
+Reda Alaoui,block,52,18,0.01324,48,82
+Anas Bach,save,56,24,0.0539,44,76
+Hamza Ait Allal,block,66,26,0.003843,34,74
+Mohamed Habbali,miss,31,29,0.005237,69,71
+Youness Khoutari,miss,38,10,0.1304,62,90
+Anass El Ghannouj,save,37,29,0.01098,63,71
+Abdeljalil Jbira,block,36,28,0.005408,64,72
+Mohamed Habbali,miss,80,21,0.01712,20,79
+Hamid Ahdad,save,42,10,0.04218,58,90
+Anas Bach,save,36,27,0.02521,64,73
+Marwane Elaz,miss,27,22,0.08172,73,78
+Hamid Ahdad,block,64,12,0.2259,36,88
+Zakaria Bahrou,block,33,4,0.09968,67,96
+Ayoub Nanah,save,32,12,0.1271,68,88
+Hamza Ait Allal,miss,54,6,0.2844,46,94
+Amine El Msane,save,26,19,0.02529,74,81
+Ayoub Nanah,save,62,15,0.05066,38,85
+Ayoub Nanah,block,65,16,0.0525,35,84
+Hamid Ahdad,block,41,14,0.0184,59,86
+Mohamed Habbali,save,41,19,0.09853,59,81
+Hamid Ahdad,miss,50,15,0.1512,50,85
+Oussama Mahrous,miss,56,15,0.1554,44,85
+Christian Nsundi,goal,52,1,0.4081,48,99
+Mohamed Ounajem,block,60,14,0.1203,40,86
+Saifeddine Bouhra,save,18,25,0.01985,82,75
+Saifeddine Bouhra,block,38,27,0.004385,62,73
+Hamza El Janati,save,66,32,0.02942,34,68
+Saifeddine Bouhra,miss,64,20,0.0175,36,80
+Mohssine Bourika,block,50,10,0.07442,50,90
+Saifeddine Bouhra,miss,57,9,0.3773,43,91
+Mountassir Lahtimi,miss,42,37,0.01965,58,63
+Christian Nsundi,save,51,26,0.04479,49,74
+Sidi Amar Bouna,goal,38,12,0.1747,62,88
+Imad Riahi,block,59,29,0.004928,41,71
+Imad Riahi,save,23,31,0.03239,77,69
+Saifeddine Bouhra,save,28,19,0.0346,72,81
+Mountassir Lahtimi,save,63,24,0.02927,37,76
+Sidi Amar Bouna,save,51,26,0.05735,49,74
+Christian Nsundi,miss,54,25,0.04963,46,75
+Mountassir Lahtimi,save,61,18,0.0901,39,82
+Houdaifa El Mahasni,miss,63,13,0.02333,37,87
+Hilal Ferdaoussi,miss,49,34,0.002122,51,66
+Saleh Al Sellami,block,39,15,0.03412,61,85
+Houdaifa El Mahasni,miss,62,9,0.1759,38,91
+Hamza Ghatas,miss,43,9,0.2339,57,91
+Yassine Lamine,miss,64,6,0.07603,36,94
+Yassine Lamine,save,43,15,0.06891,57,85
+Hilal Ferdaoussi,block,73,26,0.002489,27,74
+Houdaifa El Mahasni,miss,69,18,0.003404,31,82
+Abdelaziz El Hamzaoui,save,59,25,0.01972,41,75
+Bilal El Megri,miss,40,15,0.04073,60,85
+Mohamed Radouani,block,61,22,0.006449,39,78
+Houdaifa El Mahasni,save,36,7,0.1542,64,93
+Ayoub Lakhal,miss,42,32,0.007395,58,68
+Yassine Jbira,miss,45,45,0.001905,55,55
+Bilal El Megri,block,51,19,0.0844,49,81
+Bilal El Megri,block,45,18,0.06623,55,82
+Abdelaziz El Hamzaoui,block,70,13,0.05835,30,87
+Hilal Ferdaoussi,miss,32,31,0.01249,68,69
+Ayoub Moudden,block,42,11,0.04458,58,89
+Riad Benayad,block,29,25,0.001148,71,75
+Riad Benayad,block,52,10,0.3067,48,90
+Yousri Bouzok,save,44,13,0.2546,56,87
+Yousri Bouzok,goal,17,14,0.01468,83,86
+Omar Arjoune,block,56,9,0.1193,44,91
+Abdellah Khafifi,goal,52,9,0.2446,48,91
+Adam Ennafati,block,35,13,0.007578,65,87
+Youssef Belammari,miss,22,10,0.03218,78,90
+Mohamed Zrida,block,42,16,0.01167,58,84
+Adam Ennafati,save,70,5,0.03304,30,95
+Yousri Bouzok,miss,27,23,0.03188,73,77
+Abdelhak Assal,miss,68,13,0.05459,32,87
+Yousri Bouzok,goal,61,10,0.1126,39,90
+Mohamed El Morabit,miss,45,24,0.007369,55,76
+Sabir Bougrine,miss,71,20,0.008309,29,80
+Ismail Mokadem,save,76,8,0.01867,24,92
+El Mehdi Maouhoub,save,37,8,0.1109,63,92
+Adam Ennafati,save,73,18,0.02753,27,82
+Adam Ennafati,miss,56,16,0.08871,44,84
+Mohamed El Badoui,save,40,12,0.2253,60,88
+Abdallah Boukhanfer,miss,33,3,0.1051,67,97
+Katulondi  Kati,block,60,12,0.1463,40,88
+Ismail Harache,post,46,12,0.1249,54,88
+Jalal Tachtach,miss,63,26,0.02977,37,74
+Mohssine Bourika,goal,50,10,0.76,50,90
+Katulondi  Kati,miss,45,8,0.1629,55,92
+Soufian El Moudane,goal,50,10,0.76,50,90
+Abdallah Boukhanfer,block,60,22,0.01135,40,78
+Ismail Harache,block,46,21,0.02145,54,79
+Imad Riahi,block,52,26,0.00272,48,74
+Abdallah Boukhanfer,miss,46,14,0.1656,54,86
+Assane Beye,miss,52,7,0.2701,48,93
+Katulondi  Kati,save,44,8,0.2357,56,92
+Hamza Afsal,goal,38,19,0.1627,62,81
+Mohssine Bourika,save,46,9,0.4931,54,91
+Imad Riahi,block,49,25,0.04508,51,75
+Soufiane Lagzir,block,77,34,0.00332,23,66
+Brahim Dahmoun,block,69,24,0.01409,31,76
+Jamal Ech-Chammakh,save,39,11,0.2181,61,89
+Hamza Afsal,post,48,28,0.03222,52,72
+Mohssine Bourika,goal,60,11,0.1111,40,89
+Mohamed Amine Essahel,miss,65,29,0.01818,35,71
+Bilal El Megri,miss,40,14,0.1611,60,86
+Pape Badji,block,45,13,0.01427,55,87
+Hamza Ghatas,miss,47,20,0.03092,53,80
+Anass Eddaou,save,46,23,0.06109,54,77
+Tawfik Bentayeb,save,40,14,0.1524,60,86
+Hilal Ferdaoussi,block,52,28,0.00132,48,72
+Tawfik Bentayeb,miss,48,8,0.1884,52,92
+Yassine Jbira,save,27,21,0.02918,73,79
+Abdessamad Mahir,miss,48,15,0.08944,52,85
+Souhayl Zamrat,miss,65,6,0.1526,35,94
+Ilyass Lagrimi,goal,51,6,0.7219,49,94
+Ilyass Lagrimi,block,52,8,0.6459,48,92
+Ilias Haddad,post,44,12,0.101,56,88
+Bilal El Megri,miss,35,17,0.0641,65,83
+Souhayl Zamrat,block,62,13,0.126,38,87
+Ilyass Lagrimi,miss,50,7,0.1888,50,93
+Aymane Mourid,miss,18,22,0.0004749,82,78
+Mohamed Chemlal,save,65,20,0.04518,35,80
+Bilal El Megri,save,61,19,0.2845,39,81
+Tawfik Bentayeb,miss,34,10,0.07609,66,90
+Souhayl Zamrat,save,66,23,0.02738,34,77
+Tawfik Bentayeb,miss,46,7,0.3133,54,93
+Ismail Ouro-Agoro,save,42,10,0.2307,58,90
+Mohamed Rabie Hrimat,save,50,10,0.76,50,90
+Amine Zouhzouh,block,30,20,0.1111,70,80
+Najji Larbi,miss,52,30,0.001549,48,70
+Amine Zouhzouh,miss,63,13,0.158,37,87
+Ahmed Hammoudan,save,46,3,0.7578,54,97
+Amine Zouhzouh,miss,67,10,0.1204,33,90
+Zakaria Habti,miss,66,20,0.02963,34,80
+Amine Zouhzouh,goal,57,6,0.4783,43,94
+Alaeddine Ajaray,goal,49,13,0.2308,51,87
+Alaeddine Ajaray,save,46,30,0.01567,54,70
+Amine Zouhzouh,save,70,11,0.1442,30,89
+Mohamed Rabie Hrimat,save,65,10,0.05117,35,90
+Haytham El Bahja,miss,71,26,0.01624,29,74
+Amine Zouhzouh,save,31,20,0.05726,69,80
+Mohamed El Khaloui,goal,35,23,0.02536,65,77
+Najji Larbi,goal,35,8,0.1135,65,92
+Alaeddine Ajaray,miss,45,13,0.05871,55,87
+Hamid Ahdad,goal,50,10,0.76,50,90
+Brahim Sabaouni,block,60,11,0.2743,40,89
+Hamid Ahdad,save,70,6,0.08671,30,94
+Amine Azri,save,45,6,0.2829,55,94
+Hamid Ahdad,miss,48,25,0.003843,52,75
+Issam Chouikh,save,51,20,0.1337,49,80
+Abdelkhalek Ait Ourehbi,block,39,22,0.03147,61,78
+Amine Azri,miss,33,9,0.08763,67,91
+Abdelkhalek Ait Ourehbi,save,50,19,0.1831,50,81
+Hamza Hannouri,goal,52,14,0.1556,48,86
+Amine Azri,post,36,9,0.1503,64,91
+Hamza Hannouri,miss,54,7,0.1538,46,93
+Hamza Hannouri,miss,59,21,0.06255,41,79
+Ayoub Nanah,save,65,13,0.1372,35,87
+Oussama Soukhane,miss,30,10,0.07598,70,90
+Marwane Elaz,goal,40,8,0.2966,60,92
+Marwane Elaz,save,35,5,0.1713,65,95
+Zouheir El Hachemi,block,56,14,0.06368,44,86
+Abdelkhalek Ait Ourehbi,save,55,22,0.1694,45,78
+Zouheir El Hachemi,goal,59,15,0.1562,41,85
+Abdelaziz El Hamzaoui,miss,50,4,0.3985,50,96
+Abdelkhalek Ait Ourehbi,miss,53,11,0.0986,47,89
+Hamza Hannouri,goal,46,8,0.1916,54,92
+Saleh Al Sellami,block,51,18,0.02322,49,82
+Hamza El Moudene,miss,41,28,0.003281,59,72
+Bilal El Ouadghiri,miss,55,9,0.1305,45,91
+Hamza Hannouri,block,56,11,0.07448,44,89
+Zouheir El Hachemi,save,61,23,0.02283,39,77
+Youness Moukhlis,miss,62,8,0.1527,38,92
+Anass Addaoui,miss,61,13,0.1437,39,87
+Ayoub Nanah,miss,63,14,0.247,37,86
+Saleh Al Sellami,save,43,11,0.4547,57,89
+Ayoub Nanah,block,42,14,0.05588,58,86
+El Hadji Kane,save,33,19,0.02352,67,81
+Riad Benayad,goal,47,3,0.5342,53,97
+Abdellatif Akhrif,miss,46,33,0.02395,54,67
+Ali El Harrak,block,48,19,0.007442,52,81
+Abdellatif Akhrif,save,24,12,0.08806,76,88
+Mohamed Said Bouksyr,miss,44,26,0.01352,56,74
+Ismail Khafi,block,39,14,0.05442,61,86
+Yousri Bouzok,goal,50,10,0.76,50,90
+Anas Lamrabat,miss,26,13,0.0412,74,87
+Sabir Bougrine,miss,71,13,0.02799,29,87
+Naoufel Zerhouni,save,31,4,0.07397,69,96
+Ismail Khafi,goal,32,12,0.1296,68,88
+Youssef Chaina,miss,53,13,0.06822,47,87
+El Hadji Kane,miss,49,9,0.08751,51,91
+Mohamed Saoud,block,68,21,0.004861,32,79
+Ismail Khafi,save,73,7,0.03437,27,93
+Jawad Rhabra,block,61,14,0.09719,39,86
+Adam Ennafati,save,25,23,0.02142,75,77
+Yousri Bouzok,miss,39,8,0.4684,61,92
+Mohamed Boulacsout,save,64,11,0.1583,36,89
+Ismail Khafi,miss,31,5,0.04836,69,95
+Sabir Bougrine,miss,32,26,0.004398,68,74
+Adam Ennafati,save,41,26,0.03623,59,74
+Ahmed Chentouf,miss,66,14,0.05907,34,86
+Adam Ennafati,miss,24,8,0.02916,76,92
+Adam Ennafati,save,52,29,0.01994,48,71
+Yousri Bouzok,save,41,15,0.09986,59,85
+Chouaib Faidi,block,63,12,0.1161,37,88
+Brahim El Idrissi Bouzidi,miss,35,15,0.1077,65,85
+Youssef Anouar,miss,40,9,0.079,60,91
+Amine Souane,block,29,22,0.03388,71,78
+Mehdi Karnass,block,72,23,0.003603,28,77
+Chouaib Faidi,block,24,9,0.02066,76,91
+Achraf Kasbaoui,miss,42,27,0.01775,58,73
+Chouaib Faidi,save,29,12,0.06306,71,88
+Ayman El Kadmiri,miss,67,10,0.1312,33,90
+Brahim El Idrissi Bouzidi,save,58,6,0.1654,42,94
+Brahim El Idrissi Bouzidi,block,58,11,0.03789,42,89
+Chouaib Faidi,block,30,18,0.02083,70,82
+Amine Souane,block,12,25,0.01625,88,75
+Anass Nouader,save,25,28,0.02544,75,72
+Ismail Gourad,block,58,31,0.01489,42,69
+El Habib Brija,save,26,23,0.02288,74,77
+Ismail Gourad,save,48,28,0.03624,52,72
+Mehdi Karnass,miss,74,13,0.03185,26,87
+Amine Souane,miss,22,23,0.0003674,78,77
+Mahmoud Benhalib,block,38,25,0.001038,62,75
+Imad Serbout,miss,68,31,0.002676,32,69
+Youssef Anouar,save,29,22,0.04186,71,78
+Zakaria Bahrou,save,44,8,0.1675,56,92
+Ismail Gourad,save,58,8,0.1168,42,92
+Youssef Anouar,miss,47,14,0.1469,53,86
+Zakaria Bahrou,miss,68,12,0.03458,32,88
+Adil  Jeddaoui,block,70,28,0.01731,30,72
+El Habib Brija,block,38,10,0.07766,62,90
+Chouaib Faidi,goal,46,9,0.2685,54,91
+Amine Souane,save,55,9,0.306,45,91
+Ayoub Tine,miss,28,39,0.01466,72,61
+Chouaib Faidi,miss,37,7,0.2493,63,93
+Brahim El Idrissi Bouzidi,miss,30,10,0.01814,70,90
+Zakaria Bahrou,save,66,10,0.371,34,90
+Youssef Lakhal,goal,40,9,0.1766,60,91
+Mahmoud Benhalib,goal,57,11,0.3492,43,89
+Achraf Kasbaoui,block,61,26,0.03403,39,74
+Oussama Radi,block,60,24,0.005775,40,76
+Imad Serbout,miss,69,24,0.02337,31,76
+Youssef Mehri,goal,47,5,0.3401,53,95
+Youssef Mehri,save,39,2,0.2092,61,98
+Mohamed El Morabit,miss,17,18,0.01223,83,82
+Oussama Lamlioui,block,73,28,0.003892,27,72
+Marouane Afalah,block,22,27,0.0006646,78,73
+Aziz Ennakhli,save,38,4,0.1158,62,96
+Issoufou Dayo,goal,50,10,0.76,50,90
+Youssef El Fahli,block,55,13,0.146,45,87
+Aziz Ennakhli,save,28,13,0.05247,72,87
+Ayoub Khairi,miss,63,32,0.02621,37,68
+Youssef Zghoudi,save,45,11,0.07643,55,89
+Amine El Maswab,miss,44,7,0.174,56,93
+Youssef El Fahli,save,56,27,0.01795,44,73
+Youssef Zghoudi,save,56,11,0.1006,44,89
+Taoufik Safsafi,miss,54,31,0.004603,46,69
+Saifeddine Bouhra,miss,21,26,0.005799,79,74
+Ade Oguns,miss,53,13,0.07152,47,87
+Anas Serrhat,save,41,32,0.02536,59,68
+Ade Oguns,save,36,6,0.1158,64,94
+Ayoub El Amloud,miss,52,11,0.03879,48,89
+Ade Oguns,save,52,9,0.1424,48,91
+Yassine Kordani,miss,48,8,0.142,52,92
+Ayoub El Amloud,miss,51,7,0.2083,49,93
+Brahim El Bahraoui,block,48,10,0.3259,52,90
+Abderrahmane Qassaq,save,53,7,0.3851,47,93
+Youness Najari,goal,43,8,0.2831,57,92
+Ismail El Haddad,block,40,23,0.02652,60,77
+Saad Morsli,save,30,19,0.04455,70,81
+Zakaria Draoui,block,59,11,0.038,41,89
+Ayoub El Amloud,miss,70,19,0.007801,30,81
+Saifeddine Bouhra,miss,15,13,0.001322,85,87
+Anas Serrhat,block,55,38,0.009326,45,62
+Monir El Habach,block,47,21,0.035,53,79
+Abderrahmane Qassaq,miss,49,29,0.006128,51,71
+Saifeddine Bouhra,miss,63,25,0.013,37,75
+Monir El Habach,miss,47,4,0.5015,53,96
+Saifeddine Bouhra,save,65,11,0.05604,35,89
+Youness Najari,miss,45,24,0.01979,55,76
+Mountassir Lahtimi,miss,56,9,0.132,44,91
+Saifeddine Bouhra,save,69,12,0.02156,31,88
+Houari Ferhani,miss,42,7,0.1597,58,93
+Hamid Ahdad,miss,68,13,0.05135,32,87
+Anas Bach,miss,52,12,0.06153,48,88
+Ayoub Nanah,miss,52,13,0.3045,48,87
+Hamid Ahdad,block,59,12,0.01936,41,88
+Bilal El Ouadghiri,block,44,12,0.04187,56,88
+Youssef Anouar,block,37,13,0.04458,63,87
+Amine El Msane,save,57,8,0.1282,43,92
+Achraf Kasbaoui,miss,47,30,0.003807,53,70
+Amine Souane,miss,59,30,0.001511,41,70
+Mohammed Bahadi,save,45,25,0.03361,55,75
+Chouaib Faidi,miss,42,13,0.2408,58,87
+Bilal El Ouadghiri,miss,43,20,0.02339,57,80
+Amine El Msane,miss,59,8,0.172,41,92
+Hamza Hannouri,save,48,6,0.3305,52,94
+Hamza Hannouri,save,56,6,0.1517,44,94
+Hamza Hannouri,miss,53,7,0.1654,47,93
+Ayoub Nanah,post,38,13,0.1565,62,87
+Marwane Elaz,block,36,19,0.002273,64,81
+Amine Souane,miss,44,28,0.000893,56,72
+Melo Ndiaye,miss,50,34,0.003401,50,66
+Hamza Kalai,goal,55,4,0.6606,45,96
+Assane Beye,miss,50,9,0.08751,50,91
+Hamza Afsal,miss,51,25,0.0467,49,75
+Soufian El Moudane,block,39,23,0.004861,61,77
+Yasser Jarici,miss,41,24,0.002437,59,76
+Katulondi  Kati,goal,43,10,0.4187,57,90
+Abdelkhalek Ait Ourehbi,miss,27,32,0.001594,73,68
+Jalal Tachtach,miss,72,12,0.004899,28,88
+Abdelaziz El Hamzaoui,save,72,10,0.01826,28,90
+Abdelkhalek Ait Ourehbi,save,49,15,0.1935,51,85
+Jalal Tachtach,goal,53,5,0.602,47,95
+Jalal Tachtach,post,54,4,0.6915,46,96
+Anass Addaoui,block,65,14,0.02963,35,86
+Katulondi  Kati,miss,43,8,0.1454,57,92
+Soufian El Moudane,miss,60,9,0.08664,40,91
+Soufian El Moudane,goal,55,13,0.3338,45,87
+Abdallah Boukhanfer,save,64,10,0.1794,36,90
+Anass Addaoui,goal,56,9,0.1421,44,91
+Ismail Hrila,miss,54,11,0.06458,46,89
+Ilyas El Qaada,block,67,18,0.07293,33,82
+Abdallah Boukhanfer,miss,32,9,0.02224,68,91
+Abdelkhalek Ait Ourehbi,block,65,24,0.02227,35,76
+Abdelkarim Baadi,save,63,15,0.0381,37,85
+Youssef Sakhi,save,52,14,0.1462,48,86
+Oussama Lamlioui,block,31,26,0.001108,69,74
+Youssef Zghoudi,goal,44,12,0.2978,56,88
+Youssef Mehri,miss,26,22,0.01754,74,78
+Oussama Lamlioui,miss,62,25,0.09564,38,75
+Youssef Limouri,block,30,21,0.001235,70,79
+Youssef Mehri,goal,62,13,0.1315,38,87
+Youssef Mehri,save,53,12,0.1229,47,88
+Kamal EL Keraa,save,46,9,0.4227,54,91
+Haytham El Bahja,block,63,19,0.006232,37,81
+Haytham El Bahja,miss,66,19,0.03087,34,81
+Kamal EL Keraa,miss,28,19,0.03875,72,81
+Soulaimane El Bouchqali,save,35,13,0.1132,65,87
+Djibril Ouattara,post,31,9,0.1073,69,91
+Kamal EL Keraa,goal,45,4,0.8326,55,96
+Soulaimane El Bouchqali,save,43,26,0.05602,57,74
+Hossam Essadak,goal,59,14,0.2893,41,86
+Anass Eddaou,save,40,8,0.1657,60,92
+Souhayl Zamrat,miss,59,19,0.0317,41,81
+Zakaria Belmaachi,save,51,13,0.08069,49,87
+Yassir Zabiri,goal,50,10,0.76,50,90
+Ilyass Lagrimi,block,46,12,0.183,54,88
+Anass Eddaou,save,37,20,0.1632,63,80
+Anass Eddaou,block,31,20,0.03767,69,80
+Souhayl Zamrat,block,74,10,0.009103,26,90
+Mohamed Chemlal,save,70,26,0.0469,30,74
+Aymane Mourid,block,52,24,0.01275,48,76
+Mouad Dahak,miss,39,27,0.0006139,61,73
+Redouan Ait Lamkadem,goal,33,25,0.03214,67,75
+Abdoulaye Diarra,miss,44,24,0.02079,56,76
+Abdoulaye Diarra,save,54,4,0.4823,46,96
+Tawfik Bentayeb,block,42,11,0.1277,58,89
+Abderrahmane Qassaq,save,35,15,0.07846,65,85
+Saad Morsli,block,27,10,0.04211,73,90
+Mohamed Chemlal,miss,59,11,0.06941,41,89
+Mohamed Chemlal,block,40,20,0.05135,60,80
+Soulaiman El Amrani,miss,50,5,0.3192,50,95
+Haytam Manaout,block,67,24,0.00412,33,76
+Soufyan Ahannach,miss,33,16,0.06212,67,84
+Youness Najari,goal,38,10,0.1358,62,90
+Tawfik Bentayeb,save,39,26,0.1496,61,74
+Ismail Khafi,miss,45,7,0.4204,55,93
+Brahim El Idrissi Bouzidi,post,50,22,0.06302,50,78
+Zakaria Hadraf,save,57,13,0.07541,43,87
+Brahim El Idrissi Bouzidi,save,43,10,0.2087,57,90
+Zakaria Hadraf,save,59,12,0.2109,41,88
+Hamza El Wasti,save,42,9,0.06537,58,91
+Ali El Harrak,block,70,15,0.02606,30,85
+Hamza El Wasti,save,28,23,0.02947,72,77
+Ismail Khafi,save,38,9,0.2112,62,91
+Mohamed Said Bouksyr,miss,40,11,0.3872,60,89
+Ismail Khafi,post,33,2,0.1698,67,98
+Mohamed Said Bouksyr,block,42,19,0.04878,58,81
+Mahmoud Benhalib,miss,34,12,0.1752,66,88
+Ismail Khafi,goal,64,8,0.4521,36,92
+Abdel Hamid Maali,block,42,15,0.07905,58,85
+El Hadji Kane,post,40,6,0.1588,60,94
+Ismail Khafi,miss,50,10,0.76,50,90
+Ismail Khafi,miss,33,19,0.05675,67,81
+Abdel Hamid Maali,miss,42,12,0.2411,58,88
+Youssef Chaina,save,69,22,0.009214,31,78
+Mahamadou Camara,miss,47,6,0.1775,53,94
+Abdelhay El Forsy,save,40,12,0.1431,60,88
+Ahmed Chentouf,save,66,26,0.01492,34,74
+Abdel Hamid Maali,save,24,14,0.0288,76,86
+Marouane Afalah,miss,65,23,0.01054,35,77
+Imad Riahi,goal,49,1,0.8201,51,99
+Mohssine Bourika,block,59,5,0.2676,41,95
+Zakaria Fatihi,save,33,13,0.04266,67,87
+Marouane Afalah,save,26,14,0.05695,74,86
+Ahmad El Houari,block,39,14,0.07123,61,86
+Driss El-Jabli,miss,56,5,0.1785,44,95
+Marouane Afalah,miss,62,13,0.01545,38,87
+Mohssine Bourika,miss,46,9,0.4659,54,91
+Karim Lagrouch,miss,56,22,0.01438,44,78
+Lahcen Gourbi,miss,44,16,0.06809,56,84
+Youssef Dalouzi,save,57,15,0.1155,43,85
+Zakaria Fatihi,miss,45,28,0.006492,55,72
+Mohssine Bourika,save,36,3,0.2838,64,97
+Mohssine Bourika,miss,28,9,0.03688,72,91
+Ismail Mihrab,block,73,10,0.03639,27,90
+Ismail Mihrab,miss,44,22,0.01452,56,78
+Lahcen Gourbi,miss,32,22,0.01962,68,78
+Mouad Hmamouchi,save,38,18,0.3167,62,82
+Ismael Benktib,miss,76,24,0.01734,24,76
+Zakaria Fatihi,save,65,20,0.07473,35,80
+Mohamed Amine Ouakaf,goal,36,13,0.03973,64,87
+Lahcen Gourbi,miss,62,35,0.01296,38,65
+Amine Zouhzouh,save,33,12,0.04037,67,88
+Emmanuel Imanishimwe,miss,45,6,0.215,55,94
+Amine Zouhzouh,goal,43,20,0.04339,57,80
+Mohamed Rabie Hrimat,miss,46,11,0.07373,54,89
+Mohamed Radouani,goal,55,2,0.7343,45,98
+Amine Zouhzouh,block,39,19,0.03397,61,81
+Zouhair Marour,miss,50,10,0.09354,50,90
+Najji Larbi,miss,57,6,0.6921,43,94
+Mohamed Rabie Hrimat,save,38,12,0.05732,62,88
+Amine Zouhzouh,goal,45,25,0.0805,55,75
+Pape Badji,save,48,15,0.1488,52,85
+Amine Zouhzouh,miss,47,21,0.05183,53,79
+Mohamed Radouani,block,52,17,0.02748,48,83
+Mohamed Rabie Hrimat,miss,39,8,0.06646,61,92
+Najji Larbi,miss,53,24,0.04152,47,76
+Pape Badji,goal,51,19,0.1109,49,81
+Adam Ennafati,goal,34,21,0.142,66,79
+Mohamed Boulacsout,miss,62,15,0.04068,38,85
+Amine Aboulfath,miss,67,35,0.004519,33,65
+Mohamed Boulacsout,miss,67,14,0.07228,33,86
+Mohamed Boulacsout,save,55,5,0.3022,45,95
+Saifeddine Bouhra,miss,35,18,0.135,65,82
+Naoufel Zerhouni,miss,39,5,0.5263,61,95
+Yousri Bouzok,save,32,21,0.04756,68,79
+Adam Ennafati,miss,41,17,0.0694,59,83
+Ade Oguns,miss,77,13,0.01683,23,87
+Naoufel Zerhouni,block,53,23,0.002833,47,77
+Mohamed Boulacsout,save,60,24,0.04539,40,76
+Sabir Bougrine,miss,43,6,0.2237,57,94
+Yahya Jabrane,block,55,29,0.005652,45,71
+Abdellah Haimoud,block,62,10,0.1248,38,90
+Mohamed Zrida,block,49,27,0.02801,51,73
+Ismail El Haddad,save,71,27,0.07368,29,73
+Adam Ennafati,miss,42,23,0.05741,58,77
+Adam Ennafati,save,40,20,0.06749,60,80
+El Mehdi Maouhoub,save,45,12,0.1207,55,88
+Abdelkarim Baadi,miss,63,5,0.06122,37,95
+Reda Hajji,save,67,10,0.1163,33,90
+Youssef Lakhal,goal,61,14,0.03404,39,86
+Gnolou Claude,block,48,9,0.1686,52,91
+Youssef Mehri,miss,36,12,0.3336,64,88
+Youssef Mehri,miss,58,11,0.1187,42,89
+Mahmoud Benhalib,goal,70,11,0.05228,30,89
+Bernard Obounou,miss,55,12,0.2666,45,88
+Gnolou Claude,save,47,27,0.04361,53,73
+Abdallah Ziani,goal,32,14,0.03684,68,86
+Abdallah Ziani,miss,25,12,0.04157,75,88
+Hamza El Baroudi,miss,67,22,0.001611,33,78
+Hamza El Baroudi,block,51,31,0.004752,49,69
+Youness Khoutari,miss,51,26,0.02937,49,74
+Youssef Mehri,save,36,21,0.0483,64,79
+Zakaria Hadraf,save,36,12,0.03177,64,88
+Zakaria Hadraf,miss,34,17,0.01601,66,83
+Gnolou Claude,miss,44,27,0.004043,56,73
+Youssef Mehri,block,39,18,0.004,61,82
+Youssef Zghoudi,miss,54,13,0.1921,46,87
+Zakaria Hadraf,block,62,22,0.01753,38,78
+Youssef Zghoudi,miss,69,10,0.06575,31,90
+Oussama Lamlioui,miss,36,14,0.0432,64,86
+Youssef Arbidi,goal,58,11,0.225,42,89
+Hamza Hannouri,block,26,21,0.007941,74,79
+Zakaria Habti,miss,54,22,0.05165,46,78
+Khalid Ait Ouarkhane,block,45,14,0.09134,55,86
+Zouheir El Hachemi,miss,68,9,0.1058,32,91
+Khalid Ait Ouarkhane,miss,55,7,0.2427,45,93
+Anas Bach,miss,53,11,0.2555,47,89
+Alaeddine Ajaray,block,67,28,0.0006835,33,72
+Lamine Diakité,goal,50,10,0.76,50,90
+Alaeddine Ajaray,save,61,12,0.2155,39,88
+Amine El Msane,miss,22,24,0.005666,78,76
+Amine Azri,miss,31,11,0.117,69,89
+Amine Zouhzouh,miss,41,27,0.0006594,59,73
+Lamine Diakité,block,47,10,0.0765,53,90
+Ahmed Hammoudan,block,33,12,0.02639,67,88
+Alaeddine Ajaray,save,47,8,0.07131,53,92
+Amine Zouhzouh,miss,37,9,0.2733,63,91
+Abdelfettah Hadraf,post,51,21,0.06668,49,79
+Amine Zouhzouh,block,26,29,0.0007831,74,71
+Amine Zouhzouh,block,33,29,0.07229,67,71
+Kamal EL Keraa,miss,54,24,0.01824,46,76
+Maati Tamaiazou,miss,28,24,0.009751,72,76
+Mohamed El Khaloui,post,36,13,0.1497,64,87
+Youssef Oubaba,goal,40,19,0.105,60,81
+Youssef Limouri,save,48,19,0.07976,52,81
+Youssef Limouri,miss,56,19,0.02024,44,81
+Abdelouahed Hasty,save,25,24,0.02275,75,76
+Hamza Malki,block,54,13,0.09875,46,87
+Youssef Oubaba,block,27,20,0.01133,73,80
+Anass Addaoui,goal,53,4,0.6114,47,96
+Mouad Bahsain,block,42,22,0.01098,58,78
+Issam Chouikh,save,30,5,0.0707,70,95
+Anass Addaoui,save,39,12,0.04372,61,88
+Hamza El Houssini,miss,62,26,0.02358,38,74
+Youness Moukhlis,post,50,10,0.76,50,90
+Kamal EL Keraa,goal,52,5,0.5658,48,95
+Imran Fiddi,goal,70,13,0.05097,30,87
+Adnane Bentagana,save,41,12,0.1049,59,88
+Abdelouahed Hasty,goal,59,12,0.2353,41,88
+Mohamed El Khaloui,save,36,28,0.02089,64,72
+Reda Moussadek,miss,30,37,0.001113,70,63
+Soulaimane El Bouchqali,miss,58,29,0.005296,42,71
+Ennaama El Bellali,post,62,6,0.08811,38,94
+Kamal EL Keraa,save,48,13,0.05427,52,87
+Adnane Bentagana,save,61,28,0.03923,39,72
+Mohamed El Khaloui,miss,39,29,0.002786,61,71
+Reda Moussadek,miss,29,24,0.01079,71,76
+Youssef Oubaba,save,48,9,0.09728,52,91
+El Hadji Kane,miss,58,4,0.2017,42,96
+Abdel Hamid Maali,block,40,23,0.01435,60,77
+Zakaria Kiani,block,70,20,0.00615,30,80
+Mohamed Walid Bencherifa,miss,31,30,0.00387,69,70
+Ismail Mihrab,miss,62,9,0.1653,38,91
+Ismail Mihrab,block,61,14,0.09607,39,86
+Ismail Mihrab,miss,53,8,0.4001,47,92
+Karim Lagrouch,block,37,20,0.02935,63,80
+Abdel Hamid Maali,block,44,25,0.001432,56,75
+Ismail Khafi,miss,74,22,0.001231,26,78
+El Hadji Kane,save,40,24,0.04158,60,76
+Ismael Benktib,save,24,15,0.03819,76,85
+El Hadji Kane,block,38,10,0.1715,62,90
+Youssef Dalouzi,save,51,10,0.3238,49,90
+Zakaria Kiani,save,68,13,0.04366,32,87
+Zakaria Fatihi,miss,63,29,0.03349,37,71
+Faouzi Abdoul Mutalib,save,53,9,0.09378,47,91
+Jawad Rhabra,block,27,25,0.01756,73,75
+Youssef Dalouzi,save,52,6,0.3978,48,94
+Ismail Khafi,block,44,6,0.6586,56,94
+El Hadji Kane,save,37,10,0.1817,63,90
+Faouzi Abdoul Mutalib,miss,52,26,0.00282,48,74
+Zakaria Fatihi,miss,76,8,0.01863,24,92
+Ismail Mihrab,block,27,3,0.02332,73,97
+Noureddine Oussama,block,53,28,0.004209,47,72
+Ismail Mihrab,miss,74,22,0.0006122,26,78
+Ismail Mihrab,post,66,9,0.09202,34,91
+Ismail Mihrab,miss,68,13,0.02209,32,87
+Zakaria Fatihi,save,66,9,0.1308,34,91
+Riad Benayad,miss,41,12,0.04117,59,88
+Riad Benayad,block,43,20,0.01572,57,80
+Youssef Anouar,miss,43,25,0.01892,57,75
+Chouaib Faidi,miss,33,15,0.01781,67,85
+Achraf Kasbaoui,block,64,31,0.007192,36,69
+Adam Ennafati,miss,34,11,0.07924,66,89
+El Habib Brija,miss,77,13,0.00945,23,87
+Naoufel Zerhouni,miss,30,9,0.05664,70,91
+Mohamed Boulacsout,miss,49,12,0.2157,51,88
+Yousri Bouzok,goal,50,10,0.76,50,90
+Yousri Bouzok,save,36,25,0.03313,64,75
+Youssef Anouar,save,65,10,0.05294,35,90
+Adam Ennafati,miss,29,20,0.01014,71,80
+Amine Souane,miss,25,11,0.004523,75,89
+Amine Souane,save,32,2,0.07593,68,98
+Adam Ennafati,miss,54,12,0.1001,46,88
+Yousri Bouzok,goal,50,10,0.76,50,90
+Abdellah Khafifi,save,59,5,0.4204,41,95
+Ismail Mokadem,block,61,3,0.1209,39,97
+Abdellah Khafifi,goal,45,3,0.2399,55,97
+Yousri Bouzok,miss,41,21,0.03579,59,79
+Abdellah Khafifi,miss,59,6,0.4598,41,94
+Naoufel Zerhouni,block,50,7,0.1521,50,93
+Abdellah Khafifi,block,78,33,0.002346,22,67
+Adam Ennafati,miss,34,11,0.0532,66,89
+Sabir Bougrine,block,40,17,0.04076,60,83
+Yousri Bouzok,miss,33,20,0.006824,67,80
+Adam Ennafati,save,19,9,0.009694,81,91
+Yassir Zabiri,save,54,8,0.1531,46,92
+Mohamed Amine Essahel,miss,60,11,0.1753,40,89
+Hamza Kalai,miss,79,28,0.0004311,21,72
+Mohamed Radid,save,77,11,0.01819,23,89
+Yassir Zabiri,save,55,6,0.6987,45,94
+Yassir Zabiri,save,47,10,0.1597,53,90
+Yassir Zabiri,goal,49,7,0.2514,51,93
+Mohamed Amine Essahel,save,66,18,0.03117,34,82
+Katulondi  Kati,save,61,27,0.07453,39,73
+Souhayl Zamrat,miss,75,28,0.004763,25,72
+Redouan Ait Lamkadem,miss,36,16,0.006789,64,84
+Mohamed Bakhkhach,goal,53,2,0.8254,47,98
+Hamza Kalai,save,24,20,0.03353,76,80
+Yassir Zabiri,save,62,9,0.1374,38,91
+Soufian El Moudane,goal,50,10,0.76,50,90
+Haytam Manaout,miss,68,12,0.001952,32,88
+Simon Diedhiou,goal,59,17,0.1771,41,83
+Aissa Saidi,block,48,27,0.01413,52,73
+Souhayl Zamrat,save,77,19,0.008441,23,81
+Katulondi  Kati,goal,52,3,0.4971,48,97
+Mouad Dahak,save,43,25,0.03543,57,75
+Souhayl Zamrat,block,69,3,0.1065,31,97
+Aymane Mourid,block,42,21,0.02687,58,79
+Souhayl Zamrat,save,70,6,0.0491,30,94
+Hossam Essadak,miss,26,19,0.02998,74,81
+Hamza Kalai,miss,39,28,0.01339,61,72
+Ilias Haddad,goal,42,4,0.4137,58,96
+Hossam Essadak,post,45,8,0.1701,55,92
+Simon Diedhiou,save,26,13,0.0408,74,87
+Oussama Mahrous,goal,64,17,0.08079,36,83
+Moad  Karmoun,block,29,12,0.01349,71,88
+Hilal Ferdaoussi,miss,65,24,0.004178,35,76
+Oussama Zemraoui,block,61,11,0.2823,39,89
+Ade Oguns,save,39,2,0.4079,61,98
+Sidi Amar Bouna,save,34,7,0.05979,66,93
+Bilal El Megri,save,75,16,0.01548,25,84
+Bilal El Megri,block,39,25,0.03996,61,75
+Sidi Amar Bouna,save,30,6,0.07125,70,94
+Oussama Mahrous,block,70,24,0.004808,30,76
+Yassine Lamine,save,69,7,0.09399,31,93
+Bilal El Megri,save,52,25,0.04093,48,75
+Yassine Lamine,miss,67,13,0.01648,33,87
+Amine Farhane,miss,52,7,0.147,48,93
+Ade Oguns,block,70,7,0.05321,30,93
+Ayoub Lakhal,block,34,26,0.03909,66,74
+Moad  Karmoun,save,60,31,0.01408,40,69
+Sidi Amar Bouna,save,55,9,0.2655,45,91
+Sidi Amar Bouna,block,60,11,0.1829,40,89
+Yassine Lamine,save,33,13,0.1015,67,87
+Ayoub Boucheta,block,40,14,0.1365,60,86
+Ayoub Lakhal,save,72,21,0.01945,28,79
+Oussama Zemraoui,miss,61,26,0.03939,39,74
+Ade Oguns,post,60,15,0.05497,40,85
+Ayoub Lakhal,block,54,29,0.008134,46,71
+Sidi Amar Bouna,miss,33,12,0.15,67,88
+Ayoub Lakhal,miss,70,29,0.01235,30,71
+Sidi Amar Bouna,block,35,16,0.0216,65,84
+Oussama Zemraoui,block,33,16,0.05596,67,84
+Ayoub Boucheta,miss,36,15,0.05519,64,85
+Oussama Zemraoui,block,32,8,0.0828,68,92
+Ade Oguns,block,34,16,0.1421,66,84
+Oussama Zemraoui,block,53,15,0.2468,47,85
+Ayoub Lakhal,block,75,30,0.003003,25,70
+Yassine Jbira,block,24,19,0.01143,76,81
+Yassine Lamine,miss,69,12,0.01781,31,88
