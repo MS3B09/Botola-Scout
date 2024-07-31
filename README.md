@@ -4,7 +4,6 @@
   <tr>
     <td><img src="imgs/image.jpg" width="300" alt="Image 1"></td>
     <td><img src="imgs/1.JPG" width="300" alt="Image 2"></td>
-    <td><img src="imgs/2.JPG" width="300" alt="Image 3"></td>
   </tr>
 </table>
   
