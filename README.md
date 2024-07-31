@@ -1,13 +1,12 @@
-<style>
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-</style>
 <div align="center">
   <h1 id="top" align="center"> ⚽ Botola Scout ⚽</h1></div>
-  <img src="imgs/image.jpg" , alt="image1">
-  <img src="imgs/1.JPG" , alt="image2">
+<table>
+  <tr>
+    <td><img src="imgs/image.jpg" width="300" alt="Image 1"></td>
+    <td><img src="imgs/1.JPG" width="300" alt="Image 2"></td>
+    <td><img src="imgs/2.JPG" width="300" alt="Image 3"></td>
+  </tr>
+</table>
   
 <h2 id="overview"> 🎯 Overview </h2>
 Welcome to <b>BotolaScout</b>, an innovative web application tailored for scouting in the 2023/24 Botola Pro ! <br><br>
