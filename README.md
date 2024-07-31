@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 id="top" align="center"> ⚽ Botola Scout Web App ⚽</h1></div>
+  <h1 id="top" align="center"> ⚽ Botola Scout ⚽</h1></div>
   <img src="imgs/image.jpg" width="100%", alt="Classes"></a>
   
 <h2 id="overview"> 🎯 Overview </h2>
@@ -18,7 +18,29 @@ If you like the repo, please feel free to give it a ⭐ (top right).
 <b>  ●  User-Friendly Interface:</b> Navigate effortlessly through player profiles, team statistics, and league-wide comparisons.<br><br>
 
 <h2 id="technologies"> 🛠️ Technologies</h2>
-<b>  ●  Data Collection:</b> Web & API scraping for gathering comprehensive and real-time player data from various sources.<br><br>
+<b>  ●  Data Collection:</b> Web & API scraping for gathering comprehensive and real-time player data from various sources (SofaScore & TransferMarket)<br><br>
 <b>  ●  Backend:</b> Python,  the backbone of the application, used for data collection, processing, and backend logic with Streamlit<br><br>
 <b>  ●  Frontend:</b> CSS & HTML for designing a sleek and user-friendly interface.<br><br>
 <b>  ●  Visualization:</b> Interactive charts and graphs, implemented to display player statistics in a clear and engaging manner, enhancing the user experience.<br><br>
+
+<h2 id="demo-usage"> 📍 Demo & Usage</h2>
+To access the BotolaScout Web App online, go to :<br><br>
+<li><a href="https://botola-scout.streamlit.app/">BOTOLA SCOUT</a></li> 
+<br><br>If you prefer to run the app locally, follow these steps:<br><br>
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/MS3B09/Botola-Scout.git
+    ```
+2. **Navigate to the project directory:**
+    ```bash
+    cd Botola-Scout
+    ```
+3. **Install the required dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+4. **Run the App:**
+    ```bash
+    streamlit run scouting_app.py
+    ```
