@@ -17,3 +17,8 @@ If you like the repo, please feel free to give it a ⭐ (top right).
 <b>  ●  Data-Driven Insights:</b> Make informed decisions with up-to-date statistics and performance metrics.<br><br>
 <b>  ●  User-Friendly Interface:</b> Navigate effortlessly through player profiles, team statistics, and league-wide comparisons.<br><br>
 
+<h2 id="technologies"> 🛠️ Technologies</h2>
+<b>  ●  Data Collection:</b> Web & API scraping for gathering comprehensive and real-time player data from various sources.<br><br>
+<b>  ●  Backend:</b> Python,  the backbone of the application, used for data collection, processing, and backend logic with Streamlit<br><br>
+<b>  ●  Frontend:</b> CSS & HTML for designing a sleek and user-friendly interface.<br><br>
+<b>  ●  Visualization:</b> Interactive charts and graphs, implemented to display player statistics in a clear and engaging manner, enhancing the user experience.<br><br>
