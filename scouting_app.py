@@ -1018,10 +1018,10 @@ def options_select(available_options, key_prefix):
             st.session_state[max_selections_key] = len(available_options)
 
 def filter_page(df):
-    botola_png = 'https://upload.wikimedia.org/wikipedia/fr/2/2f/Botola-logo-maroc.png'
+    botola_png = 'https://upload.wikimedia.org/wikipedia/fr/thumb/2/2f/Botola-logo-maroc.png/330px-Botola-logo-maroc.png'
     col1, col2 = st.columns((1,2))
     with col1:
-        st.image(botola_png, width=300, height=300, use_column_width=True)
+        st.image(botola_png, width=300, use_column_width=True)
     with col2:
         add_vertical_space(1)
 
@@ -1399,6 +1399,7 @@ if __name__ == "__main__":
 
 
 #JUST TO COMPLETE 1400 LINES OF CODE 😁
+
 
 
 
