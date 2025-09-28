@@ -25,7 +25,7 @@ import matplotlib.font_manager as fm
 from highlight_text import fig_text
 import plotly.graph_objects as go
 from mplsoccer import PyPizza, add_image, FontManager
-from io import BytesIO
+
 
 
 st.set_page_config(page_title='BotolaScout',
@@ -198,31 +198,15 @@ def display_stat(label, value, df, stat):
     """, unsafe_allow_html=True)
 
 def get_image_output(URL):
-    try:
-    
-        response = requests.get(URL, timeout=10)
-        response.raise_for_status()  # Raises an HTTPError for bad responses
-        
-        img = Image.open(BytesIO(response.content))
-        img = img.convert('RGB')
-        
-        # Create a mask
-        mask = Image.new('L', img.size, 0)
-        draw = ImageDraw.Draw(mask)
-        draw.ellipse((0, 0) + img.size, fill=255)
-        
-        # Apply the mask to the image
-        output = Image.new('RGBA', img.size, (0, 0, 0, 0))
-        output.paste(img, (0, 0), mask)
-        
-        return np.array(output)
-        
-    except requests.exceptions.RequestException as e:
-        print(f"Request error: {e}")
-        return None
-    except Exception as e:
-        print(f"Error processing image: {e}")
-        return None
+    img = Image.open(urlopen(URL))
+    # Create a mask
+    mask = Image.new('L', img.size, 0)
+    draw = ImageDraw.Draw(mask)
+    draw.ellipse((0, 0) + img.size, fill=255)
+    # Apply the mask to the image
+    output = Image.new('RGBA', img.size, (0, 0, 0, 0))
+    output.paste(img, (0, 0), mask)
+    return output
 
 @st.cache_data
 def pizza_plot(player_data, params_1, values, output):
@@ -1413,7 +1397,4 @@ if __name__ == "__main__":
 
 
 
-
 #JUST TO COMPLETE 1400 LINES OF CODE 😁
-
-
