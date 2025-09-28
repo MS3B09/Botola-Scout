@@ -1023,7 +1023,7 @@ def filter_page(df):
     with col1:
         st.image(botola_png, width=300, use_column_width=True)
     with col2:
-        add_vertical_space(1)
+        add_vertical_space(2)
 
         st.markdown("""
         <style>
@@ -1399,6 +1399,7 @@ if __name__ == "__main__":
 
 
 #JUST TO COMPLETE 1400 LINES OF CODE 😁
+
 
 
 
