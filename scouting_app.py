@@ -1021,7 +1021,7 @@ def filter_page(df):
     botola_png = 'https://upload.wikimedia.org/wikipedia/fr/2/2f/Botola-logo-maroc.png'
     col1, col2 = st.columns((1,2))
     with col1:
-        st.image(botola_png, width=300, use_column_width=True)
+        st.image(botola_png, width=200, use_column_width=True)
     with col2:
         add_vertical_space(1)
 
@@ -1399,4 +1399,5 @@ if __name__ == "__main__":
 
 
 #JUST TO COMPLETE 1400 LINES OF CODE 😁
+
 
