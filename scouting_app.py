@@ -215,7 +215,7 @@ def get_image_output(URL):
         output = Image.new('RGBA', img.size, (0, 0, 0, 0))
         output.paste(img, (0, 0), mask)
         
-        return output
+        return np.array(output)
         
     except requests.exceptions.RequestException as e:
         print(f"Request error: {e}")
@@ -1415,4 +1415,5 @@ if __name__ == "__main__":
 
 
 #JUST TO COMPLETE 1400 LINES OF CODE 😁
+
 
