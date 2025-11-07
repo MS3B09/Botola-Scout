@@ -25,7 +25,7 @@ import matplotlib.font_manager as fm
 from highlight_text import fig_text
 import plotly.graph_objects as go
 from mplsoccer import PyPizza, add_image, FontManager
-
+from urllib.request import Request
 
 
 st.set_page_config(page_title='BotolaScout',
@@ -198,15 +198,38 @@ def display_stat(label, value, df, stat):
     """, unsafe_allow_html=True)
 
 def get_image_output(URL):
-    img = Image.open(urlopen(URL))
-    # Create a mask
-    mask = Image.new('L', img.size, 0)
-    draw = ImageDraw.Draw(mask)
-    draw.ellipse((0, 0) + img.size, fill=255)
-    # Apply the mask to the image
-    output = Image.new('RGBA', img.size, (0, 0, 0, 0))
-    output.paste(img, (0, 0), mask)
-    return output
+    try:
+        # Add headers to mimic a browser request
+        req = Request(URL, headers={
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36'
+        })
+        
+        # Set timeout to prevent hanging
+        with urlopen(req, timeout=10) as response:
+            img = Image.open(response)
+            
+        # Create a mask
+        mask = Image.new('L', img.size, 0)
+        draw = ImageDraw.Draw(mask)
+        draw.ellipse((0, 0) + img.size, fill=255)
+        
+        # Apply the mask to the image
+        output = Image.new('RGBA', img.size, (0, 0, 0, 0))
+        output.paste(img, (0, 0), mask)
+        return output
+        
+    except Exception as e:
+        # Return a placeholder image if fetching fails
+        print(f"Error loading image from {URL}: {str(e)}")
+        # Create a gray placeholder circle
+        size = (120, 120)
+        placeholder = Image.new('RGBA', size, (128, 128, 128, 255))
+        mask = Image.new('L', size, 0)
+        draw = ImageDraw.Draw(mask)
+        draw.ellipse((0, 0) + size, fill=255)
+        output = Image.new('RGBA', size, (0, 0, 0, 0))
+        output.paste(placeholder, (0, 0), mask)
+        return output
 
 @st.cache_data
 def pizza_plot(player_data, params_1, values, output):
@@ -1398,3 +1421,4 @@ if __name__ == "__main__":
 
 
 #JUST TO COMPLETE 1400 LINES OF CODE 😁
+
