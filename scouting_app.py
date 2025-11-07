@@ -26,6 +26,7 @@ from highlight_text import fig_text
 import plotly.graph_objects as go
 from mplsoccer import PyPizza, add_image, FontManager
 from urllib.request import Request
+import io
 
 
 st.set_page_config(page_title='BotolaScout',
@@ -199,15 +200,15 @@ def display_stat(label, value, df, stat):
 
 def get_image_output(URL):
     try:
-        # Add headers to mimic a browser request
-        req = Request(URL, headers={
+        # Use requests library with headers and timeout
+        headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36'
-        })
+        }
+        response = requests.get(URL, headers=headers, timeout=10)
+        response.raise_for_status()
         
-        # Set timeout to prevent hanging
-        with urlopen(req, timeout=10) as response:
-            img = Image.open(response)
-            
+        img = Image.open(io.BytesIO(response.content))
+        
         # Create a mask
         mask = Image.new('L', img.size, 0)
         draw = ImageDraw.Draw(mask)
@@ -219,7 +220,6 @@ def get_image_output(URL):
         return output
         
     except Exception as e:
-        # Return a placeholder image if fetching fails
         print(f"Error loading image from {URL}: {str(e)}")
         # Create a gray placeholder circle
         size = (120, 120)
@@ -1421,4 +1421,5 @@ if __name__ == "__main__":
 
 
 #JUST TO COMPLETE 1400 LINES OF CODE 😁
+
 
