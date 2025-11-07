@@ -200,25 +200,18 @@ def display_stat(label, value, df, stat):
 
 def get_image_output(URL):
     try:
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
-            'Accept-Language': 'en-US,en;q=0.9',
-            'Accept-Encoding': 'gzip, deflate, br',
-            'Referer': 'https://www.google.com/',
-            'Connection': 'keep-alive',
-        }
+        print(f"Attempting to load image from: {URL}")  # Debug line
         
-        # Add session for better connection handling
-        session = requests.Session()
-        response = session.get(URL, headers=headers, timeout=15, allow_redirects=True)
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+        }
+        response = requests.get(URL, headers=headers, timeout=10)
+        print(f"Response status: {response.status_code}")  # Debug line
+        
         response.raise_for_status()
         
         img = Image.open(io.BytesIO(response.content))
-        
-        # Convert to RGB if necessary
-        if img.mode != 'RGB' and img.mode != 'RGBA':
-            img = img.convert('RGBA')
+        print(f"Image loaded successfully, size: {img.size}")  # Debug line
         
         # Create a mask
         mask = Image.new('L', img.size, 0)
@@ -228,6 +221,18 @@ def get_image_output(URL):
         # Apply the mask to the image
         output = Image.new('RGBA', img.size, (0, 0, 0, 0))
         output.paste(img, (0, 0), mask)
+        return output
+        
+    except Exception as e:
+        print(f"ERROR loading image from {URL}: {type(e).__name__} - {str(e)}")  # Debug line
+        # Create a gray placeholder circle
+        size = (120, 120)
+        placeholder = Image.new('RGBA', size, (200, 200, 200, 255))
+        mask = Image.new('L', size, 0)
+        draw = ImageDraw.Draw(mask)
+        draw.ellipse((0, 0) + size, fill=255)
+        output = Image.new('RGBA', size, (0, 0, 0, 0))
+        output.paste(placeholder, (0, 0), mask)
         return output
         
     except Exception as e:
@@ -1443,6 +1448,7 @@ if __name__ == "__main__":
 
 
 #JUST TO COMPLETE 1400 LINES OF CODE 😁
+
 
 
 
