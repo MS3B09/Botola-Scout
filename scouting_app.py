@@ -200,14 +200,25 @@ def display_stat(label, value, df, stat):
 
 def get_image_output(URL):
     try:
-        # Use requests library with headers and timeout
         headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36'
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Referer': 'https://www.google.com/',
+            'Connection': 'keep-alive',
         }
-        response = requests.get(URL, headers=headers, timeout=10)
+        
+        # Add session for better connection handling
+        session = requests.Session()
+        response = session.get(URL, headers=headers, timeout=15, allow_redirects=True)
         response.raise_for_status()
         
         img = Image.open(io.BytesIO(response.content))
+        
+        # Convert to RGB if necessary
+        if img.mode != 'RGB' and img.mode != 'RGBA':
+            img = img.convert('RGBA')
         
         # Create a mask
         mask = Image.new('L', img.size, 0)
@@ -220,13 +231,24 @@ def get_image_output(URL):
         return output
         
     except Exception as e:
-        print(f"Error loading image from {URL}: {str(e)}")
-        # Create a gray placeholder circle
+        st.warning(f"Could not load image: {URL[:50]}...")  # Show warning to user
+        print(f"ERROR: {type(e).__name__} - {str(e)}")
+        
+        # Create a visible placeholder
         size = (120, 120)
-        placeholder = Image.new('RGBA', size, (128, 128, 128, 255))
+        placeholder = Image.new('RGB', size, (70, 70, 70))
+        draw = ImageDraw.Draw(placeholder)
+        
+        # Draw a person icon or "?" as placeholder
+        draw.ellipse([30, 20, 90, 80], fill=(150, 150, 150))  # Head
+        draw.ellipse([40, 85, 80, 115], fill=(150, 150, 150))  # Body
+        
+        # Convert to RGBA and apply mask
+        placeholder = placeholder.convert('RGBA')
         mask = Image.new('L', size, 0)
-        draw = ImageDraw.Draw(mask)
-        draw.ellipse((0, 0) + size, fill=255)
+        draw_mask = ImageDraw.Draw(mask)
+        draw_mask.ellipse((0, 0) + size, fill=255)
+        
         output = Image.new('RGBA', size, (0, 0, 0, 0))
         output.paste(placeholder, (0, 0), mask)
         return output
@@ -1421,5 +1443,6 @@ if __name__ == "__main__":
 
 
 #JUST TO COMPLETE 1400 LINES OF CODE 😁
+
 
 
