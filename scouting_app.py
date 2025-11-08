@@ -1148,109 +1148,8 @@ def options_select(available_options, key_prefix):
         else:
             st.session_state[max_selections_key] = len(available_options)
 
-def debug_image_urls(df, sample_size=3):
-    """Debug function - Version 6: Testing browser impersonation libraries"""
-    st.write("### Debug: Testing Browser Impersonation Methods")
-    
-    sample_df = df.head(sample_size)
-    
-    for idx, row in sample_df.iterrows():
-        player_name = row['Player']
-        player_img = row.get('Player Image', 'N/A')
-        
-        st.write(f"### {player_name}")
-        st.write(f"Testing URL: `{player_img}`")
-        
-        if player_img != 'N/A' and player_img != '--':
-            
-            # Method 1: curl_cffi (best - mimics browser TLS)
-            st.write("**Method 1: curl_cffi (Browser TLS fingerprint)**")
-            try:
-                from curl_cffi import requests as curl_requests
-                
-                r = curl_requests.get(
-                    player_img,
-                    impersonate="chrome120",  # Impersonate Chrome 120
-                    timeout=15
-                )
-                st.write(f"  - Status: {r.status_code}")
-                
-                if r.status_code == 200:
-                    st.success("✓ SUCCESS with curl_cffi!")
-                    st.write(f"  - Content-Type: {r.headers.get('Content-Type')}")
-                    
-                    from PIL import Image
-                    import io
-                    img = Image.open(io.BytesIO(r.content))
-                    st.image(img, width=100)
-                    st.info("🎉 This method works! We'll use curl_cffi for the solution.")
-                else:
-                    st.write(f"  - Response: {r.text[:100]}")
-                    
-            except ImportError:
-                st.warning("  - curl_cffi not installed. Install: `pip install curl_cffi`")
-            except Exception as e:
-                st.error(f"  - Error: {type(e).__name__}: {str(e)}")
-            
-            st.write("")
-            
-            # Method 2: httpx with http2
-            st.write("**Method 2: httpx with HTTP/2**")
-            try:
-                import httpx
-                
-                headers = {
-                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-                    "Accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
-                    "Accept-Language": "en-US,en;q=0.9",
-                    "Accept-Encoding": "gzip, deflate, br",
-                    "Referer": "https://www.sofascore.com/",
-                    "sec-ch-ua": '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
-                    "sec-ch-ua-mobile": "?0",
-                    "sec-ch-ua-platform": '"Windows"',
-                    "Sec-Fetch-Dest": "image",
-                    "Sec-Fetch-Mode": "no-cors",
-                    "Sec-Fetch-Site": "cross-site",
-                }
-                
-                with httpx.Client(http2=True, follow_redirects=True) as client:
-                    r = client.get(player_img, headers=headers, timeout=15)
-                    st.write(f"  - Status: {r.status_code}")
-                    
-                    if r.status_code == 200:
-                        st.success("✓ SUCCESS with httpx!")
-                        from PIL import Image
-                        import io
-                        img = Image.open(io.BytesIO(r.content))
-                        st.image(img, width=100)
-                    else:
-                        st.write(f"  - Response: {r.text[:100]}")
-                        
-            except ImportError:
-                st.warning("  - httpx not installed. Install: `pip install httpx[http2]`")
-            except Exception as e:
-                st.error(f"  - Error: {type(e).__name__}: {str(e)}")
-            
-            st.write("")
-            st.write("---")
-            st.write("**NEXT STEPS:**")
-            st.write("If Method 1 (curl_cffi) works:")
-            st.write("  1. Install: `pip install curl_cffi`")
-            st.write("  2. I'll provide the updated fetch_image_rgba function")
-            st.write("")
-            st.write("If Method 2 (httpx) works:")
-            st.write("  1. Install: `pip install 'httpx[http2]'`")
-            st.write("  2. I'll provide the updated function")
-            st.write("")
-            st.write("If neither works, we'll use Selenium (heavier but guaranteed to work)")
-        
-        st.write("---")
-        break
-
         
 def filter_page(df):
-    if st.sidebar.checkbox("Debug Image Loading"):
-        debug_image_urls(df)
     botola_png = 'https://upload.wikimedia.org/wikipedia/fr/2/2f/Botola-logo-maroc.png'
     col1, col2 = st.columns((1,2))
     with col1:
@@ -1628,14 +1527,4 @@ if __name__ == "__main__":
     main()
 
 
-
-
-#JUST TO COMPLETE 1400 LINES OF CODE 😁
-
-
-
-
-
-
-
-
+#JUST TO COMPLETE 1530 LINES OF CODE 😁
