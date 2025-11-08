@@ -7,8 +7,9 @@ import seaborn as sns
 from scipy import stats
 import requests
 import json
-from urllib.parse import unquote
-from urllib.request import urlopen
+import io
+import base64
+from urllib.parse import unquote, urlsplit, urlunsplit, quote
 from PIL import Image, ImageDraw
 import matplotlib.pyplot as plt
 import streamlit_shadcn_ui as ui
@@ -25,8 +26,9 @@ import matplotlib.font_manager as fm
 from highlight_text import fig_text
 import plotly.graph_objects as go
 from mplsoccer import PyPizza, add_image, FontManager
-from urllib.request import Request
-import io
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+
 
 
 st.set_page_config(page_title='BotolaScout',
@@ -198,98 +200,91 @@ def display_stat(label, value, df, stat):
         </div>
     """, unsafe_allow_html=True)
 
-def get_image_output(URL):
-    try:
-        # Enhanced headers to mimic browser
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
-            'Accept-Language': 'en-US,en;q=0.9',
-            'Accept-Encoding': 'gzip, deflate, br',
-            'Referer': 'https://www.sofascore.com/',
-            'Origin': 'https://www.sofascore.com',
-            'Connection': 'keep-alive',
-            'Sec-Fetch-Dest': 'image',
-            'Sec-Fetch-Mode': 'no-cors',
-            'Sec-Fetch-Site': 'same-site',
-        }
-        
-        response = requests.get(URL, headers=headers, timeout=15)
-        response.raise_for_status()
-        
-        # Open image
-        img = Image.open(io.BytesIO(response.content))
-        
-        # Check if it's a placeholder (usually gray/small size)
-        # SofaScore placeholders are often very small or monochrome
-        is_placeholder = False
-        if img.size[0] < 50 or img.size[1] < 50:  # Too small
-            is_placeholder = True
-        else:
-            # Check if image is mostly gray (placeholder)
-            img_array = np.array(img.convert('RGB'))
-            avg_color = img_array.mean(axis=(0, 1))
-            # If colors are very similar (gray), it's likely a placeholder
-            if np.std(avg_color) < 10:  # Low color variance = grayscale
-                is_placeholder = True
-        
-        if is_placeholder:
-            print(f"Placeholder detected for URL: {URL}")
-            return create_custom_placeholder()
-        
-        # Convert to RGBA
-        if img.mode != 'RGBA':
-            img = img.convert('RGBA')
-        
-        # Resize to standard size
-        size = (120, 120)
-        img = img.resize(size, Image.Resampling.LANCZOS)
-        
-        # Create circular mask
-        mask = Image.new('L', size, 0)
-        draw = ImageDraw.Draw(mask)
-        draw.ellipse((0, 0) + size, fill=255)
-        
-        # Apply mask
-        output = Image.new('RGBA', size, (0, 0, 0, 0))
-        output.paste(img, (0, 0), mask)
-        
-        return output
-        
-    except Exception as e:
-        print(f"Error loading image from {URL}: {type(e).__name__} - {str(e)}")
-        return create_custom_placeholder()
+# ===== NEW: Robust HTTP session with retries and proper headers =====
+def _http_session():
+    """Create requests session with retries and proper headers"""
+    s = requests.Session()
+    retries = Retry(
+        total=3,
+        backoff_factor=0.5,
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=["GET"],
+        raise_on_status=False,
+    )
+    adapter = HTTPAdapter(max_retries=retries)
+    s.mount("http://", adapter)
+    s.mount("https://", adapter)
+    s.headers.update({
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36",
+        "Accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://botola-scout.streamlit.app/",
+    })
+    return s
 
-def create_custom_placeholder():
-    """Create a better-looking placeholder image"""
-    size = (120, 120)
-    
-    # Create gradient background
-    img = Image.new('RGB', size, (30, 40, 50))
-    draw = ImageDraw.Draw(img)
-    
-    # Draw a stylized person silhouette
-    # Head
-    draw.ellipse([40, 25, 80, 65], fill=(100, 120, 140))
-    # Shoulders/body
-    draw.ellipse([25, 60, 95, 105], fill=(100, 120, 140))
-    
-    # Add a border circle
-    draw.ellipse([5, 5, 115, 115], outline=(17, 201, 175), width=3)
-    
-    # Convert to RGBA
-    img = img.convert('RGBA')
-    
-    # Apply circular mask
-    mask = Image.new('L', size, 0)
-    draw_mask = ImageDraw.Draw(mask)
-    draw_mask.ellipse((0, 0) + size, fill=255)
-    
-    output = Image.new('RGBA', size, (0, 0, 0, 0))
-    output.paste(img, (0, 0), mask)
-    
-    return output
-        
+@st.cache_data(show_spinner=False)
+def fetch_image_rgba(url):
+    """Fetch image from URL with proper error handling"""
+    if not url or url == '--':
+        return None
+    try:
+        parts = urlsplit(url)
+        # Upgrade to https when possible
+        scheme = "https" if parts.scheme in ("http", "https") else "https"
+        path = quote(parts.path, safe='/:')  # Handle spaces/special chars
+        url_enc = urlunsplit((scheme, parts.netloc, path, parts.query, parts.fragment))
+
+        s = _http_session()
+        r = s.get(url_enc, timeout=10, allow_redirects=True)
+        r.raise_for_status()
+        ctype = r.headers.get("Content-Type", "")
+        if "image" not in ctype:
+            return None
+        img = Image.open(io.BytesIO(r.content)).convert("RGBA")
+        return img
+    except Exception as e:
+        return None
+
+def _circularize(img):
+    """Make image circular with transparent background"""
+    if img is None:
+        return None
+    size = min(img.size)
+    img = img.resize((size, size), Image.LANCZOS)
+    mask = Image.new("L", (size, size), 0)
+    d = ImageDraw.Draw(mask)
+    d.ellipse((0, 0, size, size), fill=255)
+    out = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+    out.paste(img, (0, 0), mask)
+    return out
+
+def _placeholder_avatar(size=256):
+    """Create placeholder avatar for failed image loads"""
+    img = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    d.ellipse((0, 0, size, size), fill=(30, 42, 56, 255))
+    d.ellipse((size*0.28, size*0.2, size*0.72, size*0.64), fill=(60, 80, 100, 255))
+    d.rectangle((size*0.2, size*0.65, size*0.8, size*0.95), fill=(60, 80, 100, 255))
+    return img
+
+def get_image_output(URL):
+    """Fetch and circularize image for pizza plots - FIXED VERSION"""
+    img = fetch_image_rgba(URL)
+    circ = _circularize(img)
+    return circ if circ is not None else _placeholder_avatar()
+
+@st.cache_data(show_spinner=False)
+def image_url_to_data_uri(url, circle=False):
+    """Convert image URL to data URI for HTML embedding - prevents hotlinking issues"""
+    img = fetch_image_rgba(url)
+    if circle:
+        img = _circularize(img)
+    if img is None:
+        img = _placeholder_avatar()
+    buf = io.BytesIO()
+    img.save(buf, format="PNG")
+    b64 = base64.b64encode(buf.getvalue()).decode("ascii")
+    return f"data:image/png;base64,{b64}"
 
 @st.cache_data
 def pizza_plot(player_data, params_1, values, output):
@@ -476,17 +471,9 @@ def pizza_plot_comparison(params_1, values, values_2, player_data, player_name_2
 
 @st.cache_data
 def display_player_card(player):
-    # Get the circular image
-    player_img = get_image_output(player['Player Image'])
-    
-    # Convert PIL image to base64 for HTML display
-    import base64
-    from io import BytesIO
-    
-    buffered = BytesIO()
-    player_img.save(buffered, format="PNG")
-    img_str = base64.b64encode(buffered.getvalue()).decode()
-    img_data = f"data:image/png;base64,{img_str}"
+    # Convert URLs to data URIs to prevent hotlinking/403 errors
+    player_img_src = image_url_to_data_uri(player['Player Image'], circle=True)
+    team_logo_src = image_url_to_data_uri(player['Team Logo'], circle=False)
     
     st.markdown("""
     <style>
@@ -515,7 +502,6 @@ def display_player_card(player):
         border-radius: 50%;
         margin-right: 25px;
         border: 3px solid #11C9AF;
-        object-fit: cover;
     }
     .player-info {
         flex-grow: 1;
@@ -586,14 +572,13 @@ def display_player_card(player):
         margin-top: 20px;
     }
     """, unsafe_allow_html=True)
-    
     html = f"""
     <div class="player-card">
         <div class="player-header">
-            <img src="{img_data}" class="player-image">
+            <img src="{player_img_src}" class="player-image">
             <div class="player-info">
                 <h2 class="player-name">{player['Player']}</h2>
-                <p class="player-team"><img src="{player['Team Logo']}" class="team-logo">{player['Team_x']}</p>
+                <p class="player-team"><img src="{team_logo_src}" class="team-logo">{player['Team_x']}</p>
             </div>
         </div>
         <div class="stats">
@@ -1087,12 +1072,7 @@ def player_details(df, player_data):
         values = []
         for x in range(len(filtered_params)):   
             values.append(math.floor(stats.percentileofscore(pizza_df[filtered_params[x]],player[x])))
-            
-        # Temporary debug
-        st.write("Testing image URL:", player_data['Player Image'])
-        test_img = get_image_output(player_data['Player Image'])
-        st.image(test_img, caption="Test Image Display", width=120)
-
+        
         output = get_image_output(player_data['Player Image'])
         
         if player_name_2 == '- - -':
@@ -1498,12 +1478,4 @@ if __name__ == "__main__":
 
 
 
-
 #JUST TO COMPLETE 1400 LINES OF CODE 😁
-
-
-
-
-
-
-
