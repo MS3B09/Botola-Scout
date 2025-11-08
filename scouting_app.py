@@ -1136,7 +1136,7 @@ def debug_image_urls(df, sample_size=5):
         
 def filter_page(df):
     if st.sidebar.checkbox("Debug Image Loading"):
-    debug_image_urls(df)
+        debug_image_urls(df)
     botola_png = 'https://upload.wikimedia.org/wikipedia/fr/2/2f/Botola-logo-maroc.png'
     col1, col2 = st.columns((1,2))
     with col1:
