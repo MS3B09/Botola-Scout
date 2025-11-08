@@ -1331,13 +1331,15 @@ def filter_page(df):
         #if search_input != '':
         #    filtered_df = df[df['Player'] == search_input]
 
-        # Function to create HTML for club logo 
+        # Function to create HTML for club logo using data URIs 
         def display_club(club, logo_url):
-            return f'<img src="{logo_url}" width="30" style="vertical-align: middle;"> {club}'
-
+            # Convert logo URL to data URI to prevent hotlinking issues
+            logo_data_uri = image_url_to_data_uri(logo_url, circle=False)
+            return f'<img src="{logo_data_uri}" width="30" style="vertical-align: middle;"> {club}'
+        
         # Apply the function to combine logo and club name
         filtered_df['Team_x'] = filtered_df.apply(lambda row: display_club(row['Team_x'], row['Team Logo']), axis=1)
-
+        
         # Remove the logo_url column as it's no longer needed in the display
         filtered_df = filtered_df.drop(columns=['Team Logo'])
 
@@ -1479,3 +1481,4 @@ if __name__ == "__main__":
 
 
 #JUST TO COMPLETE 1400 LINES OF CODE 😁
+
