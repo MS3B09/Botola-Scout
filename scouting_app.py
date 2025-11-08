@@ -1101,8 +1101,8 @@ def options_select(available_options, key_prefix):
             st.session_state[max_selections_key] = len(available_options)
 
 def debug_image_urls(df, sample_size=3):
-    """Debug function - Version 5: Checking browser vs script difference"""
-    st.write("### Debug: Browser Detection Analysis")
+    """Debug function - Version 6: Testing browser impersonation libraries"""
+    st.write("### Debug: Testing Browser Impersonation Methods")
     
     sample_df = df.head(sample_size)
     
@@ -1114,56 +1114,87 @@ def debug_image_urls(df, sample_size=3):
         st.write(f"Testing URL: `{player_img}`")
         
         if player_img != 'N/A' and player_img != '--':
-            import requests
             
-            st.write("**Finding:** SofaScore is blocking automated requests but allows browser access.")
-            st.write("This means they're using bot detection (likely checking TLS fingerprint or JavaScript).")
-            st.write("")
-            
-            # Test with cloudscraper (bypasses Cloudflare)
-            st.write("**Test 1: Using cloudscraper library**")
+            # Method 1: curl_cffi (best - mimics browser TLS)
+            st.write("**Method 1: curl_cffi (Browser TLS fingerprint)**")
             try:
-                import cloudscraper
-                scraper = cloudscraper.create_scraper(
-                    browser={
-                        'browser': 'chrome',
-                        'platform': 'windows',
-                        'mobile': False
-                    }
+                from curl_cffi import requests as curl_requests
+                
+                r = curl_requests.get(
+                    player_img,
+                    impersonate="chrome120",  # Impersonate Chrome 120
+                    timeout=15
                 )
-                r = scraper.get(player_img, timeout=15)
                 st.write(f"  - Status: {r.status_code}")
                 
                 if r.status_code == 200:
-                    st.success("✓ SUCCESS with cloudscraper!")
+                    st.success("✓ SUCCESS with curl_cffi!")
                     st.write(f"  - Content-Type: {r.headers.get('Content-Type')}")
                     
                     from PIL import Image
                     import io
                     img = Image.open(io.BytesIO(r.content))
                     st.image(img, width=100)
+                    st.info("🎉 This method works! We'll use curl_cffi for the solution.")
                 else:
                     st.write(f"  - Response: {r.text[:100]}")
                     
             except ImportError:
-                st.warning("  - cloudscraper not installed. Run: `pip install cloudscraper`")
+                st.warning("  - curl_cffi not installed. Install: `pip install curl_cffi`")
             except Exception as e:
-                st.error(f"  - Error: {str(e)}")
-            
-            # Test with requests-html (uses actual browser)
-            st.write("**Test 2: Check if Streamlit Cloud blocks this domain**")
-            st.write("  - The issue might be that Streamlit Cloud's IP is blocked by SofaScore")
-            st.write("  - Or they're using advanced bot detection (TLS fingerprinting)")
+                st.error(f"  - Error: {type(e).__name__}: {str(e)}")
             
             st.write("")
-            st.write("**SOLUTION OPTIONS:**")
-            st.write("1. **Use image proxy service** - Route requests through a proxy")
-            st.write("2. **Use cached/downloaded images** - Pre-download all images to your repo")
-            st.write("3. **Use browser automation** - Selenium/Playwright (heavy, not recommended for Streamlit)")
-            st.write("4. **Find alternative image sources** - Check if images are available from other CDNs")
+            
+            # Method 2: httpx with http2
+            st.write("**Method 2: httpx with HTTP/2**")
+            try:
+                import httpx
+                
+                headers = {
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                    "Accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Referer": "https://www.sofascore.com/",
+                    "sec-ch-ua": '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+                    "sec-ch-ua-mobile": "?0",
+                    "sec-ch-ua-platform": '"Windows"',
+                    "Sec-Fetch-Dest": "image",
+                    "Sec-Fetch-Mode": "no-cors",
+                    "Sec-Fetch-Site": "cross-site",
+                }
+                
+                with httpx.Client(http2=True, follow_redirects=True) as client:
+                    r = client.get(player_img, headers=headers, timeout=15)
+                    st.write(f"  - Status: {r.status_code}")
+                    
+                    if r.status_code == 200:
+                        st.success("✓ SUCCESS with httpx!")
+                        from PIL import Image
+                        import io
+                        img = Image.open(io.BytesIO(r.content))
+                        st.image(img, width=100)
+                    else:
+                        st.write(f"  - Response: {r.text[:100]}")
+                        
+            except ImportError:
+                st.warning("  - httpx not installed. Install: `pip install httpx[http2]`")
+            except Exception as e:
+                st.error(f"  - Error: {type(e).__name__}: {str(e)}")
             
             st.write("")
-            st.info("Let me know which solution you prefer and I'll implement it!")
+            st.write("---")
+            st.write("**NEXT STEPS:**")
+            st.write("If Method 1 (curl_cffi) works:")
+            st.write("  1. Install: `pip install curl_cffi`")
+            st.write("  2. I'll provide the updated fetch_image_rgba function")
+            st.write("")
+            st.write("If Method 2 (httpx) works:")
+            st.write("  1. Install: `pip install 'httpx[http2]'`")
+            st.write("  2. I'll provide the updated function")
+            st.write("")
+            st.write("If neither works, we'll use Selenium (heavier but guaranteed to work)")
         
         st.write("---")
         break
@@ -1552,6 +1583,7 @@ if __name__ == "__main__":
 
 
 #JUST TO COMPLETE 1400 LINES OF CODE 😁
+
 
 
 
