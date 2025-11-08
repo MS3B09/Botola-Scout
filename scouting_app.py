@@ -1101,80 +1101,70 @@ def options_select(available_options, key_prefix):
             st.session_state[max_selections_key] = len(available_options)
 
 def debug_image_urls(df, sample_size=3):
-    """Debug function to check image URLs - Version 2: More detailed error tracking"""
-    st.write("### Debug: Checking Image URLs (Detailed)")
+    """Debug function to check image URLs - Version 3: Testing with proper headers"""
+    st.write("### Debug: Testing with Different Headers")
     
     sample_df = df.head(sample_size)
+    
+    # Test different header configurations
+    header_configs = {
+        "Basic": {
+            "User-Agent": "Mozilla/5.0"
+        },
+        "Full Browser": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Referer": "https://www.sofascore.com/",
+            "Origin": "https://www.sofascore.com"
+        },
+        "API Client": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+            "Accept": "*/*",
+            "Referer": "https://www.sofascore.com/",
+            "sec-ch-ua": '"Not_A Brand";v="8", "Chromium";v="120"',
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": '"Windows"',
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "same-site"
+        }
+    }
     
     for idx, row in sample_df.iterrows():
         player_name = row['Player']
         player_img = row.get('Player Image', 'N/A')
-        team_logo = row.get('Team Logo', 'N/A')
         
-        st.write(f"**{player_name}**")
-        st.write(f"- Player Image URL: `{player_img}`")
-        st.write(f"- Team Logo URL: `{team_logo}`")
+        st.write(f"### {player_name}")
+        st.write(f"Testing URL: `{player_img}`")
         
-        # Test Player Image
         if player_img != 'N/A' and player_img != '--':
-            st.write("🔍 Testing Player Image:")
-            try:
-                # Step 1: URL validation
-                url = str(player_img).strip()
-                st.write(f"  - Original URL: `{url}`")
-                st.write(f"  - URL type: {type(url)}")
-                st.write(f"  - URL length: {len(url)}")
-                
-                # Step 2: Try basic request
-                import requests
-                r = requests.get(url, timeout=10, allow_redirects=True)
-                st.write(f"  - Status Code: {r.status_code}")
-                st.write(f"  - Content-Type: {r.headers.get('Content-Type', 'N/A')}")
-                st.write(f"  - Content-Length: {len(r.content)} bytes")
-                
-                # Step 3: Try to open as image
-                if r.status_code == 200:
-                    from PIL import Image
-                    import io
-                    img = Image.open(io.BytesIO(r.content))
-                    st.write(f"  - Image Size: {img.size}")
-                    st.write(f"  - Image Mode: {img.mode}")
-                    st.success(f"✓ Successfully loaded and parsed image!")
-                    st.image(img, width=100)
-                else:
-                    st.error(f"✗ Failed with status code: {r.status_code}")
-                    st.write(f"  - Response text preview: {r.text[:200]}")
+            for config_name, headers in header_configs.items():
+                st.write(f"**{config_name} Headers:**")
+                try:
+                    import requests
+                    r = requests.get(player_img, headers=headers, timeout=10, allow_redirects=True)
+                    st.write(f"  - Status: {r.status_code}")
                     
-            except Exception as e:
-                st.error(f"✗ Exception: {type(e).__name__}: {str(e)}")
-                import traceback
-                st.code(traceback.format_exc())
-        
-        # Test Team Logo
-        if team_logo != 'N/A' and team_logo != '--':
-            st.write("🔍 Testing Team Logo:")
-            try:
-                url = str(team_logo).strip()
-                st.write(f"  - Original URL: `{url}`")
-                
-                import requests
-                r = requests.get(url, timeout=10, allow_redirects=True)
-                st.write(f"  - Status Code: {r.status_code}")
-                st.write(f"  - Content-Type: {r.headers.get('Content-Type', 'N/A')}")
-                
-                if r.status_code == 200:
-                    from PIL import Image
-                    import io
-                    img = Image.open(io.BytesIO(r.content))
-                    st.success(f"✓ Successfully loaded!")
-                    st.image(img, width=50)
-                else:
-                    st.error(f"✗ Failed with status code: {r.status_code}")
-                    
-            except Exception as e:
-                st.error(f"✗ Exception: {type(e).__name__}: {str(e)}")
+                    if r.status_code == 200:
+                        st.success(f"✓ SUCCESS with {config_name}!")
+                        st.write(f"  - Content-Type: {r.headers.get('Content-Type')}")
+                        
+                        # Try to display
+                        from PIL import Image
+                        import io
+                        img = Image.open(io.BytesIO(r.content))
+                        st.image(img, width=100)
+                        break  # Found working config
+                    else:
+                        st.write(f"  - Response: {r.text[:100]}")
+                        
+                except Exception as e:
+                    st.error(f"  - Error: {str(e)}")
         
         st.write("---")
+        break  # Just test first player for now
+
         
 def filter_page(df):
     if st.sidebar.checkbox("Debug Image Loading"):
@@ -1559,6 +1549,7 @@ if __name__ == "__main__":
 
 
 #JUST TO COMPLETE 1400 LINES OF CODE 😁
+
 
 
 
