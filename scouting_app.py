@@ -290,50 +290,6 @@ def create_custom_placeholder():
     
     return output
         
-    except Exception as e:
-        print(f"Error loading image from {URL}: {type(e).__name__} - {str(e)}")
-        
-        # Create a visible colored placeholder
-        size = (120, 120)
-        placeholder = Image.new('RGBA', size, (100, 100, 100, 255))
-        
-        draw = ImageDraw.Draw(placeholder)
-        # Draw a simple user icon
-        draw.ellipse([30, 20, 90, 80], fill=(180, 180, 180, 255))  # Head
-        draw.ellipse([25, 70, 95, 115], fill=(180, 180, 180, 255))  # Body
-        
-        # Apply circular mask
-        mask = Image.new('L', size, 0)
-        draw_mask = ImageDraw.Draw(mask)
-        draw_mask.ellipse((0, 0) + size, fill=255)
-        
-        output = Image.new('RGBA', size, (0, 0, 0, 0))
-        output.paste(placeholder, (0, 0), mask)
-        
-        return output
-        
-    except Exception as e:
-        st.warning(f"Could not load image: {URL[:50]}...")  # Show warning to user
-        print(f"ERROR: {type(e).__name__} - {str(e)}")
-        
-        # Create a visible placeholder
-        size = (120, 120)
-        placeholder = Image.new('RGB', size, (70, 70, 70))
-        draw = ImageDraw.Draw(placeholder)
-        
-        # Draw a person icon or "?" as placeholder
-        draw.ellipse([30, 20, 90, 80], fill=(150, 150, 150))  # Head
-        draw.ellipse([40, 85, 80, 115], fill=(150, 150, 150))  # Body
-        
-        # Convert to RGBA and apply mask
-        placeholder = placeholder.convert('RGBA')
-        mask = Image.new('L', size, 0)
-        draw_mask = ImageDraw.Draw(mask)
-        draw_mask.ellipse((0, 0) + size, fill=255)
-        
-        output = Image.new('RGBA', size, (0, 0, 0, 0))
-        output.paste(placeholder, (0, 0), mask)
-        return output
 
 @st.cache_data
 def pizza_plot(player_data, params_1, values, output):
@@ -1544,6 +1500,7 @@ if __name__ == "__main__":
 
 
 #JUST TO COMPLETE 1400 LINES OF CODE 😁
+
 
 
 
