@@ -200,22 +200,48 @@ def display_stat(label, value, df, stat):
 
 def get_image_output(URL):
     try:
+        # Enhanced headers to mimic browser
         headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Accept': 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+            'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Referer': 'https://www.sofascore.com/',
+            'Origin': 'https://www.sofascore.com',
+            'Connection': 'keep-alive',
+            'Sec-Fetch-Dest': 'image',
+            'Sec-Fetch-Mode': 'no-cors',
+            'Sec-Fetch-Site': 'same-site',
         }
         
-        response = requests.get(URL, headers=headers, timeout=10)
+        response = requests.get(URL, headers=headers, timeout=15)
         response.raise_for_status()
         
         # Open image
         img = Image.open(io.BytesIO(response.content))
         
-        # IMPORTANT: Convert to RGBA first to handle all image types
+        # Check if it's a placeholder (usually gray/small size)
+        # SofaScore placeholders are often very small or monochrome
+        is_placeholder = False
+        if img.size[0] < 50 or img.size[1] < 50:  # Too small
+            is_placeholder = True
+        else:
+            # Check if image is mostly gray (placeholder)
+            img_array = np.array(img.convert('RGB'))
+            avg_color = img_array.mean(axis=(0, 1))
+            # If colors are very similar (gray), it's likely a placeholder
+            if np.std(avg_color) < 10:  # Low color variance = grayscale
+                is_placeholder = True
+        
+        if is_placeholder:
+            print(f"Placeholder detected for URL: {URL}")
+            return create_custom_placeholder()
+        
+        # Convert to RGBA
         if img.mode != 'RGBA':
             img = img.convert('RGBA')
         
-        # Resize to standard size for consistency
+        # Resize to standard size
         size = (120, 120)
         img = img.resize(size, Image.Resampling.LANCZOS)
         
@@ -224,11 +250,45 @@ def get_image_output(URL):
         draw = ImageDraw.Draw(mask)
         draw.ellipse((0, 0) + size, fill=255)
         
-        # Create output with transparent background
+        # Apply mask
         output = Image.new('RGBA', size, (0, 0, 0, 0))
         output.paste(img, (0, 0), mask)
         
         return output
+        
+    except Exception as e:
+        print(f"Error loading image from {URL}: {type(e).__name__} - {str(e)}")
+        return create_custom_placeholder()
+
+def create_custom_placeholder():
+    """Create a better-looking placeholder image"""
+    size = (120, 120)
+    
+    # Create gradient background
+    img = Image.new('RGB', size, (30, 40, 50))
+    draw = ImageDraw.Draw(img)
+    
+    # Draw a stylized person silhouette
+    # Head
+    draw.ellipse([40, 25, 80, 65], fill=(100, 120, 140))
+    # Shoulders/body
+    draw.ellipse([25, 60, 95, 105], fill=(100, 120, 140))
+    
+    # Add a border circle
+    draw.ellipse([5, 5, 115, 115], outline=(17, 201, 175), width=3)
+    
+    # Convert to RGBA
+    img = img.convert('RGBA')
+    
+    # Apply circular mask
+    mask = Image.new('L', size, 0)
+    draw_mask = ImageDraw.Draw(mask)
+    draw_mask.ellipse((0, 0) + size, fill=255)
+    
+    output = Image.new('RGBA', size, (0, 0, 0, 0))
+    output.paste(img, (0, 0), mask)
+    
+    return output
         
     except Exception as e:
         print(f"Error loading image from {URL}: {type(e).__name__} - {str(e)}")
@@ -1484,6 +1544,7 @@ if __name__ == "__main__":
 
 
 #JUST TO COMPLETE 1400 LINES OF CODE 😁
+
 
 
 
