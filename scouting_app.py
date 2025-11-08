@@ -1100,7 +1100,43 @@ def options_select(available_options, key_prefix):
         else:
             st.session_state[max_selections_key] = len(available_options)
 
+def debug_image_urls(df, sample_size=5):
+    """Debug function to check image URLs"""
+    st.write("### Debug: Checking Image URLs")
+    
+    sample_df = df.head(sample_size)
+    
+    for idx, row in sample_df.iterrows():
+        player_name = row['Player']
+        player_img = row.get('Player Image', 'N/A')
+        team_logo = row.get('Team Logo', 'N/A')
+        
+        st.write(f"**{player_name}**")
+        st.write(f"- Player Image URL: `{player_img}`")
+        st.write(f"- Team Logo URL: `{team_logo}`")
+        
+        # Try to fetch
+        if player_img != 'N/A' and player_img != '--':
+            img = fetch_image_rgba(player_img)
+            if img:
+                st.success(f"✓ Player image loaded successfully")
+                st.image(img, width=100)
+            else:
+                st.error(f"✗ Failed to load player image")
+        
+        if team_logo != 'N/A' and team_logo != '--':
+            img = fetch_image_rgba(team_logo)
+            if img:
+                st.success(f"✓ Team logo loaded successfully")
+                st.image(img, width=50)
+            else:
+                st.error(f"✗ Failed to load team logo")
+        
+        st.write("---")
+        
 def filter_page(df):
+    if st.sidebar.checkbox("Debug Image Loading"):
+    debug_image_urls(df)
     botola_png = 'https://upload.wikimedia.org/wikipedia/fr/2/2f/Botola-logo-maroc.png'
     col1, col2 = st.columns((1,2))
     with col1:
@@ -1481,4 +1517,5 @@ if __name__ == "__main__":
 
 
 #JUST TO COMPLETE 1400 LINES OF CODE 😁
+
 
