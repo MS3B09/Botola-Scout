@@ -200,39 +200,56 @@ def display_stat(label, value, df, stat):
 
 def get_image_output(URL):
     try:
-        print(f"Attempting to load image from: {URL}")  # Debug line
-        
         headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
         }
-        response = requests.get(URL, headers=headers, timeout=10)
-        print(f"Response status: {response.status_code}")  # Debug line
         
+        response = requests.get(URL, headers=headers, timeout=10)
         response.raise_for_status()
         
+        # Open image
         img = Image.open(io.BytesIO(response.content))
-        print(f"Image loaded successfully, size: {img.size}")  # Debug line
         
-        # Create a mask
-        mask = Image.new('L', img.size, 0)
-        draw = ImageDraw.Draw(mask)
-        draw.ellipse((0, 0) + img.size, fill=255)
+        # IMPORTANT: Convert to RGBA first to handle all image types
+        if img.mode != 'RGBA':
+            img = img.convert('RGBA')
         
-        # Apply the mask to the image
-        output = Image.new('RGBA', img.size, (0, 0, 0, 0))
-        output.paste(img, (0, 0), mask)
-        return output
-        
-    except Exception as e:
-        print(f"ERROR loading image from {URL}: {type(e).__name__} - {str(e)}")  # Debug line
-        # Create a gray placeholder circle
+        # Resize to standard size for consistency
         size = (120, 120)
-        placeholder = Image.new('RGBA', size, (200, 200, 200, 255))
+        img = img.resize(size, Image.Resampling.LANCZOS)
+        
+        # Create circular mask
         mask = Image.new('L', size, 0)
         draw = ImageDraw.Draw(mask)
         draw.ellipse((0, 0) + size, fill=255)
+        
+        # Create output with transparent background
+        output = Image.new('RGBA', size, (0, 0, 0, 0))
+        output.paste(img, (0, 0), mask)
+        
+        return output
+        
+    except Exception as e:
+        print(f"Error loading image from {URL}: {type(e).__name__} - {str(e)}")
+        
+        # Create a visible colored placeholder
+        size = (120, 120)
+        placeholder = Image.new('RGBA', size, (100, 100, 100, 255))
+        
+        draw = ImageDraw.Draw(placeholder)
+        # Draw a simple user icon
+        draw.ellipse([30, 20, 90, 80], fill=(180, 180, 180, 255))  # Head
+        draw.ellipse([25, 70, 95, 115], fill=(180, 180, 180, 255))  # Body
+        
+        # Apply circular mask
+        mask = Image.new('L', size, 0)
+        draw_mask = ImageDraw.Draw(mask)
+        draw_mask.ellipse((0, 0) + size, fill=255)
+        
         output = Image.new('RGBA', size, (0, 0, 0, 0))
         output.paste(placeholder, (0, 0), mask)
+        
         return output
         
     except Exception as e:
@@ -443,6 +460,18 @@ def pizza_plot_comparison(params_1, values, values_2, player_data, player_name_2
 
 @st.cache_data
 def display_player_card(player):
+    # Get the circular image
+    player_img = get_image_output(player['Player Image'])
+    
+    # Convert PIL image to base64 for HTML display
+    import base64
+    from io import BytesIO
+    
+    buffered = BytesIO()
+    player_img.save(buffered, format="PNG")
+    img_str = base64.b64encode(buffered.getvalue()).decode()
+    img_data = f"data:image/png;base64,{img_str}"
+    
     st.markdown("""
     <style>
     body {
@@ -470,6 +499,7 @@ def display_player_card(player):
         border-radius: 50%;
         margin-right: 25px;
         border: 3px solid #11C9AF;
+        object-fit: cover;
     }
     .player-info {
         flex-grow: 1;
@@ -540,10 +570,11 @@ def display_player_card(player):
         margin-top: 20px;
     }
     """, unsafe_allow_html=True)
+    
     html = f"""
     <div class="player-card">
         <div class="player-header">
-            <img src="{player['Player Image']}" class="player-image">
+            <img src="{img_data}" class="player-image">
             <div class="player-info">
                 <h2 class="player-name">{player['Player']}</h2>
                 <p class="player-team"><img src="{player['Team Logo']}" class="team-logo">{player['Team_x']}</p>
@@ -1040,7 +1071,12 @@ def player_details(df, player_data):
         values = []
         for x in range(len(filtered_params)):   
             values.append(math.floor(stats.percentileofscore(pizza_df[filtered_params[x]],player[x])))
-        
+            
+        # Temporary debug
+        st.write("Testing image URL:", player_data['Player Image'])
+        test_img = get_image_output(player_data['Player Image'])
+        st.image(test_img, caption="Test Image Display", width=120)
+
         output = get_image_output(player_data['Player Image'])
         
         if player_name_2 == '- - -':
@@ -1448,6 +1484,7 @@ if __name__ == "__main__":
 
 
 #JUST TO COMPLETE 1400 LINES OF CODE 😁
+
 
 
 
