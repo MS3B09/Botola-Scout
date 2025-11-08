@@ -1101,8 +1101,8 @@ def options_select(available_options, key_prefix):
             st.session_state[max_selections_key] = len(available_options)
 
 def debug_image_urls(df, sample_size=3):
-    """Debug function - Version 4: Testing with session and cookies"""
-    st.write("### Debug: Testing with Session Management")
+    """Debug function - Version 5: Checking browser vs script difference"""
+    st.write("### Debug: Browser Detection Analysis")
     
     sample_df = df.head(sample_size)
     
@@ -1116,58 +1116,57 @@ def debug_image_urls(df, sample_size=3):
         if player_img != 'N/A' and player_img != '--':
             import requests
             
-            # Test 1: With Session + cookies from main site first
-            st.write("**Test 1: Session with pre-visit to sofascore.com**")
+            st.write("**Finding:** SofaScore is blocking automated requests but allows browser access.")
+            st.write("This means they're using bot detection (likely checking TLS fingerprint or JavaScript).")
+            st.write("")
+            
+            # Test with cloudscraper (bypasses Cloudflare)
+            st.write("**Test 1: Using cloudscraper library**")
             try:
-                session = requests.Session()
-                
-                # First visit the main site to get cookies
-                st.write("  - Visiting https://www.sofascore.com/ to get cookies...")
-                init_response = session.get("https://www.sofascore.com/", timeout=10)
-                st.write(f"  - Main site status: {init_response.status_code}")
-                st.write(f"  - Cookies received: {len(session.cookies)} cookies")
-                
-                # Now try the image with the session
-                headers = {
-                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-                    "Accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
-                    "Referer": "https://www.sofascore.com/",
-                    "Origin": "https://www.sofascore.com"
-                }
-                
-                r = session.get(player_img, headers=headers, timeout=10, allow_redirects=True)
-                st.write(f"  - Image request status: {r.status_code}")
+                import cloudscraper
+                scraper = cloudscraper.create_scraper(
+                    browser={
+                        'browser': 'chrome',
+                        'platform': 'windows',
+                        'mobile': False
+                    }
+                )
+                r = scraper.get(player_img, timeout=15)
+                st.write(f"  - Status: {r.status_code}")
                 
                 if r.status_code == 200:
-                    st.success("✓ SUCCESS with session!")
+                    st.success("✓ SUCCESS with cloudscraper!")
+                    st.write(f"  - Content-Type: {r.headers.get('Content-Type')}")
+                    
                     from PIL import Image
                     import io
                     img = Image.open(io.BytesIO(r.content))
                     st.image(img, width=100)
-                    break
                 else:
                     st.write(f"  - Response: {r.text[:100]}")
                     
+            except ImportError:
+                st.warning("  - cloudscraper not installed. Run: `pip install cloudscraper`")
             except Exception as e:
                 st.error(f"  - Error: {str(e)}")
             
-            # Test 2: Try the image URL directly in browser (manual check)
-            st.write("**Test 2: Manual Browser Test**")
-            st.write(f"  - Click here to test in your browser: [{player_img}]({player_img})")
-            st.info("👆 Does this link work when you click it in a new tab?")
+            # Test with requests-html (uses actual browser)
+            st.write("**Test 2: Check if Streamlit Cloud blocks this domain**")
+            st.write("  - The issue might be that Streamlit Cloud's IP is blocked by SofaScore")
+            st.write("  - Or they're using advanced bot detection (TLS fingerprinting)")
             
-            # Test 3: Check response headers
-            st.write("**Test 3: Inspect Response Headers**")
-            try:
-                r = requests.head(player_img, timeout=5)
-                st.write("  Response Headers:")
-                for key, value in r.headers.items():
-                    st.write(f"    - {key}: {value}")
-            except Exception as e:
-                st.error(f"  - Error: {str(e)}")
+            st.write("")
+            st.write("**SOLUTION OPTIONS:**")
+            st.write("1. **Use image proxy service** - Route requests through a proxy")
+            st.write("2. **Use cached/downloaded images** - Pre-download all images to your repo")
+            st.write("3. **Use browser automation** - Selenium/Playwright (heavy, not recommended for Streamlit)")
+            st.write("4. **Find alternative image sources** - Check if images are available from other CDNs")
+            
+            st.write("")
+            st.info("Let me know which solution you prefer and I'll implement it!")
         
         st.write("---")
-        break  # Just test first player
+        break
 
         
 def filter_page(df):
@@ -1553,6 +1552,7 @@ if __name__ == "__main__":
 
 
 #JUST TO COMPLETE 1400 LINES OF CODE 😁
+
 
 
 
