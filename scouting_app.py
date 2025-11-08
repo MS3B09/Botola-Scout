@@ -1101,35 +1101,10 @@ def options_select(available_options, key_prefix):
             st.session_state[max_selections_key] = len(available_options)
 
 def debug_image_urls(df, sample_size=3):
-    """Debug function to check image URLs - Version 3: Testing with proper headers"""
-    st.write("### Debug: Testing with Different Headers")
+    """Debug function - Version 4: Testing with session and cookies"""
+    st.write("### Debug: Testing with Session Management")
     
     sample_df = df.head(sample_size)
-    
-    # Test different header configurations
-    header_configs = {
-        "Basic": {
-            "User-Agent": "Mozilla/5.0"
-        },
-        "Full Browser": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "Accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
-            "Accept-Language": "en-US,en;q=0.9",
-            "Referer": "https://www.sofascore.com/",
-            "Origin": "https://www.sofascore.com"
-        },
-        "API Client": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-            "Accept": "*/*",
-            "Referer": "https://www.sofascore.com/",
-            "sec-ch-ua": '"Not_A Brand";v="8", "Chromium";v="120"',
-            "sec-ch-ua-mobile": "?0",
-            "sec-ch-ua-platform": '"Windows"',
-            "Sec-Fetch-Dest": "empty",
-            "Sec-Fetch-Mode": "cors",
-            "Sec-Fetch-Site": "same-site"
-        }
-    }
     
     for idx, row in sample_df.iterrows():
         player_name = row['Player']
@@ -1139,31 +1114,60 @@ def debug_image_urls(df, sample_size=3):
         st.write(f"Testing URL: `{player_img}`")
         
         if player_img != 'N/A' and player_img != '--':
-            for config_name, headers in header_configs.items():
-                st.write(f"**{config_name} Headers:**")
-                try:
-                    import requests
-                    r = requests.get(player_img, headers=headers, timeout=10, allow_redirects=True)
-                    st.write(f"  - Status: {r.status_code}")
+            import requests
+            
+            # Test 1: With Session + cookies from main site first
+            st.write("**Test 1: Session with pre-visit to sofascore.com**")
+            try:
+                session = requests.Session()
+                
+                # First visit the main site to get cookies
+                st.write("  - Visiting https://www.sofascore.com/ to get cookies...")
+                init_response = session.get("https://www.sofascore.com/", timeout=10)
+                st.write(f"  - Main site status: {init_response.status_code}")
+                st.write(f"  - Cookies received: {len(session.cookies)} cookies")
+                
+                # Now try the image with the session
+                headers = {
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                    "Accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+                    "Referer": "https://www.sofascore.com/",
+                    "Origin": "https://www.sofascore.com"
+                }
+                
+                r = session.get(player_img, headers=headers, timeout=10, allow_redirects=True)
+                st.write(f"  - Image request status: {r.status_code}")
+                
+                if r.status_code == 200:
+                    st.success("✓ SUCCESS with session!")
+                    from PIL import Image
+                    import io
+                    img = Image.open(io.BytesIO(r.content))
+                    st.image(img, width=100)
+                    break
+                else:
+                    st.write(f"  - Response: {r.text[:100]}")
                     
-                    if r.status_code == 200:
-                        st.success(f"✓ SUCCESS with {config_name}!")
-                        st.write(f"  - Content-Type: {r.headers.get('Content-Type')}")
-                        
-                        # Try to display
-                        from PIL import Image
-                        import io
-                        img = Image.open(io.BytesIO(r.content))
-                        st.image(img, width=100)
-                        break  # Found working config
-                    else:
-                        st.write(f"  - Response: {r.text[:100]}")
-                        
-                except Exception as e:
-                    st.error(f"  - Error: {str(e)}")
+            except Exception as e:
+                st.error(f"  - Error: {str(e)}")
+            
+            # Test 2: Try the image URL directly in browser (manual check)
+            st.write("**Test 2: Manual Browser Test**")
+            st.write(f"  - Click here to test in your browser: [{player_img}]({player_img})")
+            st.info("👆 Does this link work when you click it in a new tab?")
+            
+            # Test 3: Check response headers
+            st.write("**Test 3: Inspect Response Headers**")
+            try:
+                r = requests.head(player_img, timeout=5)
+                st.write("  Response Headers:")
+                for key, value in r.headers.items():
+                    st.write(f"    - {key}: {value}")
+            except Exception as e:
+                st.error(f"  - Error: {str(e)}")
         
         st.write("---")
-        break  # Just test first player for now
+        break  # Just test first player
 
         
 def filter_page(df):
@@ -1549,6 +1553,7 @@ if __name__ == "__main__":
 
 
 #JUST TO COMPLETE 1400 LINES OF CODE 😁
+
 
 
 
