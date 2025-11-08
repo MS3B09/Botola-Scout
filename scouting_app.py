@@ -26,8 +26,7 @@ import matplotlib.font_manager as fm
 from highlight_text import fig_text
 import plotly.graph_objects as go
 from mplsoccer import PyPizza, add_image, FontManager
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
+from curl_cffi import requests as curl_requests
 
 
 
@@ -200,89 +199,138 @@ def display_stat(label, value, df, stat):
         </div>
     """, unsafe_allow_html=True)
 
-# ===== NEW: Robust HTTP session with retries and proper headers =====
-def _http_session():
-    """Create requests session with retries and proper headers"""
-    s = requests.Session()
-    retries = Retry(
-        total=3,
-        backoff_factor=0.5,
-        status_forcelist=[429, 500, 502, 503, 504],
-        allowed_methods=["GET"],
-        raise_on_status=False,
-    )
-    adapter = HTTPAdapter(max_retries=retries)
-    s.mount("http://", adapter)
-    s.mount("https://", adapter)
-    s.headers.update({
-        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36",
-        "Accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Referer": "https://botola-scout.streamlit.app/",
-    })
-    return s
-
-@st.cache_data(show_spinner=False)
+@st.cache_data(show_spinner=False, ttl=3600)
 def fetch_image_rgba(url):
-    """Fetch image from URL with proper error handling"""
-    if not url or url == '--':
+    """Fetch image from URL using curl_cffi to bypass bot detection"""
+    if not url or url == '--' or pd.isna(url):
         return None
+    
     try:
-        parts = urlsplit(url)
-        # Upgrade to https when possible
-        scheme = "https" if parts.scheme in ("http", "https") else "https"
-        path = quote(parts.path, safe='/:')  # Handle spaces/special chars
-        url_enc = urlunsplit((scheme, parts.netloc, path, parts.query, parts.fragment))
-
-        s = _http_session()
-        r = s.get(url_enc, timeout=10, allow_redirects=True)
-        r.raise_for_status()
-        ctype = r.headers.get("Content-Type", "")
-        if "image" not in ctype:
+        # Clean and normalize URL
+        url = str(url).strip()
+        
+        # Handle relative URLs
+        if url.startswith('//'):
+            url = 'https:' + url
+        elif not url.startswith(('http://', 'https://')):
+            url = 'https://' + url
+        
+        # Use curl_cffi with Chrome impersonation
+        r = curl_requests.get(
+            url,
+            impersonate="chrome120",  # Mimics Chrome 120 TLS fingerprint
+            timeout=15,
+            allow_redirects=True
+        )
+        
+        # Check response
+        if r.status_code != 200:
+            print(f"Failed to fetch image: {url} - Status: {r.status_code}")
             return None
-        img = Image.open(io.BytesIO(r.content)).convert("RGBA")
+        
+        # Verify content type
+        ctype = r.headers.get("Content-Type", "").lower()
+        if "image" not in ctype and "octet-stream" not in ctype:
+            print(f"Invalid content type for {url}: {ctype}")
+            return None
+        
+        # Load image
+        img = Image.open(io.BytesIO(r.content))
+        
+        # Convert to RGBA
+        if img.mode != 'RGBA':
+            img = img.convert("RGBA")
+        
         return img
+        
     except Exception as e:
+        print(f"Error fetching image {url}: {type(e).__name__}: {str(e)}")
         return None
 
 def _circularize(img):
     """Make image circular with transparent background"""
     if img is None:
         return None
-    size = min(img.size)
-    img = img.resize((size, size), Image.LANCZOS)
-    mask = Image.new("L", (size, size), 0)
-    d = ImageDraw.Draw(mask)
-    d.ellipse((0, 0, size, size), fill=255)
-    out = Image.new("RGBA", (size, size), (0, 0, 0, 0))
-    out.paste(img, (0, 0), mask)
-    return out
+    
+    try:
+        # Get the smaller dimension
+        size = min(img.size)
+        
+        # Crop to square from center
+        left = (img.width - size) // 2
+        top = (img.height - size) // 2
+        right = left + size
+        bottom = top + size
+        img = img.crop((left, top, right, bottom))
+        
+        # Resize for consistency
+        target_size = 256
+        img = img.resize((target_size, target_size), Image.LANCZOS)
+        
+        # Create circular mask
+        mask = Image.new("L", (target_size, target_size), 0)
+        d = ImageDraw.Draw(mask)
+        d.ellipse((0, 0, target_size, target_size), fill=255)
+        
+        # Apply mask
+        out = Image.new("RGBA", (target_size, target_size), (0, 0, 0, 0))
+        out.paste(img, (0, 0), mask)
+        
+        return out
+    except Exception as e:
+        print(f"Error circularizing image: {e}")
+        return None
 
 def _placeholder_avatar(size=256):
     """Create placeholder avatar for failed image loads"""
     img = Image.new("RGBA", (size, size), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
-    d.ellipse((0, 0, size, size), fill=(30, 42, 56, 255))
-    d.ellipse((size*0.28, size*0.2, size*0.72, size*0.64), fill=(60, 80, 100, 255))
-    d.rectangle((size*0.2, size*0.65, size*0.8, size*0.95), fill=(60, 80, 100, 255))
+    
+    # Background circle
+    d.ellipse((0, 0, size, size), fill=(30, 42, 56, 255), outline=(60, 80, 100, 255), width=3)
+    
+    # Head
+    head_size = size * 0.4
+    head_pos = (size * 0.3, size * 0.2)
+    d.ellipse((head_pos[0], head_pos[1], head_pos[0] + head_size, head_pos[1] + head_size), 
+              fill=(80, 100, 120, 255))
+    
+    # Body
+    body_top = size * 0.6
+    d.ellipse((size*0.15, body_top, size*0.85, size*1.1), fill=(80, 100, 120, 255))
+    
     return img
 
 def get_image_output(URL):
-    """Fetch and circularize image for pizza plots - FIXED VERSION"""
+    """Fetch and circularize image for pizza plots"""
+    if not URL or URL == '--' or pd.isna(URL):
+        return _placeholder_avatar()
+    
     img = fetch_image_rgba(URL)
+    
+    if img is None:
+        return _placeholder_avatar()
+    
     circ = _circularize(img)
     return circ if circ is not None else _placeholder_avatar()
 
-@st.cache_data(show_spinner=False)
+@st.cache_data(show_spinner=False, ttl=3600)
 def image_url_to_data_uri(url, circle=False):
-    """Convert image URL to data URI for HTML embedding - prevents hotlinking issues"""
-    img = fetch_image_rgba(url)
-    if circle:
-        img = _circularize(img)
-    if img is None:
+    """Convert image URL to data URI for HTML embedding"""
+    if not url or url == '--' or pd.isna(url):
         img = _placeholder_avatar()
+    else:
+        img = fetch_image_rgba(url)
+        
+        if img is None:
+            img = _placeholder_avatar()
+        elif circle:
+            circ = _circularize(img)
+            img = circ if circ is not None else img
+    
+    # Convert to data URI
     buf = io.BytesIO()
-    img.save(buf, format="PNG")
+    img.save(buf, format="PNG", optimize=True)
     b64 = base64.b64encode(buf.getvalue()).decode("ascii")
     return f"data:image/png;base64,{b64}"
 
@@ -1583,6 +1631,7 @@ if __name__ == "__main__":
 
 
 #JUST TO COMPLETE 1400 LINES OF CODE 😁
+
 
 
 
