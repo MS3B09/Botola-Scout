@@ -1100,9 +1100,9 @@ def options_select(available_options, key_prefix):
         else:
             st.session_state[max_selections_key] = len(available_options)
 
-def debug_image_urls(df, sample_size=5):
-    """Debug function to check image URLs"""
-    st.write("### Debug: Checking Image URLs")
+def debug_image_urls(df, sample_size=3):
+    """Debug function to check image URLs - Version 2: More detailed error tracking"""
+    st.write("### Debug: Checking Image URLs (Detailed)")
     
     sample_df = df.head(sample_size)
     
@@ -1115,22 +1115,64 @@ def debug_image_urls(df, sample_size=5):
         st.write(f"- Player Image URL: `{player_img}`")
         st.write(f"- Team Logo URL: `{team_logo}`")
         
-        # Try to fetch
+        # Test Player Image
         if player_img != 'N/A' and player_img != '--':
-            img = fetch_image_rgba(player_img)
-            if img:
-                st.success(f"✓ Player image loaded successfully")
-                st.image(img, width=100)
-            else:
-                st.error(f"✗ Failed to load player image")
+            st.write("🔍 Testing Player Image:")
+            try:
+                # Step 1: URL validation
+                url = str(player_img).strip()
+                st.write(f"  - Original URL: `{url}`")
+                st.write(f"  - URL type: {type(url)}")
+                st.write(f"  - URL length: {len(url)}")
+                
+                # Step 2: Try basic request
+                import requests
+                r = requests.get(url, timeout=10, allow_redirects=True)
+                st.write(f"  - Status Code: {r.status_code}")
+                st.write(f"  - Content-Type: {r.headers.get('Content-Type', 'N/A')}")
+                st.write(f"  - Content-Length: {len(r.content)} bytes")
+                
+                # Step 3: Try to open as image
+                if r.status_code == 200:
+                    from PIL import Image
+                    import io
+                    img = Image.open(io.BytesIO(r.content))
+                    st.write(f"  - Image Size: {img.size}")
+                    st.write(f"  - Image Mode: {img.mode}")
+                    st.success(f"✓ Successfully loaded and parsed image!")
+                    st.image(img, width=100)
+                else:
+                    st.error(f"✗ Failed with status code: {r.status_code}")
+                    st.write(f"  - Response text preview: {r.text[:200]}")
+                    
+            except Exception as e:
+                st.error(f"✗ Exception: {type(e).__name__}: {str(e)}")
+                import traceback
+                st.code(traceback.format_exc())
         
+        # Test Team Logo
         if team_logo != 'N/A' and team_logo != '--':
-            img = fetch_image_rgba(team_logo)
-            if img:
-                st.success(f"✓ Team logo loaded successfully")
-                st.image(img, width=50)
-            else:
-                st.error(f"✗ Failed to load team logo")
+            st.write("🔍 Testing Team Logo:")
+            try:
+                url = str(team_logo).strip()
+                st.write(f"  - Original URL: `{url}`")
+                
+                import requests
+                r = requests.get(url, timeout=10, allow_redirects=True)
+                st.write(f"  - Status Code: {r.status_code}")
+                st.write(f"  - Content-Type: {r.headers.get('Content-Type', 'N/A')}")
+                
+                if r.status_code == 200:
+                    from PIL import Image
+                    import io
+                    img = Image.open(io.BytesIO(r.content))
+                    st.success(f"✓ Successfully loaded!")
+                    st.image(img, width=50)
+                else:
+                    st.error(f"✗ Failed with status code: {r.status_code}")
+                    
+            except Exception as e:
+                st.error(f"✗ Exception: {type(e).__name__}: {str(e)}")
         
         st.write("---")
         
@@ -1517,5 +1559,6 @@ if __name__ == "__main__":
 
 
 #JUST TO COMPLETE 1400 LINES OF CODE 😁
+
 
 
