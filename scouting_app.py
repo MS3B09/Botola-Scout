@@ -220,7 +220,15 @@ def fetch_image_rgba(url):
             url,
             impersonate="chrome120",  # Mimics Chrome 120 TLS fingerprint
             timeout=15,
-            allow_redirects=True
+            allow_redirects=True,
+            headers={
+                # Sofascore's image CDN blocks requests that don't look like
+                # they came from a browser on sofascore.com (hotlink protection),
+                # which is why images were falling back to the placeholder avatar.
+                "Referer": "https://www.sofascore.com/",
+                "Origin": "https://www.sofascore.com",
+                "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+            }
         )
         
         # Check response
