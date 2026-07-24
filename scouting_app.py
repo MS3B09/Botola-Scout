@@ -199,9 +199,8 @@ def display_stat(label, value, df, stat):
         </div>
     """, unsafe_allow_html=True)
 
-@st.cache_data(show_spinner=False, ttl=3600)
-def fetch_image_rgba(url):
-    """Fetch a remote image and return a detached RGBA PIL image."""
+def _normalize_image_url(url):
+    """Normalize image URLs, including legacy SofaScore image hosts."""
     if url is None:
         return None
 
@@ -211,159 +210,222 @@ def fetch_image_rgba(url):
     except (TypeError, ValueError):
         pass
 
-    url = str(url).strip()
+    from html import unescape
+
+    url = unescape(str(url)).strip().strip('"').strip("'")
 
     if url.lower() in {"", "--", "-", "nan", "none", "null"}:
         return None
 
-    try:
-        from html import unescape
-        from PIL import ImageOps
+    if url.lower().startswith("url(") and url.endswith(")"):
+        url = url[4:-1].strip().strip('"').strip("'")
 
-        url = unescape(url)
+    if url.startswith("//"):
+        url = "https:" + url
+    elif not url.lower().startswith(("http://", "https://")):
+        url = "https://" + url
 
-        if url.startswith("//"):
-            url = "https:" + url
-        elif not url.lower().startswith(("http://", "https://")):
-            url = "https://" + url
+    parts = urlsplit(url)
+    scheme = parts.scheme.lower() or "https"
+    host = parts.netloc.lower()
 
-        parts = urlsplit(url)
-        scheme = parts.scheme.lower() or "https"
-        host = parts.netloc.lower()
+    # Dataset URLs use the retired api.sofascore.app domain.
+    # SofaScore images are currently served from img.sofascore.com.
+    if host in {
+        "api.sofascore.app",
+        "api.sofascore.com",
+        "www.sofascore.com",
+    } and parts.path.rstrip("/").endswith("/image"):
+        host = "img.sofascore.com"
 
-        # Convert legacy SofaScore URLs to the current image host.
-        if host in {"api.sofascore.app", "api.sofascore.com"}:
-            host = "img.sofascore.com"
+    encoded_path = quote(
+        parts.path,
+        safe="/%:@!$&'()*+,;=-._~",
+    )
+    encoded_query = quote(
+        parts.query,
+        safe="=&?/:@%+,-._~!$'()*;",
+    )
 
-        encoded_path = quote(
-            parts.path,
-            safe="/%:@!$&'()*+,;=-._~"
+    return urlunsplit(
+        (scheme, host, encoded_path, encoded_query, "")
+    )
+
+
+@st.cache_data(show_spinner=False, ttl=86400)
+def _download_image_bytes(url):
+    """
+    Download image bytes.
+
+    Failed requests raise an exception, preventing Streamlit from caching a
+    failed download as a valid result.
+    """
+    normalized_url = _normalize_image_url(url)
+
+    if normalized_url is None:
+        raise ValueError("Invalid image URL")
+
+    parts = urlsplit(normalized_url)
+    candidate_urls = [normalized_url]
+
+    # Keep API-host fallbacks in case the image CDN is temporarily unavailable.
+    if parts.netloc.lower() == "img.sofascore.com":
+        candidate_urls.extend([
+            urlunsplit((
+                parts.scheme,
+                "api.sofascore.com",
+                parts.path,
+                parts.query,
+                "",
+            )),
+            urlunsplit((
+                parts.scheme,
+                "www.sofascore.com",
+                parts.path,
+                parts.query,
+                "",
+            )),
+        ])
+
+    candidate_urls = list(dict.fromkeys(candidate_urls))
+
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/131.0.0.0 Safari/537.36"
+        ),
+        # AVIF is deliberately excluded because many Pillow installations
+        # cannot decode it without an additional plugin.
+        "Accept": (
+            "image/png,image/jpeg,image/webp,"
+            "image/*;q=0.9,*/*;q=0.5"
+        ),
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://www.sofascore.com/",
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache",
+    }
+
+    last_error = None
+
+    for candidate_url in candidate_urls:
+        attempts = (
+            ("curl_cffi", "chrome120"),
+            ("curl_cffi", "chrome"),
+            ("requests", None),
         )
-        encoded_query = quote(
-            parts.query,
-            safe="=&?/:@%+,-._~!$'()*;"
-        )
 
-        normalized_url = urlunsplit(
-            (scheme, host, encoded_path, encoded_query, "")
-        )
-
-        candidate_urls = [normalized_url]
-
-        # Alternative SofaScore endpoint in case the image CDN refuses access.
-        if host == "img.sofascore.com":
-            candidate_urls.append(
-                urlunsplit(
-                    (
-                        scheme,
-                        "api.sofascore.com",
-                        encoded_path,
-                        encoded_query,
-                        "",
-                    )
-                )
-            )
-
-        if "sofascore" in host:
-            referer = "https://www.sofascore.com/"
-        elif "transfermarkt" in host:
-            referer = "https://www.transfermarkt.com/"
-        else:
-            referer = f"{scheme}://{host}/"
-
-        headers = {
-            "Accept": (
-                "image/avif,image/webp,image/apng,"
-                "image/svg+xml,image/*,*/*;q=0.8"
-            ),
-            "Accept-Language": "en-US,en;q=0.9",
-            "Cache-Control": "no-cache",
-            "Pragma": "no-cache",
-            "Referer": referer,
-        }
-
-        last_error = None
-
-        for candidate_url in dict.fromkeys(candidate_urls):
+        for client, impersonation in attempts:
             try:
-                try:
+                if client == "curl_cffi":
                     response = curl_requests.get(
                         candidate_url,
                         headers=headers,
-                        impersonate="chrome",
+                        impersonate=impersonation,
                         timeout=20,
                         allow_redirects=True,
                     )
-                except Exception:
-                    # Compatibility fallback for older curl_cffi versions.
-                    response = curl_requests.get(
+                else:
+                    response = requests.get(
                         candidate_url,
                         headers=headers,
                         timeout=20,
                         allow_redirects=True,
                     )
 
-                if response.status_code != 200 or not response.content:
+                if response.status_code != 200:
                     last_error = RuntimeError(
-                        f"HTTP {response.status_code}"
+                        f"{candidate_url}: HTTP {response.status_code}"
                     )
                     continue
 
                 content = response.content
-                content_type = response.headers.get(
-                    "Content-Type", ""
-                ).lower()
 
-                # Content-Type headers are sometimes incorrect, so PIL performs
-                # the final image validation.
-                is_svg = (
-                    "svg" in content_type
-                    or b"<svg" in content[:1000].lower()
-                )
-
-                if is_svg:
-                    import cairosvg
-
-                    content = cairosvg.svg2png(bytestring=content)
-
-                with Image.open(io.BytesIO(content)) as opened:
-                    if getattr(opened, "is_animated", False):
-                        opened.seek(0)
-
-                    opened.load()
-
-                    img = ImageOps.exif_transpose(opened)
-                    img = img.convert("RGBA").copy()
-
-                # Prevent extremely large images from creating huge data URIs.
-                max_size = 1200
-
-                if max(img.size) > max_size:
-                    resampling = getattr(
-                        Image, "Resampling", Image
-                    ).LANCZOS
-
-                    img.thumbnail(
-                        (max_size, max_size),
-                        resampling,
+                if not content or len(content) < 16:
+                    last_error = RuntimeError(
+                        f"{candidate_url}: empty image response"
                     )
+                    continue
 
-                return img
+                beginning = content[:1000].lstrip().lower()
+
+                if (
+                    beginning.startswith(b"<!doctype html")
+                    or beginning.startswith(b"<html")
+                    or b"access denied" in beginning
+                    or b"forbidden" in beginning
+                ):
+                    last_error = RuntimeError(
+                        f"{candidate_url}: received an HTML error page"
+                    )
+                    continue
+
+                return content
 
             except Exception as exc:
                 last_error = exc
 
-        if last_error is not None:
-            print(
-                f"Error fetching image {url}: "
-                f"{type(last_error).__name__}: {last_error}"
+    raise RuntimeError(
+        f"Unable to download image from {normalized_url}: {last_error}"
+    )
+
+
+def fetch_image_rgba(url):
+    """Fetch a remote image and return a detached RGBA PIL image."""
+    from PIL import ImageOps
+
+    normalized_url = _normalize_image_url(url)
+
+    if normalized_url is None:
+        return None
+
+    try:
+        image_bytes = _download_image_bytes(normalized_url)
+        beginning = image_bytes[:1000].lstrip().lower()
+
+        if beginning.startswith(b"<svg") or b"<svg" in beginning:
+            try:
+                import cairosvg
+
+                image_bytes = cairosvg.svg2png(
+                    bytestring=image_bytes
+                )
+            except ImportError:
+                print(
+                    f"SVG image cannot be decoded without cairosvg: "
+                    f"{normalized_url}"
+                )
+                return None
+
+        with Image.open(io.BytesIO(image_bytes)) as opened:
+            if getattr(opened, "is_animated", False):
+                opened.seek(0)
+
+            opened.load()
+
+            image = ImageOps.exif_transpose(opened)
+            image = image.convert("RGBA").copy()
+
+        max_dimension = 1200
+
+        if max(image.size) > max_dimension:
+            resampling = getattr(
+                Image,
+                "Resampling",
+                Image,
+            ).LANCZOS
+
+            image.thumbnail(
+                (max_dimension, max_dimension),
+                resampling,
             )
 
-        return None
+        return image
 
     except Exception as exc:
         print(
-            f"Error fetching image {url}: "
+            f"Unable to load image {normalized_url}: "
             f"{type(exc).__name__}: {exc}"
         )
         return None
@@ -373,31 +435,31 @@ def _circularize(img):
     """Make image circular with transparent background"""
     if img is None:
         return None
-    
+
     try:
         # Get the smaller dimension
         size = min(img.size)
-        
+
         # Crop to square from center
         left = (img.width - size) // 2
         top = (img.height - size) // 2
         right = left + size
         bottom = top + size
         img = img.crop((left, top, right, bottom))
-        
+
         # Resize for consistency
         target_size = 256
         img = img.resize((target_size, target_size), Image.LANCZOS)
-        
+
         # Create circular mask
         mask = Image.new("L", (target_size, target_size), 0)
         d = ImageDraw.Draw(mask)
         d.ellipse((0, 0, target_size, target_size), fill=255)
-        
+
         # Apply mask
         out = Image.new("RGBA", (target_size, target_size), (0, 0, 0, 0))
         out.paste(img, (0, 0), mask)
-        
+
         return out
     except Exception as e:
         print(f"Error circularizing image: {e}")
@@ -407,55 +469,72 @@ def _placeholder_avatar(size=256):
     """Create placeholder avatar for failed image loads"""
     img = Image.new("RGBA", (size, size), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
-    
+
     # Background circle
     d.ellipse((0, 0, size, size), fill=(30, 42, 56, 255), outline=(60, 80, 100, 255), width=3)
-    
+
     # Head
     head_size = size * 0.4
     head_pos = (size * 0.3, size * 0.2)
     d.ellipse((head_pos[0], head_pos[1], head_pos[0] + head_size, head_pos[1] + head_size), 
               fill=(80, 100, 120, 255))
-    
+
     # Body
     body_top = size * 0.6
     d.ellipse((size*0.15, body_top, size*0.85, size*1.1), fill=(80, 100, 120, 255))
-    
+
     return img
 
 def get_image_output(URL):
     """Fetch and circularize a player image for pizza plots."""
-    img = fetch_image_rgba(URL)
+    image = fetch_image_rgba(URL)
 
-    if img is None:
+    if image is None:
         return _placeholder_avatar()
 
-    circ = _circularize(img)
+    circular_image = _circularize(image)
 
-    return circ if circ is not None else _placeholder_avatar()
+    return (
+        circular_image
+        if circular_image is not None
+        else _placeholder_avatar()
+    )
 
-@st.cache_data(show_spinner=False, ttl=3600)
+
 def image_url_to_data_uri(url, circle=False):
-    """Fetch an image and embed it as a PNG data URI."""
-    if circle:
-        img = get_image_output(url)
+    """
+    Convert an image URL into an embeddable PNG data URI.
+
+    If the server-side download fails, return the corrected CDN URL so the
+    visitor's browser can still load the image directly.
+    """
+    normalized_url = _normalize_image_url(url)
+
+    if normalized_url is None:
+        image = _placeholder_avatar()
     else:
-        img = fetch_image_rgba(url)
+        image = fetch_image_rgba(normalized_url)
 
-        if img is None:
-            img = _placeholder_avatar()
+        if image is None:
+            return normalized_url
 
-    if img.mode != "RGBA":
-        img = img.convert("RGBA")
+        if circle:
+            circular_image = _circularize(image)
+
+            if circular_image is not None:
+                image = circular_image
+
+    if image.mode != "RGBA":
+        image = image.convert("RGBA")
 
     buffer = io.BytesIO()
-    img.save(buffer, format="PNG", optimize=True)
+    image.save(buffer, format="PNG", optimize=True)
 
-    encoded = base64.b64encode(
+    encoded_image = base64.b64encode(
         buffer.getvalue()
     ).decode("ascii")
 
-    return f"data:image/png;base64,{encoded}"
+    return f"data:image/png;base64,{encoded_image}"
 
 @st.cache_data
 def pizza_plot(player_data, params_1, values, output):
@@ -640,7 +719,6 @@ def pizza_plot_comparison(params_1, values, values_2, player_data, player_name_2
     )
     return fig
 
-@st.cache_data
 def display_player_card(player):
     # Convert URLs to data URIs to prevent hotlinking/403 errors
     player_img_src = image_url_to_data_uri(player['Player Image'], circle=True)
