@@ -233,13 +233,13 @@ def fetch_image_rgba(url):
         
         # Check response
         if r.status_code != 200:
-            print(f"Failed to fetch image: {url} - Status: {r.status_code}")
+            print(f"Failed to fetch image: {url} - Status: {r.status_code}", flush=True)
             return None
         
         # Verify content type
         ctype = r.headers.get("Content-Type", "").lower()
         if "image" not in ctype and "octet-stream" not in ctype:
-            print(f"Invalid content type for {url}: {ctype}")
+            print(f"Invalid content type for {url}: {ctype}", flush=True)
             return None
         
         # Load image
@@ -252,7 +252,7 @@ def fetch_image_rgba(url):
         return img
         
     except Exception as e:
-        print(f"Error fetching image {url}: {type(e).__name__}: {str(e)}")
+        print(f"Error fetching image {url}: {type(e).__name__}: {str(e)}", flush=True)
         return None
 
 def _circularize(img):
