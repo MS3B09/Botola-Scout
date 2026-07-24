@@ -201,51 +201,173 @@ def display_stat(label, value, df, stat):
 
 @st.cache_data(show_spinner=False, ttl=3600)
 def fetch_image_rgba(url):
-    """Fetch image from URL using curl_cffi to bypass bot detection"""
-    if not url or url == '--' or pd.isna(url):
+    """Fetch a remote image and return a detached RGBA PIL image."""
+    if url is None:
         return None
-    
+
     try:
-        # Clean and normalize URL
-        url = str(url).strip()
-        
-        # Handle relative URLs
-        if url.startswith('//'):
-            url = 'https:' + url
-        elif not url.startswith(('http://', 'https://')):
-            url = 'https://' + url
-        
-        # Use curl_cffi with Chrome impersonation
-        r = curl_requests.get(
-            url,
-            impersonate="chrome120",  # Mimics Chrome 120 TLS fingerprint
-            timeout=15,
-            allow_redirects=True
-        )
-        
-        # Check response
-        if r.status_code != 200:
-            print(f"Failed to fetch image: {url} - Status: {r.status_code}")
+        if bool(pd.isna(url)):
             return None
-        
-        # Verify content type
-        ctype = r.headers.get("Content-Type", "").lower()
-        if "image" not in ctype and "octet-stream" not in ctype:
-            print(f"Invalid content type for {url}: {ctype}")
-            return None
-        
-        # Load image
-        img = Image.open(io.BytesIO(r.content))
-        
-        # Convert to RGBA
-        if img.mode != 'RGBA':
-            img = img.convert("RGBA")
-        
-        return img
-        
-    except Exception as e:
-        print(f"Error fetching image {url}: {type(e).__name__}: {str(e)}")
+    except (TypeError, ValueError):
+        pass
+
+    url = str(url).strip()
+
+    if url.lower() in {"", "--", "-", "nan", "none", "null"}:
         return None
+
+    try:
+        from html import unescape
+        from PIL import ImageOps
+
+        url = unescape(url)
+
+        if url.startswith("//"):
+            url = "https:" + url
+        elif not url.lower().startswith(("http://", "https://")):
+            url = "https://" + url
+
+        parts = urlsplit(url)
+        scheme = parts.scheme.lower() or "https"
+        host = parts.netloc.lower()
+
+        # Convert legacy SofaScore URLs to the current image host.
+        if host in {"api.sofascore.app", "api.sofascore.com"}:
+            host = "img.sofascore.com"
+
+        encoded_path = quote(
+            parts.path,
+            safe="/%:@!$&'()*+,;=-._~"
+        )
+        encoded_query = quote(
+            parts.query,
+            safe="=&?/:@%+,-._~!$'()*;"
+        )
+
+        normalized_url = urlunsplit(
+            (scheme, host, encoded_path, encoded_query, "")
+        )
+
+        candidate_urls = [normalized_url]
+
+        # Alternative SofaScore endpoint in case the image CDN refuses access.
+        if host == "img.sofascore.com":
+            candidate_urls.append(
+                urlunsplit(
+                    (
+                        scheme,
+                        "api.sofascore.com",
+                        encoded_path,
+                        encoded_query,
+                        "",
+                    )
+                )
+            )
+
+        if "sofascore" in host:
+            referer = "https://www.sofascore.com/"
+        elif "transfermarkt" in host:
+            referer = "https://www.transfermarkt.com/"
+        else:
+            referer = f"{scheme}://{host}/"
+
+        headers = {
+            "Accept": (
+                "image/avif,image/webp,image/apng,"
+                "image/svg+xml,image/*,*/*;q=0.8"
+            ),
+            "Accept-Language": "en-US,en;q=0.9",
+            "Cache-Control": "no-cache",
+            "Pragma": "no-cache",
+            "Referer": referer,
+        }
+
+        last_error = None
+
+        for candidate_url in dict.fromkeys(candidate_urls):
+            try:
+                try:
+                    response = curl_requests.get(
+                        candidate_url,
+                        headers=headers,
+                        impersonate="chrome",
+                        timeout=20,
+                        allow_redirects=True,
+                    )
+                except Exception:
+                    # Compatibility fallback for older curl_cffi versions.
+                    response = curl_requests.get(
+                        candidate_url,
+                        headers=headers,
+                        timeout=20,
+                        allow_redirects=True,
+                    )
+
+                if response.status_code != 200 or not response.content:
+                    last_error = RuntimeError(
+                        f"HTTP {response.status_code}"
+                    )
+                    continue
+
+                content = response.content
+                content_type = response.headers.get(
+                    "Content-Type", ""
+                ).lower()
+
+                # Content-Type headers are sometimes incorrect, so PIL performs
+                # the final image validation.
+                is_svg = (
+                    "svg" in content_type
+                    or b"<svg" in content[:1000].lower()
+                )
+
+                if is_svg:
+                    import cairosvg
+
+                    content = cairosvg.svg2png(bytestring=content)
+
+                with Image.open(io.BytesIO(content)) as opened:
+                    if getattr(opened, "is_animated", False):
+                        opened.seek(0)
+
+                    opened.load()
+
+                    img = ImageOps.exif_transpose(opened)
+                    img = img.convert("RGBA").copy()
+
+                # Prevent extremely large images from creating huge data URIs.
+                max_size = 1200
+
+                if max(img.size) > max_size:
+                    resampling = getattr(
+                        Image, "Resampling", Image
+                    ).LANCZOS
+
+                    img.thumbnail(
+                        (max_size, max_size),
+                        resampling,
+                    )
+
+                return img
+
+            except Exception as exc:
+                last_error = exc
+
+        if last_error is not None:
+            print(
+                f"Error fetching image {url}: "
+                f"{type(last_error).__name__}: {last_error}"
+            )
+
+        return None
+
+    except Exception as exc:
+        print(
+            f"Error fetching image {url}: "
+            f"{type(exc).__name__}: {exc}"
+        )
+        return None
+
 
 def _circularize(img):
     """Make image circular with transparent background"""
@@ -302,37 +424,38 @@ def _placeholder_avatar(size=256):
     return img
 
 def get_image_output(URL):
-    """Fetch and circularize image for pizza plots"""
-    if not URL or URL == '--' or pd.isna(URL):
-        return _placeholder_avatar()
-    
+    """Fetch and circularize a player image for pizza plots."""
     img = fetch_image_rgba(URL)
-    
+
     if img is None:
         return _placeholder_avatar()
-    
+
     circ = _circularize(img)
+
     return circ if circ is not None else _placeholder_avatar()
 
 @st.cache_data(show_spinner=False, ttl=3600)
 def image_url_to_data_uri(url, circle=False):
-    """Convert image URL to data URI for HTML embedding"""
-    if not url or url == '--' or pd.isna(url):
-        img = _placeholder_avatar()
+    """Fetch an image and embed it as a PNG data URI."""
+    if circle:
+        img = get_image_output(url)
     else:
         img = fetch_image_rgba(url)
-        
+
         if img is None:
             img = _placeholder_avatar()
-        elif circle:
-            circ = _circularize(img)
-            img = circ if circ is not None else img
-    
-    # Convert to data URI
-    buf = io.BytesIO()
-    img.save(buf, format="PNG", optimize=True)
-    b64 = base64.b64encode(buf.getvalue()).decode("ascii")
-    return f"data:image/png;base64,{b64}"
+
+    if img.mode != "RGBA":
+        img = img.convert("RGBA")
+
+    buffer = io.BytesIO()
+    img.save(buffer, format="PNG", optimize=True)
+
+    encoded = base64.b64encode(
+        buffer.getvalue()
+    ).decode("ascii")
+
+    return f"data:image/png;base64,{encoded}"
 
 @st.cache_data
 def pizza_plot(player_data, params_1, values, output):
